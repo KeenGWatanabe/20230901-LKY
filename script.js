@@ -36,7 +36,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("successful")>-1&&inputText.toLowerCase().indexOf("society")>-1){
 			document.getElementById("answer").innerHTML=`A society to be successful must maintain a balance between nurturing excellence and encouraging the average to improve.`;
 		}					
-	else if(inputText.toLowerCase().indexOf("200,0000 students")>-1||inputText.toLowerCase().indexOf("Tiananmen")>-1){
+	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("Tiananmen")>-1){
 			document.getElementById("answer").innerHTML=`He took over, and he said: 'If I have to shoot 200,000 students to save China from another 100 years of disorder, so be it.'" - Recalling how former Chinese leader Deng Xiaoping dealt with the 1989 Tiananmen Square protests.`;
 		}
 	else if(inputText.toLowerCase().indexOf("inequalities")>-1||inputText.toLowerCase().indexOf("vital for")>-1){
