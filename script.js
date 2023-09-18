@@ -15,8 +15,8 @@ function myFunction() {
     else if(inputText.toLowerCase().indexOf("interfering in")>-1||inputText.toLowerCase().indexOf("private lives")>-1){
         document.getElementById("answer").innerHTML=`“I am often accused of interfering in the private lives of citizens. Yes, if I did not, had I not done that, we wouldn't be here today. And I say without the slightest remorse, that we wouldn't be here, we would not have made economic progress, if we had not intervened on very personal matters - who your neighbour is, how you live, the noise you make, how you spit, or what language you use. We decide what is right. Never mind what the people think.”`;
         }
-	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
-				document.getElementById("answer").innerHTML=``;
+	else if(inputText.toLowerCase().indexOf("all men were equal")>-1||inputText.toLowerCase().indexOf("most unlikely thing")>-1){
+				document.getElementById("answer").innerHTML=`I started off believing all men were equal. I now know that's the most unlikely thing ever to have been, because millions of years have passed over evolution, people have scattered across the face of this earth, been isolated from each other, developed independently, had different intermixtures between races, peoples, climates, soils... I didn't start off with that knowledge. But by observation, reading, watching, arguing, asking, and then bullying my way to the top, that is the conclusion I've come to.`;
 					}
         //Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
