@@ -151,8 +151,23 @@ function myFunction() {
 		}
 		else if(inputText.toLowerCase().indexOf("repression")>-1||inputText.toLowerCase().indexOf("easier")>-1){
 			document.getElementById("answer").innerHTML=`Repression, Sir is a habit that grows. I am told it is like making love-it is always easier the second time! The first time there may be pangs of conscience, a sense of guilt. But once embarked on this course with constant repetition you get more and more brazen in the attack. All you have to do is to dissolve organizations and societies and banish and detain the key political workers in these societies. Then miraculously everything is tranquil on the surface. Then an intimidated press and the government-controlled radio together can regularly sing your praises, and slowly and steadily the people are made to forget the evil things that have already been done, or if these things are referred to again they’re conveniently distorted and distorted with impunity, because there will be no opposition to contradict.” - as an opposition PAP member speaking to David Marshall, Singapore Legislative Assembly, Debates, 4 October, 1956`;
+		}
+		else if(inputText.toLowerCase().indexOf("art of")>-1||inputText.toLowerCase().indexOf("governance")>-1){
+			document.getElementById("answer").innerHTML=`I have no headline material to offer you tonight. In fact, I believe that the art of Government is, in part, the art of not creating headlines in the world press." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970<br>f I were in authority in Singapore indefinitely, without having to ask those who are governing whether they like what is being done, then I have not the slightest doubt that I could govern much more effectively in their own interests." May, 1962, at the Royal Society of International Affairs, London, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-        //Sample codes	
+		else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1){
+			document.getElementById("answer").innerHTML=`Today, I was a bit late because I took some time in getting up; slept late last night; some work to be done; two functions in the evening. But that is important. I like to tell you this because I think this is what we all must do: 'sleep well of nights'. You know Shakespeare, 'Give me men that sleep well of nights'. That is what he said. I think it right. Men who worry, you know, read all this, and they start shouting all this they get worried themselves, night time comes, they can't sleep. Next morning they wake up, mind befuddled, wrong decisions, more trouble!" Tanjong Katong School, during tour of Mountbatten Constituency, 13th June, 1965 Lee Kuan Yew in his own words, 1959-1970`;
+		}
+		else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("light hearted")>-1){
+			document.getElementById("answer").innerHTML=`I would not call myself 'fun-loving' or 'light-hearted'. But I am not serious all the time. Everyone needs to have a good laugh now and then, to see the funny side of things, and to laugh at himself`;
+		}
+		else if(inputText.toLowerCase().indexOf("singaporean")>-1||inputText.toLowerCase().indexOf("cowpeh")>-1){
+			document.getElementById("answer").innerHTML=`You know the Singaporean. He is a hard-working, industrious, rugged individual. Or we would not have made the grade. But let us also recognise that he is a champion grumbler. 1977 The Wit & Wisdom of Lee Kuan Yew`;
+		}
+		else if(inputText.toLowerCase().indexOf("talent")>-1&&inputText.toLowerCase().indexOf("local")>-1){
+			document.getElementById("answer").innerHTML=`Often, I tell my Ministers in the Cabinet that perhaps they are kind to me and allowed me to become the Prime Minister because I was born in Singapore - for majority of them, 60% are born in Malaysia", To representatives of leading organisations of German Industry and Commerce at Hotel Konigshof, Germany, 28th September 1970, Lee Kuan Yew in his own words, 1959-1970`;
+		}
+		//Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML=``;
 		}	
