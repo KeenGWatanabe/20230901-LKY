@@ -31,7 +31,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML=`I believe that life is a process of continuous change and a constant struggle to make that change one for the better.<br>Every person, genius or moron, has a right to reproduce himself." Speech on the Abortion Bill, 29 December 1969, Lee Kuan Yew in his own words, 1959-1970<br>Life is not just eating, drinking, television and cinema...The human mind must be creative, must be self-generating; it cannot depend on just gadgets to amuse itself." Speech at Chinese New Year and Hari Raya Haji Celebrations held at Joo Seng Community Centre, 28th Feb 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("task")>-1||inputText.toLowerCase().indexOf("job")>-1&&inputText.toLowerCase().indexOf("leader")>-1){
-			document.getElementById("answer").innerHTML=`The task of the leaders must be to provide or create for them a strong framework within which they can learn, work hard, be productive and be rewarded accordingly. And this is not easy to achieve.<br>No, your job as a leader is to inspire and to galvanize, not to share your distraught thoughts. You make your people dispirited.`;
+			document.getElementById("answer").innerHTML=`The task of the leaders must be to provide or create for them a strong framework within which they can learn, work hard, be productive and be rewarded accordingly. And this is not easy to achieve.<br>No, your job as a leader is to inspire and to galvanize, not to share your distraught thoughts. You make your people dispirited.<br>I do not yet know of a man who became a leader as a result of having undergone a leadership course." 1957, The Wit & Wisdom of Lee Kuan Yew<br>Amazingly, throughout most of the contemporary Western world leaders in government require no special training or qualification. Many get elected because they sound and look good on television. The results have been unhappy for their voters." 1996, The Wit & Wisdom of Lee Kuan Yew`;
 		}
 	else if(inputText.toLowerCase().indexOf("successful")>-1&&inputText.toLowerCase().indexOf("society")>-1){
 			document.getElementById("answer").innerHTML=`A society to be successful must maintain a balance between nurturing excellence and encouraging the average to improve.`;
@@ -166,6 +166,21 @@ function myFunction() {
 		}
 		else if(inputText.toLowerCase().indexOf("talent")>-1&&inputText.toLowerCase().indexOf("local")>-1){
 			document.getElementById("answer").innerHTML=`Often, I tell my Ministers in the Cabinet that perhaps they are kind to me and allowed me to become the Prime Minister because I was born in Singapore - for majority of them, 60% are born in Malaysia", To representatives of leading organisations of German Industry and Commerce at Hotel Konigshof, Germany, 28th September 1970, Lee Kuan Yew in his own words, 1959-1970`;
+		}
+		else if(inputText.toLowerCase().indexOf("baby bonus")>-1){
+			document.getElementById("answer").innerHTML=`If I were in charge of Singapore today, I would introduce a baby bonus equal to two years’ worth of the average Singaporean’s salary." One Man's View of the World.`;
+		}	
+		else if(inputText.toLowerCase().indexOf("Tussaud")>-1){
+			document.getElementById("answer").innerHTML=`When I visited Madame Tussaud's as a student in the 1940s...there were two groups of figures: the famous and the notorious, either British kings and famous leaders, or notorious murderers. I hope Madame Tussaud's will not put my likeness too close to the notorious." 1998 The Wit & Wisdom of Lee Kuan Yew`;
+		}
+		else if(inputText.toLowerCase().indexOf("anger")>-1||inputText.toLowerCase().indexOf("temper")>-1){
+			document.getElementById("answer").innerHTML=`I have never, I never try to lose my temper. Maybe I have occasionally, but I try to control it...If I am really angry, my body language will show that I am most dissatisfied" Tom Plate's Conversations with Lee Kuan Yew`;
+		}
+		else if(inputText.toLowerCase().indexOf("critics")>-1||inputText.toLowerCase().indexOf("oppose")>-1){
+			document.getElementById("answer").innerHTML=`Not all who oppose the PAP are communists; some are communists, some reactionaries, some opportunists and some merely confused." 1961, The Wit & Wisdom of Lee Kuan Yew`;
+		}			
+		else if(inputText.toLowerCase().indexOf("people")>-1||inputText.toLowerCase().indexOf("vision")>-1){
+			document.getElementById("answer").innerHTML=`You've got to do one of two things when you've got to keep people happy: either, give them something that will satisfy them, better food, better clothes, better homes; or if you can't do that, then give them the vision of greatness to come". Luncheon held by the Australian Institue of Management at the Australia Hotel, Sydney, Australia, 22 March, 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 		//Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
