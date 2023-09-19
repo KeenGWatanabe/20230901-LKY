@@ -87,7 +87,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("say no")>-1||inputText.toLowerCase().indexOf("saying no")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(inputText.toLowerCase().indexOf("NS")>-1&&inputText.toLowerCase().indexOf("men")>-1){
+	else if(inputText.toLowerCase().indexOf("NS men")>-1&&inputText.toLowerCase().indexOf("men")>-1){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("eugenics")>-1||inputText.toLowerCase().indexOf("israel")>-1){
