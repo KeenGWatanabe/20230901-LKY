@@ -9,7 +9,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 		}
-    else if(inputText.toLowerCase().indexOf("everything works")>-1||inputText.toLowerCase().indexOf("broken")>-1){
+    else if(inputText.toLowerCase().indexOf("everything work")>-1||inputText.toLowerCase().indexOf("broken")>-1){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
         }
     else if(inputText.toLowerCase().indexOf("interfering")>-1||inputText.toLowerCase().indexOf("private lives")>-1){
@@ -42,10 +42,10 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("inequal")>-1||inputText.toLowerCase().indexOf("wealth")>-1){
 			document.getElementById("answer").innerHTML=`After trying out a number of ways to reduce inequalities and failing, I was gradually forced to conclude that the decisive factors were the people, their natural abilities, education and training. Knowledge and the possession of technology were vital for the creation of wealth.`;
 		}	
-	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberalisation")>-1){
+	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberali")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.`;
 		}
-	else if(inputText.toLowerCase().indexOf("cul de sac")>-1||inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
+	else if(inputText.toLowerCase().indexOf("cul de sac")>-1|inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
 			document.getElementById("answer").innerHTML=`Supposing Catherine Lim was writing about me and not the prime minister...She would not dare, right? Because my posture, my response has been such that nobody doubts that if you take me on, I will put on knuckle-dusters and catch you in a cul de sac...Anybody who decides to take me on needs to put on knuckle dusters. If you think you can hurt me more than I can hurt you, try. There is no other way you can govern a Chinese society.`;
 		}
 	else if(inputText.toLowerCase().indexOf("million")>-1
@@ -87,10 +87,10 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf(" no ")>-1||inputText.toLowerCase().indexOf("polite")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf(" NS ")>-1){
+	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("ns")>-1){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("eugenics")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1){
+	else if(inputText.toLowerCase().indexOf("eugenic")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1||inputText.toLowerCase().indexOf("gene")>-1){
 			document.getElementById("answer").innerHTML=`There are many sons of doctors who have married doctors. Those who married spouses who are not as bright are tearing their hair out because their children can’t make it. I have lived long enough to see all this play out.”
 
 			“So when the graduate man does not want to marry a graduate woman, I tell him he’s a fool, stupid. You marry a non-graduate, you’re going to have problems, some children bright, some not bright. You’ll be tearing your hair out. you can’t miss. It’s like two dice. One is Jack, Queen, King, Ace, other also Jack, Queen, King, Ace. You throw a Jack, Queen, King, Ace against dice two, three, four, five, six, what do you get? You can’t get high pairs, let alone a full flush.” Hard Truths to Keep Singapore Going.<br>The Israelis are very smart... the rabbi in any Jewish society was often the most intelligent and well-read, most learned of all...the rabbi's children are much sought-after by successful Jews to bring good genes into the family. That's how they multiply, the bright ones multiply. That sums it up." Tom Plate's Conversations with Lee Kuan Yew `;
@@ -113,7 +113,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("slave")>-1||inputText.toLowerCase().indexOf("serfdom")>-1){
 			document.getElementById("answer").innerHTML=`He prefers Frederick Hayek's The Road to Serfdom: "I believe Hayek was a very clear thinker and that he hit upon the eternal truth, explaning that the free market is necessary to get the economy right"`;
 		}
-	else if(inputText.toLowerCase().indexOf("golf")>-1||inputText.toLowerCase().indexOf("sloth")>-1){
+	else if(inputText.toLowerCase().indexOf("golf")>-1||inputText.toLowerCase().indexOf("cost benefit")>-1){
 			document.getElementById("answer").innerHTML=` I used to play golf, but found it did not give me vitality because it’s a slothful game… Nine holes of golf will take you one and a half, two hours. I run in 20 minutes, I feel better off. So the cost benefit made me drop golf. Hard Truths to Keep Singapore Going`;
 		}	
 	else if(inputText.toLowerCase().indexOf("love")>-1&&inputText.toLowerCase().indexOf("believe")>-1){
@@ -134,7 +134,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("press")>-1){
 			document.getElementById("answer").innerHTML=`Freedom of the press, freedom of the news media, must be subordinated to the overriding needs of the integrity of Singapore, and to the primacy of purpose of an elected government", Address To The General Assembly Of The International Press Institute At Helsinki, 9th June, 1971`;
 		}	
-	else if(inputText.toLowerCase().indexOf(" mp ")>-1||inputText.toLowerCase().indexOf("estate")>-1){
+	else if(inputText.toLowerCase().indexOf("mp")>-1||inputText.toLowerCase().indexOf("estate")>-1){
 			document.getElementById("answer").innerHTML=`An MP must now not only be good at speaking but also at getting things done. When an estate is dirty, out of order, and rubbish not regularly and properly collected, that is when residents realise that without regular maintenance, the value of their flats will drop." 1992, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
 	else if(inputText.toLowerCase().indexOf("american")>-1){
@@ -146,7 +146,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("democracy")>-1||inputText.toLowerCase().indexOf("free")>-1){
 			document.getElementById("answer").innerHTML=`But we either believe in democracy or we not. If we do, then, we must say categorically, without qualification, that no restraint from the any democratic processes, other than by the ordinary law of the land, should be allowed… If you believe in democracy, you must believe in it unconditionally. If you believe that men should be free, then, they should have the right of free association, of free speech, of free publication. Then, no law should permit those democratic processes to be set at nought.” - as an opposition leader, April 27, 1955`;
 		}
-	else if(inputText.toLowerCase().indexOf("repression")>-1||inputText.toLowerCase().indexOf("control")>-1){
+	else if(inputText.toLowerCase().indexOf("habit")>-1||inputText.toLowerCase().indexOf("control")>-1){
 			document.getElementById("answer").innerHTML=`Repression, Sir is a habit that grows. I am told it is like making love-it is always easier the second time! The first time there may be pangs of conscience, a sense of guilt. But once embarked on this course with constant repetition you get more and more brazen in the attack. All you have to do is to dissolve organizations and societies and banish and detain the key political workers in these societies. Then miraculously everything is tranquil on the surface. Then an intimidated press and the government-controlled radio together can regularly sing your praises, and slowly and steadily the people are made to forget the evil things that have already been done, or if these things are referred to again they’re conveniently distorted and distorted with impunity, because there will be no opposition to contradict.” - as an opposition PAP member speaking to David Marshall, Singapore Legislative Assembly, Debates, 4 October, 1956`;
 		}
 	else if(inputText.toLowerCase().indexOf("authority")>-1||inputText.toLowerCase().indexOf("headline")>-1){
@@ -203,7 +203,7 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("stooge")>-1||inputText.toLowerCase().indexOf("nobody")>-1){
 			document.getElementById("answer").innerHTML=`I am nobody's stooge. I am not here to play somebody else's game. I have a few million people's lives to account for. And Singapore will survive will trade with the whole world and will remain non Communist", Press Conference at City Hall, 26th August 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
-		else if(inputText.toLowerCase().indexOf("survival")>-1||inputText.toLowerCase().indexOf("priorities")>-1){
+		else if(inputText.toLowerCase().indexOf("survival")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
 			document.getElementById("answer").innerHTML=`What are our priorities? First, the welfare, the survival of the people. Then, democratic norms and processes which from time to time we have to suspend.”
 
 			- 1986 National Day Rally`;
@@ -217,7 +217,7 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("repent")>-1||inputText.toLowerCase().indexOf("aljunied")>-1){
 			document.getElementById("answer").innerHTML=` If Aljunied decides to go that way, well Aljunied has five years to live and repent, General Elections 2011<br>At the end of the day, if you are in Aljunied, ask yourself: Do you want one MP, one Non-Constituency MP, one celebrity who has been away 30 years, and two unknowns to look after you? Or would you prefer me and my hand-picked colleagues?" General Elections 2011`;
 		}
-		else if(inputText.toLowerCase().indexOf("colleague")>-1||inputText.toLowerCase().indexOf("intimitat")>-1){
+		else if(inputText.toLowerCase().indexOf("colleague")>-1||inputText.toLowerCase().indexOf("intimidat")>-1){
 			document.getElementById("answer").innerHTML=`My colleagues are not intimidated by me. Far from it. They speak their minds. Nothing has happened to them. But if we allow vicious, evil attacks to pass unchallenged - then the whole system must be undermined." 1988 The Wit & Wisdom`;
 		}
 		else if(inputText.toLowerCase().indexOf("accused")>-1||inputText.toLowerCase().indexOf("speak")>-1){
