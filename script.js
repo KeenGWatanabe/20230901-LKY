@@ -39,20 +39,20 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("tianan")>-1){
 			document.getElementById("answer").innerHTML=`He took over, and he said: 'If I have to shoot 200,000 students to save China from another 100 years of disorder, so be it.'" - Recalling how former Chinese leader Deng Xiaoping dealt with the 1989 Tiananmen Square protests.`;
 		}
-	else if(inputText.toLowerCase().indexOf("inequalities")>-1||inputText.toLowerCase().indexOf("wealth")>-1){
+	else if(inputText.toLowerCase().indexOf("inequal")>-1||inputText.toLowerCase().indexOf("wealth")>-1){
 			document.getElementById("answer").innerHTML=`After trying out a number of ways to reduce inequalities and failing, I was gradually forced to conclude that the decisive factors were the people, their natural abilities, education and training. Knowledge and the possession of technology were vital for the creation of wealth.`;
 		}	
 	else if(inputText.toLowerCase().indexOf("political reform")>-1||inputText.toLowerCase().indexOf("liberalisation")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.`;
 		}
-	else if(inputText.toLowerCase().indexOf("cul de sac")>-1||inputText.toLowerCase().indexOf("chinese")>-1){
+	else if(inputText.toLowerCase().indexOf("cul de sac")>-1||inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
 			document.getElementById("answer").innerHTML=`Supposing Catherine Lim was writing about me and not the prime minister...She would not dare, right? Because my posture, my response has been such that nobody doubts that if you take me on, I will put on knuckle-dusters and catch you in a cul de sac...Anybody who decides to take me on needs to put on knuckle dusters. If you think you can hurt me more than I can hurt you, try. There is no other way you can govern a Chinese society.`;
 		}
-	else if(inputText.toLowerCase().indexOf("millions")>-1
+	else if(inputText.toLowerCase().indexOf("million")>-1
 		||inputText.toLowerCase().indexOf("pay")>-1&&inputText.toLowerCase().indexOf("minister")>-1){
 			document.getElementById("answer").innerHTML=`You know, the cure for all this talk is really a good dose of incompetent government. You get that alternative and you'll never put Singapore together again: Humpty Dumpty cannot be put together again... my asset values will disappear, my apartments will be worth a fraction of what they were, my ministers' jobs will be in peril, their security will be at risk and their women will become maids in other people's countries, foreign workers. I cannot have that!" - Justifying million-dollar pay hike for Singapore ministers`;
 		}	
-	else if(inputText.toLowerCase().indexOf("ruining singapore")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
+	else if(inputText.toLowerCase().indexOf("ruin")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
 			document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore`;
 		}	
 	else if(inputText.toLowerCase().indexOf("pragmatist")>-1||inputText.toLowerCase().indexOf("ideology")>-1){
