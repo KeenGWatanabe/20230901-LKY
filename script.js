@@ -42,7 +42,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("inequal")>-1||inputText.toLowerCase().indexOf("wealth")>-1){
 			document.getElementById("answer").innerHTML=`After trying out a number of ways to reduce inequalities and failing, I was gradually forced to conclude that the decisive factors were the people, their natural abilities, education and training. Knowledge and the possession of technology were vital for the creation of wealth.`;
 		}	
-	else if(inputText.toLowerCase().indexOf("political reform")>-1||inputText.toLowerCase().indexOf("liberalisation")>-1){
+	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberalisation")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.`;
 		}
 	else if(inputText.toLowerCase().indexOf("cul de sac")>-1||inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
@@ -55,7 +55,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("ruin")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
 			document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore`;
 		}	
-	else if(inputText.toLowerCase().indexOf("pragmatist")>-1||inputText.toLowerCase().indexOf("ideology")>-1){
+	else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1){
 			document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology.`;
 		}	
 	else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1){
@@ -69,28 +69,28 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("duds")>-1||inputText.toLowerCase().indexOf("opposition")>-1){
 			document.getElementById("answer").innerHTML=`What we are preventing is duds getting into Parliament and government. Any person of quality, we welcome him but we don't want duds. We don't want Chee Soon Juan, or J.B. Jeyaretnam. They're not going to build the country." Hard Truths to Keep Singapore Going<br>If we had considered them serious political figures, we would not have kept them politically alive for so long. We could have bankrupt them earlier.” - Straits Times, Sept 14 2003<br>And I don't think it's the numbers in the opposition which counts. It's the quality of the alternative which you put before the people". Transcript of ABC "Four Corners" Segment No.855, For Assembly in Sydney, recorded in Melbourne, Australia. Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("us presi")>-1||inputText.toLowerCase().indexOf("great")>-1||inputText.toLowerCase().indexOf("worst")>-1){
+	else if(inputText.toLowerCase().indexOf("us presi")>-1&&inputText.toLowerCase().indexOf("great")>-1||inputText.toLowerCase().indexOf("worst")>-1){
 			document.getElementById("answer").innerHTML=`Great:But for the misfortune of Watergate, I would say Richard Nixon. He had a realistic view of the world. He was a great analyst, realistic, but also a tactician to get things done. But this need with wanting to know everything and to make sure he got re-elected became obsessive.<br>worst: My name is Jimmy Carter, I'm a peanut farmer, I'm running for president. The next thing you know, he was the president!`;
 		}	
 	else if(inputText.toLowerCase().indexOf("deng xiao")>-1||inputText.toLowerCase().indexOf("met")>-1){
 			document.getElementById("answer").innerHTML=`I would say the greatest was Deng Xiaoping. At his age, to admit that he was wrong, that all these ideas, Marxism, Leninism, Maoism, they are just not working and have to be abandoned, you need a great man to do that...`;
 		}
-	else if(inputText.toLowerCase().indexOf("xi Jinpin")>-1){
+	else if(inputText.toLowerCase().indexOf("xi jinpin")>-1){
 			document.getElementById("answer").innerHTML=` would put him in Nelson Mandela's class of persons. A person with enormous emotional stability who does not allow his personal misfortunes or sufferings to affect his judgement. In other words, he is impressive." TIME Nov 19, 2007`;
 		}
 	else if(inputText.toLowerCase().indexOf("goh keng swee")>-1){
 			document.getElementById("answer").innerHTML=`Of all my Cabinet colleagues, it was Goh Keng Swee who made the greatest difference to the outcome for Singapore...When he held a contrary view, he would challenge my decisions and make me reexamine the premises on which they were made. As a result, we reached better decisions for Singapore." Eulogy at the State Funeral service for Goh Keng Swee, May 23, 2010`;
 		}
-	else if(inputText.toLowerCase().indexOf("complace")>-1){
-			document.getElementById("answer").innerHTML=`What I fear is complacency. When things always become better, people tend to want more for less work." Speech at the 10th Anniversary Celebrations of the Jalan Tenteram Community Centre, 27th June 1970 Lee Kuan Yew in his own words, 1959-1970`;
+	else if(inputText.toLowerCase().indexOf("afraid")>-1||inputText.toLowerCase().indexOf("fear")>-1||inputText.toLowerCase().indexOf("weak")>-1){
+			document.getElementById("answer").innerHTML=`What I fear is complacency. When things always become better, people tend to want more for less work." Speech at the 10th Anniversary Celebrations of the Jalan Tenteram Community Centre, 27th June 1970 Lee Kuan Yew in his own words, 1959-1970<br>I have never been over concerned or obsessed with opinion polls or popularity polls. I think a leader who is, is a weak leader. Between being loved and being feared, I have always believed Machiavelli was right. If nobody is afraid of me, I’m meaningless. The Singapore story: memoirs of Lee Kuan Yew`;
 		}	
-	else if(inputText.toLowerCase().indexOf("say no")>-1||inputText.toLowerCase().indexOf("saying no")>-1){
+	else if(inputText.toLowerCase().indexOf(" no ")>-1||inputText.toLowerCase().indexOf("polite")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("NS men")>-1){
+	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf(" NS ")>-1){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("eugenics")>-1||inputText.toLowerCase().indexOf("israel")>-1){
+	else if(inputText.toLowerCase().indexOf("eugenics")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1){
 			document.getElementById("answer").innerHTML=`There are many sons of doctors who have married doctors. Those who married spouses who are not as bright are tearing their hair out because their children can’t make it. I have lived long enough to see all this play out.”
 
 			“So when the graduate man does not want to marry a graduate woman, I tell him he’s a fool, stupid. You marry a non-graduate, you’re going to have problems, some children bright, some not bright. You’ll be tearing your hair out. you can’t miss. It’s like two dice. One is Jack, Queen, King, Ace, other also Jack, Queen, King, Ace. You throw a Jack, Queen, King, Ace against dice two, three, four, five, six, what do you get? You can’t get high pairs, let alone a full flush.” Hard Truths to Keep Singapore Going.<br>The Israelis are very smart... the rabbi in any Jewish society was often the most intelligent and well-read, most learned of all...the rabbi's children are much sought-after by successful Jews to bring good genes into the family. That's how they multiply, the bright ones multiply. That sums it up." Tom Plate's Conversations with Lee Kuan Yew `;
@@ -103,14 +103,11 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("youth")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
 			document.getElementById("answer").innerHTML=`No (it is not possible to influence young people), you can influence the basic attitudes from the day they are born to about 16 or 17. [..] They have a mind of their own and they are influenced by what they see around them and by their peers." One Man's View of the World.`;
 		}
-	else if(inputText.toLowerCase().indexOf("heaven")>-1){
+	else if(inputText.toLowerCase().indexOf("heaven")>-1||inputText.toLowerCase().indexOf("afterlife")>-1){
 			document.getElementById("answer").innerHTML=`I wish I can meet my wife in the hereafter, but I don’t think I will. I just cease to exist just as she has ceased to exist – otherwise the other world would be overpopulated." One Man's View of the World.
-
-			john-lennon-imagine
-			
-			Because there is no Heaven. So John Lennon.`;
+			<br>john-lennon-imagine - Because there is no Heaven. So John Lennon.`;
 		}	
-	else if(inputText.toLowerCase().indexOf("fiction")>-1||inputText.toLowerCase().indexOf("biograph")>-1){
+	else if(inputText.toLowerCase().indexOf("fiction")>-1||inputText.toLowerCase().indexOf("biograph")>-1||inputText.toLowerCase().indexOf("read")>-1){
 			document.getElementById("answer").innerHTML=`Usually, I read biographies of interesting people. I am not attracted to novels – make-believe, or recreations of what people think life should be. " One Man's View of the World.`;
 		}
 	else if(inputText.toLowerCase().indexOf("slave")>-1||inputText.toLowerCase().indexOf("serfdom")>-1){
@@ -119,7 +116,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("golf")>-1||inputText.toLowerCase().indexOf("sloth")>-1){
 			document.getElementById("answer").innerHTML=` I used to play golf, but found it did not give me vitality because it’s a slothful game… Nine holes of golf will take you one and a half, two hours. I run in 20 minutes, I feel better off. So the cost benefit made me drop golf. Hard Truths to Keep Singapore Going`;
 		}	
-	else if(inputText.toLowerCase().indexOf("love")>-1||inputText.toLowerCase().indexOf("believe")>-1){
+	else if(inputText.toLowerCase().indexOf("love")>-1&&inputText.toLowerCase().indexOf("believe")>-1){
 			document.getElementById("answer").innerHTML=`I don’t believe in love at first sight. I think it’s a grave mistake. You’re attracted by physical characteristics and you will regret it. Hard Truths to Keep Singapore Going`;
 		}
 	else if(inputText.toLowerCase().indexOf("corporal")>-1||inputText.toLowerCase().indexOf("harsh")>-1&&inputText.toLowerCase().indexOf("punishment")>-1){
@@ -137,28 +134,28 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("press")>-1){
 			document.getElementById("answer").innerHTML=`Freedom of the press, freedom of the news media, must be subordinated to the overriding needs of the integrity of Singapore, and to the primacy of purpose of an elected government", Address To The General Assembly Of The International Press Institute At Helsinki, 9th June, 1971`;
 		}	
-	else if(inputText.toLowerCase().indexOf("mp")>-1||inputText.toLowerCase().indexOf("estate")>-1){
+	else if(inputText.toLowerCase().indexOf(" mp ")>-1||inputText.toLowerCase().indexOf("estate")>-1){
 			document.getElementById("answer").innerHTML=`An MP must now not only be good at speaking but also at getting things done. When an estate is dirty, out of order, and rubbish not regularly and properly collected, that is when residents realise that without regular maintenance, the value of their flats will drop." 1992, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
 	else if(inputText.toLowerCase().indexOf("american")>-1){
 			document.getElementById("answer").innerHTML=`The Americans are great missionaries. They have an irrepressible urge to convert others.", 1992, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
-	else if(inputText.toLowerCase().indexOf("fashion")>-1){
+	else if(inputText.toLowerCase().indexOf("fashion")>-1||inputText.toLowerCase().indexOf("judge")>-1){
 			document.getElementById("answer").innerHTML=`I'm not interested in changing either my suit or my car or whatver with every change in fashion. That's irrelevant. I don't judge myself or my friends by their fashions. Of course, I don't approve of people who are sloppy and unnecessarily shabby or dishevelled... But I'm not impressed by a $5,000 or $10,000 Armani suit." 1995,  The Wit & Wisdom of Lee Kuan Yew`;
 		}	
-	else if(inputText.toLowerCase().indexOf("democracy")>-1){
+	else if(inputText.toLowerCase().indexOf("democracy")>-1||inputText.toLowerCase().indexOf("free")>-1){
 			document.getElementById("answer").innerHTML=`But we either believe in democracy or we not. If we do, then, we must say categorically, without qualification, that no restraint from the any democratic processes, other than by the ordinary law of the land, should be allowed… If you believe in democracy, you must believe in it unconditionally. If you believe that men should be free, then, they should have the right of free association, of free speech, of free publication. Then, no law should permit those democratic processes to be set at nought.” - as an opposition leader, April 27, 1955`;
 		}
-	else if(inputText.toLowerCase().indexOf("repression")>-1||inputText.toLowerCase().indexOf("easier")>-1){
+	else if(inputText.toLowerCase().indexOf("repression")>-1||inputText.toLowerCase().indexOf("control")>-1){
 			document.getElementById("answer").innerHTML=`Repression, Sir is a habit that grows. I am told it is like making love-it is always easier the second time! The first time there may be pangs of conscience, a sense of guilt. But once embarked on this course with constant repetition you get more and more brazen in the attack. All you have to do is to dissolve organizations and societies and banish and detain the key political workers in these societies. Then miraculously everything is tranquil on the surface. Then an intimidated press and the government-controlled radio together can regularly sing your praises, and slowly and steadily the people are made to forget the evil things that have already been done, or if these things are referred to again they’re conveniently distorted and distorted with impunity, because there will be no opposition to contradict.” - as an opposition PAP member speaking to David Marshall, Singapore Legislative Assembly, Debates, 4 October, 1956`;
 		}
-	else if(inputText.toLowerCase().indexOf("art of")>-1||inputText.toLowerCase().indexOf("governance")>-1){
+	else if(inputText.toLowerCase().indexOf("authority")>-1||inputText.toLowerCase().indexOf("headline")>-1){
 			document.getElementById("answer").innerHTML=`I have no headline material to offer you tonight. In fact, I believe that the art of Government is, in part, the art of not creating headlines in the world press." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970<br>f I were in authority in Singapore indefinitely, without having to ask those who are governing whether they like what is being done, then I have not the slightest doubt that I could govern much more effectively in their own interests." May, 1962, at the Royal Society of International Affairs, London, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
 	else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1){
 			document.getElementById("answer").innerHTML=`Today, I was a bit late because I took some time in getting up; slept late last night; some work to be done; two functions in the evening. But that is important. I like to tell you this because I think this is what we all must do: 'sleep well of nights'. You know Shakespeare, 'Give me men that sleep well of nights'. That is what he said. I think it right. Men who worry, you know, read all this, and they start shouting all this they get worried themselves, night time comes, they can't sleep. Next morning they wake up, mind befuddled, wrong decisions, more trouble!" Tanjong Katong School, during tour of Mountbatten Constituency, 13th June, 1965 Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("light hearted")>-1){
+	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1){
 			document.getElementById("answer").innerHTML=`I would not call myself 'fun-loving' or 'light-hearted'. But I am not serious all the time. Everyone needs to have a good laugh now and then, to see the funny side of things, and to laugh at himself`;
 		}
 	else if(inputText.toLowerCase().indexOf("singaporean")>-1||inputText.toLowerCase().indexOf("cowpeh")>-1){
@@ -176,7 +173,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("anger")>-1||inputText.toLowerCase().indexOf("temper")>-1){
 			document.getElementById("answer").innerHTML=`I have never, I never try to lose my temper. Maybe I have occasionally, but I try to control it...If I am really angry, my body language will show that I am most dissatisfied" Tom Plate's Conversations with Lee Kuan Yew`;
 		}
-	else if(inputText.toLowerCase().indexOf("critics")>-1||inputText.toLowerCase().indexOf("oppose")>-1){
+	else if(inputText.toLowerCase().indexOf("critic")>-1||inputText.toLowerCase().indexOf("oppose")>-1){
 			document.getElementById("answer").innerHTML=`Not all who oppose the PAP are communists; some are communists, some reactionaries, some opportunists and some merely confused." 1961, The Wit & Wisdom of Lee Kuan Yew`;
 		}			
 	else if(inputText.toLowerCase().indexOf("people")>-1||inputText.toLowerCase().indexOf("vision")>-1){
@@ -197,10 +194,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("nanny")>-1&&inputText.toLowerCase().indexOf("state")>-1){
 			document.getElementById("answer").innerHTML=`If Singapore is a nanny state, then I am proud to have fostered one. (From Third World to First, The Singapore Story: 1965-2000)`;
 		}
-	else if(inputText.toLowerCase().indexOf("afraid")>-1||inputText.toLowerCase().indexOf("weak")>-1){
-			document.getElementById("answer").innerHTML=`I have never been over concerned or obsessed with opinion polls or popularity polls. I think a leader who is, is a weak leader. Between being loved and being feared, I have always believed Machiavelli was right. If nobody is afraid of me, I’m meaningless. The Singapore story: memoirs of Lee Kuan Yew`;
-		}	
-		else if(inputText.toLowerCase().indexOf("car")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
+	else if(inputText.toLowerCase().indexOf("car")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
 			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom`;
 		}	
 		else if(inputText.toLowerCase().indexOf("poor")>-1||inputText.toLowerCase().indexOf("manna")>-1){
@@ -214,7 +208,7 @@ function myFunction() {
 
 			- 1986 National Day Rally`;
 		}
-		else if(inputText.toLowerCase().indexOf("apologies")>-1||inputText.toLowerCase().indexOf("pap")>-1){
+		else if(inputText.toLowerCase().indexOf("apolog")>-1||inputText.toLowerCase().indexOf(" pap ")>-1){
 			document.getElementById("answer").innerHTML=` I make no apologies that the PAP is the Government and the Government is the PAP. Petir, 1982`;
 		}
 		else if(inputText.toLowerCase().indexOf("grave")>-1||inputText.toLowerCase().indexOf("sick bed")>-1){
