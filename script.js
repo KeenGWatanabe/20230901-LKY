@@ -244,9 +244,13 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("lee bok boon")>-1){
 			document.getElementById("answer").innerHTML=`According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon (great grandfather) was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong. He had migrated to Singapore on a Chinese junk. Little is known of him after that until 1870, when he married a Chinese girl, Seow Huan Neo, born in Singapore to a Hakka shopkeeper. In 1882 he decided ...... to return to his ancestral village in China, ... His wife, however, did not want to leave her family in Singapore and go to some place she had never seen. According to my grandfather (Lee Hoon Leong), who was then about ten, the children and their mother went into hiding with her family in Ah Hood Road. Lee Bok Boon went back to China alone. There he married again, .... My grandfather, Lee Hoon Leong - whom I addressed as Kung or "grandfather" in Chinese - was born in Singapore in 1871.Memoirs of LKY,1998`;
 		}
+		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1){
+			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
+		}
 		else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML=``;
 		}
+
 		//Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML=``;
