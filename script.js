@@ -75,10 +75,10 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("deng xiao")>-1||inputText.toLowerCase().indexOf("met")>-1){
 			document.getElementById("answer").innerHTML=`I would say the greatest was Deng Xiaoping. At his age, to admit that he was wrong, that all these ideas, Marxism, Leninism, Maoism, they are just not working and have to be abandoned, you need a great man to do that...`;
 		}
-	else if(inputText.toLowerCase().indexOf("xi jinpin")>-1){
+	else if(inputText.toLowerCase().indexOf("xi jinpin")>-1||inputText.toLowerCase().indexOf("xi jingpin")>-1){
 			document.getElementById("answer").innerHTML=` would put him in Nelson Mandela's class of persons. A person with enormous emotional stability who does not allow his personal misfortunes or sufferings to affect his judgement. In other words, he is impressive." TIME Nov 19, 2007`;
 		}
-	else if(inputText.toLowerCase().indexOf("goh keng swee")>-1){
+	else if(inputText.toLowerCase().indexOf("goh keng swee")>-1||inputText.toLowerCase().indexOf("challenge")>-1){
 			document.getElementById("answer").innerHTML=`Of all my Cabinet colleagues, it was Goh Keng Swee who made the greatest difference to the outcome for Singapore...When he held a contrary view, he would challenge my decisions and make me reexamine the premises on which they were made. As a result, we reached better decisions for Singapore." Eulogy at the State Funeral service for Goh Keng Swee, May 23, 2010`;
 		}
 	else if(inputText.toLowerCase().indexOf("afraid")>-1||inputText.toLowerCase().indexOf("fear")>-1||inputText.toLowerCase().indexOf("weak")>-1){
@@ -131,7 +131,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("homo")>-1||inputText.toLowerCase().indexOf("gay")>-1){
 			document.getElementById("answer").innerHTML=`No it’s not a lifestyle. You can read the books you want, all the articles. You know that there’s a genetic difference. They are born that way and that’s that. So if two men or two women are that way, just leave them alone." Hard Truths to Keep Singapore Going<br>If in fact it is true, and I have asked doctors this, that you are genetically born a homosexual - because that's the nature of the genetic random transmission of genes - you can't help it. So why should we criminalise it?" 2007, The Wit & Wisdom of Lee Kuan Yew`;
 		}
-	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("press")>-1){
+	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("the press")>-1){
 			document.getElementById("answer").innerHTML=`Freedom of the press, freedom of the news media, must be subordinated to the overriding needs of the integrity of Singapore, and to the primacy of purpose of an elected government", Address To The General Assembly Of The International Press Institute At Helsinki, 9th June, 1971`;
 		}	
 	else if(inputText.toLowerCase().indexOf("mp")>-1||inputText.toLowerCase().indexOf("estate")>-1){
@@ -155,7 +155,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1){
 			document.getElementById("answer").innerHTML=`Today, I was a bit late because I took some time in getting up; slept late last night; some work to be done; two functions in the evening. But that is important. I like to tell you this because I think this is what we all must do: 'sleep well of nights'. You know Shakespeare, 'Give me men that sleep well of nights'. That is what he said. I think it right. Men who worry, you know, read all this, and they start shouting all this they get worried themselves, night time comes, they can't sleep. Next morning they wake up, mind befuddled, wrong decisions, more trouble!" Tanjong Katong School, during tour of Mountbatten Constituency, 13th June, 1965 Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1){
+	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1&&inputText.toLowerCase().indexOf("light")>-1){
 			document.getElementById("answer").innerHTML=`I would not call myself 'fun-loving' or 'light-hearted'. But I am not serious all the time. Everyone needs to have a good laugh now and then, to see the funny side of things, and to laugh at himself`;
 		}
 	else if(inputText.toLowerCase().indexOf("singaporean")>-1||inputText.toLowerCase().indexOf("cowpeh")>-1){
@@ -182,7 +182,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("multiparty")>-1){
 			document.getElementById("answer").innerHTML=`If all the 300 (top civil servants and political elite) were to crash in one jumbo jet, then Singapore will disintegrate". 197`;
 		}
-	else if(inputText.toLowerCase().indexOf("no")>-1||inputText.toLowerCase().indexOf("good")>-1&&inputText.toLowerCase().indexOf("news")>-1){
+	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("news")>-1||inputText.toLowerCase().indexOf("good")>-1){
 			document.getElementById("answer").innerHTML=`I have always thought it strange that a country figures prominently in the world press mainly when it is in trouble...Nobody in the rest of the world heard much about Singapore until it was captured by the Japanese in 1942 or again until there were riots in 1955 and 1956 in the course of one of which two members of your fraternity were killed. I have come to believe that, so far as the foreign press is concerned, no news is good news." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("laurels")>-1&&inputText.toLowerCase().indexOf("rest")>-1){
@@ -197,7 +197,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("car")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
 			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom`;
 		}	
-		else if(inputText.toLowerCase().indexOf("poor")>-1||inputText.toLowerCase().indexOf("manna")>-1){
+		else if(inputText.toLowerCase().indexOf("the poor")>-1){
 			document.getElementById("answer").innerHTML=`The poor know that you don't get manna falling from heaven, not in Singapore anyway", 1976, The Wit & Wisdom `;
 		}
 		else if(inputText.toLowerCase().indexOf("stooge")>-1||inputText.toLowerCase().indexOf("nobody")>-1){
@@ -208,7 +208,7 @@ function myFunction() {
 
 			- 1986 National Day Rally`;
 		}
-		else if(inputText.toLowerCase().indexOf("apolog")>-1||inputText.toLowerCase().indexOf(" pap ")>-1){
+		else if(inputText.toLowerCase().indexOf("pap")>-1){
 			document.getElementById("answer").innerHTML=` I make no apologies that the PAP is the Government and the Government is the PAP. Petir, 1982`;
 		}
 		else if(inputText.toLowerCase().indexOf("grave")>-1||inputText.toLowerCase().indexOf("sick bed")>-1){
@@ -223,13 +223,13 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("accused")>-1||inputText.toLowerCase().indexOf("speak")>-1){
 			document.getElementById("answer").innerHTML=`I have been accused of many things in my life, but not even my worst enemy has ever accused me of being afraid to speak my mind." 1955, The Wit & Wisdom`;
 		}
-		else if(inputText.toLowerCase().indexOf("vote")>-1||inputText.toLowerCase().indexOf("erratic")>-1){
+		else if(inputText.toLowerCase().indexOf("vote")>-1||inputText.toLowerCase().indexOf("voting")>-1){
 			document.getElementById("answer").innerHTML=`One-man-one-vote is a most difficult form of government.. Results can be erratic.” -  Dec 19 1984`;
 		}
 		else if(inputText.toLowerCase().indexOf("hard truths")>-1){
 			document.getElementById("answer").innerHTML=`Hard Truths was a book based on 32 hours of interviews over a period of two years. I made this one comment on the Muslims integrating with other communities probably two or three years ago. Ministers and MPs, both Malay and non-Malay, have since told me that Singapore Malays have indeed made special efforts to integrate with the other communities, especially since 9/11, and that my call is out of date. I stand corrected, but only just this instance! I hope that this trend will continue in the future.`;
 		}			
-		else if(inputText.toLowerCase().indexOf("grew up in")>-1){
+		else if(inputText.toLowerCase().indexOf("grew up")>-1){
 			document.getElementById("answer").innerHTML=`This is not an official history. It is the story of the Singapore I grew up in, the placid years of British colonial rule, the shock of war, the cruel years of Japanese occupation, communist insurrection and terrorism against the returning British, communal riots and intimidation during Malaysia, and the perils of independence. Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("childhood")>-1||inputText.toLowerCase().indexOf("growing up")>-1){
@@ -244,7 +244,7 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("lee bok boon")>-1){
 			document.getElementById("answer").innerHTML=`According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon (great grandfather) was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong. He had migrated to Singapore on a Chinese junk. Little is known of him after that until 1870, when he married a Chinese girl, Seow Huan Neo, born in Singapore to a Hakka shopkeeper. In 1882 he decided ...... to return to his ancestral village in China, ... His wife, however, did not want to leave her family in Singapore and go to some place she had never seen. According to my grandfather (Lee Hoon Leong), who was then about ten, the children and their mother went into hiding with her family in Ah Hood Road. Lee Bok Boon went back to China alone. There he married again, .... My grandfather, Lee Hoon Leong - whom I addressed as Kung or "grandfather" in Chinese - was born in Singapore in 1871.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1){
+		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1||inputText.toLowerCase().indexOf("sph")>-1){
 			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
 		}
 		else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
