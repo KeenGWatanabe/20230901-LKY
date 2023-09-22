@@ -62,7 +62,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML=`Whoever governs Singapore must have that iron in him. Or give it up. This is not a game of cards! This is your life and mine! I've spent a whole lifetime building this and as long as I'm in charge, nobody is going to knock it down`;
 		}
 	else if(inputText.toLowerCase().indexOf("oxley")>-1||inputText.toLowerCase().indexOf("house")>-1){
-			document.getElementById("answer").innerHTML=`The house will “be demolished immediately after my death or if my daughter, Wei Ling, would prefer to continue living in the original house, immediately after she moves out of the House”.
+			document.getElementById("answer").innerHTML=`With the Japanese out of the way, many houses became vacant,..we came across two identical houses - Numbers 38 and 40 - built by a Jewish merchant, who named them Castor and Pollux. They were empty except for some heavy furniture, and we decided to make a bid for the tenancy of Number 38.<br>The house will “be demolished immediately after my death or if my daughter, Wei Ling, would prefer to continue living in the original house, immediately after she moves out of the House”.
 
 			“I would ask each of my children to ensure our wishes with respect to the demolition of the House be carried out...My view on this has been made public before and remains unchanged.” The Straits Times, April 12, 2015`;
 		}	
@@ -250,9 +250,30 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML=``;
 		}
-
+		else if(inputText.toLowerCase().indexOf("after the war")>-1||inputText.toLowerCase().indexOf("british")>-1){
+			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had ta.ken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese`;
+		}	
+		else if(inputText.toLowerCase().indexOf("car")>-1){
+			document.getElementById("answer").innerHTML=`But in November 1945, I could afford to buy a second-hand car, a prewar Morris refurbished with spares now available from the British army. As my business improved, I sold it at a profit after a few months and bought a pre-war Ford V8, restored to good condition. It must have been used by a Japanese general during the occupation.`;
+		}
+		else if(inputText.toLowerCase().indexOf("wife")>-1||inputText.toLowerCase().indexOf("Choo")>-1){
+			document.getElementById("answer").innerHTML=`Choo asked if I knew she was two and a half years older than I was. I said I knew, and had considered this carefully. I was mature for my age.  After the Liberation
+			and most of my friends were older than me anyway. Moreover, I wanted someone my equal, not someone who was not really grown up and needed looking after, and I was not likely to find another girl who was my equal and who shared my interests.`;
+		}	
+		else if(inputText.toLowerCase().indexOf("wife's family")>-1||inputText.toLowerCase().indexOf("wife's background")>-1){
+			document.getElementById("answer").innerHTML=`Choo's father, Kwa Siew Tee, a banker at the Oversea-Chinese Banking Corporation, was a Java-born Chinese like my father. Choo had been educated at Methodist Girls' School, and having passed her Senior Cambridge examinations, was only 16 when she went to the special class at Raffles Institution for students competing for the Queen's scholarship, but she did not get it.`;
+		}
+		else if(inputText.toLowerCase().indexOf("promiscuity")>-1||inputText.toLowerCase().indexOf("shocked")>-1){
+			document.getElementById("answer").innerHTML=` I was shocked to see the unabashed promiscuity of some 40 or 50 servicewomen, non-commissioned officers and other ranks, who flirted with the officers. One night, a Hong Kong student, his eyes popping out of his head, told me they were unashamedly making love on the lifeboat deck. I was curious and went up to see for myself. What a sight it was! The deck was a hive of activity, with couples locked in passionate embraces scattered all over it. Some were a little less indelicate.<br>I received another shock when the ship passed through the Suez Canal. It proceeded slowly so that the waves would not wash down the loose sand on the banks. As we passed, a group of Arab workers on the shore started shouting obscenities and lifted their gallabiya - long gar­ ments like nightshirts - to flaunt their genitals at the British servicewomen`;
+		}
+		else if(inputText.toLowerCase().indexOf("culture shock")>-1){
+			document.getElementById("answer").innerHTML=`The most active in canvassing among the colonial students were the communists. They masqueraded under the name Socialist Club, but I soon discovered their Marxist colours and their trick of having attractive British women students on hand to lobby African, Caribbean and the few Asian undergraduates. I steered clear of them all. I was suffering from culture shock before the phrase was coined. `;
+		}		
+		else if(inputText.toLowerCase().indexOf("remorse")>-1||inputText.toLowerCase().indexOf("let him down")>-1){
+			document.getElementById("answer").innerHTML=`I wrote to Professor Hughes Parry I had decided to leave the LSE and go to Cambridge instead. I got an angry reply. "I would remind you that I went out of my way to persuade the authorities of this school to accept you when we had turned others away," he wrote. "Your conduct shows that I was wrong in my estimate of you and that I should not have been so ready to help." On getting this letter, I decided to see him personally, to face him and take my medicine...He listened to my woes. I must have looked truthful because he relented and said I should have brought my problems to him. .....But I have always felt remorse at having let him down after the special favour he extended to me. When he became vice-chancellor of London University in the late 1970s and I was prime minister of Singapore, I thought of writing to him but decided it might be better to let it pass. Perhaps I should have, just to tell him I had not forgotten his kindness.`;
+		}	
 		//Sample codes	
-	else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
+	else if(inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1){
 			document.getElementById("answer").innerHTML=``;
 		}	
 	else if(inputText.toLowerCase().indexOf("xx")>-1&&inputText.toLowerCase().indexOf("xx")>-1){
