@@ -39,9 +39,6 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("tianan")>-1){
 			document.getElementById("answer").innerHTML=`He took over, and he said: 'If I have to shoot 200,000 students to save China from another 100 years of disorder, so be it.'" - Recalling how former Chinese leader Deng Xiaoping dealt with the 1989 Tiananmen Square protests.`;
 		}
-	else if(inputText.toLowerCase().indexOf("inequal")>-1||inputText.toLowerCase().indexOf("wealth")>-1){
-			document.getElementById("answer").innerHTML=`After trying out a number of ways to reduce inequalities and failing, I was gradually forced to conclude that the decisive factors were the people, their natural abilities, education and training. Knowledge and the possession of technology were vital for the creation of wealth.`;
-		}	
 	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberali")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.`;
 		}
