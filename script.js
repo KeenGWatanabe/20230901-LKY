@@ -1,6 +1,6 @@
-const Fuse = require('fuse.js');
+//const Fuse = require('fuse.js');
 // >-1 means any character after accepted, "i " must be only I in a sentence
-function myFunction() {
+function lky() {
 	var inputText = document.getElementById("text_a").value.trim();
 
 	if(inputText === "") {
@@ -191,7 +191,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("nanny")>-1&&inputText.toLowerCase().indexOf("state")>-1){
 			document.getElementById("answer").innerHTML=`If Singapore is a nanny state, then I am proud to have fostered one. (From Third World to First, The Singapore Story: 1965-2000)`;
 		}
-	else if(inputText.toLowerCase().indexOf("car")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
+	else if(inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
 			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom`;
 		}	
 		else if(inputText.toLowerCase().indexOf("the poor")>-1){
@@ -201,9 +201,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML=`I am nobody's stooge. I am not here to play somebody else's game. I have a few million people's lives to account for. And Singapore will survive will trade with the whole world and will remain non Communist", Press Conference at City Hall, 26th August 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 		else if(inputText.toLowerCase().indexOf("survival")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
-			document.getElementById("answer").innerHTML=`What are our priorities? First, the welfare, the survival of the people. Then, democratic norms and processes which from time to time we have to suspend.”
-
-			- 1986 National Day Rally`;
+			document.getElementById("answer").innerHTML=`What are our priorities? First, the welfare, the survival of the people. Then, democratic norms and processes which from time to time we have to suspend.”- 1986 National Day Rally`;
 		}
 		else if(inputText.toLowerCase().indexOf("pap")>-1){
 			document.getElementById("answer").innerHTML=` I make no apologies that the PAP is the Government and the Government is the PAP. Petir, 1982`;
@@ -244,16 +242,14 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1||inputText.toLowerCase().indexOf("sph")>-1){
 			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
 		}
-		else if(inputText.toLowerCase().indexOf("x")>-1||inputText.toLowerCase().indexOf("xx")>-1){
-			document.getElementById("answer").innerHTML=``;
-		}
+		
 		else if(inputText.toLowerCase().indexOf("after the war")>-1||inputText.toLowerCase().indexOf("british")>-1){
 			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had ta.ken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese`;
 		}	
 		else if(inputText.toLowerCase().indexOf("car")>-1){
 			document.getElementById("answer").innerHTML=`But in November 1945, I could afford to buy a second-hand car, a prewar Morris refurbished with spares now available from the British army. As my business improved, I sold it at a profit after a few months and bought a pre-war Ford V8, restored to good condition. It must have been used by a Japanese general during the occupation.`;
 		}
-		else if(inputText.toLowerCase().indexOf("wife")>-1||inputText.toLowerCase().indexOf("Choo")>-1){
+		else if(inputText.toLowerCase().indexOf("kwa geok choo")>-1||inputText.toLowerCase().indexOf("Choo")>-1){
 			document.getElementById("answer").innerHTML=`Choo asked if I knew she was two and a half years older than I was. I said I knew, and had considered this carefully. I was mature for my age.  After the Liberation
 			and most of my friends were older than me anyway. Moreover, I wanted someone my equal, not someone who was not really grown up and needed looking after, and I was not likely to find another girl who was my equal and who shared my interests.`;
 		}	
@@ -281,7 +277,7 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("fair society")>-1||inputText.toLowerCase().indexOf("no flaw")>-1){
 			document.getElementById("answer").innerHTML=`But the idea of an equal, just and fair society appealed to all colonial students, and the British Fabians recommended a step-by-step approach to this ideal state that would make it unnecessary to behead the rich and expropriate their riches. By stages, and without disrupting the economy or creating a social upheaval, the rich would be deprived of their wealth through taxation in their lifetime, and through heavy estate duties when they died. Their children would then have to start out in the world on the same basis as those of poorer parents. I could see no flaw in that. I was too young to know how ingenious British lawyers were in con­structing trust deeds that made it difficult for the government to get too much out of estate duty.`;
 		}
-		//Sample codes	
+		//Sample codes*	
 	else if(inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1){
 			document.getElementById("answer").innerHTML=``;
 		}	
@@ -290,7 +286,7 @@ function myFunction() {
 									}	
 	else if(inputText.toLowerCase().indexOf("xxx")>-1){
 			document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
-	
+	//sample codes***
 	} else {document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 
