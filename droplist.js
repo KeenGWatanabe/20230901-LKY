@@ -19,4 +19,6 @@ function droplist() {
       }
     }
   }
-  
+  function displayText(text) {
+    document.getElementById("myDropdown").innerHTML = text;
+  }
