@@ -53,6 +53,6 @@
   
   .show {display: block;}
   .body {
-    background-color: black;
-    color:antiquewhite;
+    background-color: antiquewhite;
+    color: black;
   }
