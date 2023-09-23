@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKY AI</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="body">
+        <h3 style="padding: 0px; font-family: arial;">Chat with LKY<br/></h3>
+        <div>from LKY books, speeches, media content</div><br/>
+    
+        <input id="text_a" type="text" size="50px" />
+        <p id="answer"></p>
+        <button onclick="lky()">Chat</button>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="droplist()">List words</button>
+            <div class="dropdown-content" id="myDropdown">
+                <input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+                <a href="#" onclick="alert('you are welcome!');">thank you</a>
+                <a href="#" onclick="displayAnswer();">Show Answer</a>
+                <p id="java"></p>
+                <a href="#" onclick="displayText('display answer in search box');">click answer</a>
+            </div>
+        </div>
+    
+      <script src="droplist.js"></script>
+      <script src="script.js"></script>
+
+    <script>
+    function displayAnswer() {
+      var answer = "This is the answer text.";
+      document.getElementById("java").textContent = answer;
+    }
+    </script>
