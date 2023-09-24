@@ -1,0 +1,59 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="droplist()">List words</button>
+    <div class="dropdown-content" id="myDropdown">
+      <input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+      <a href="#" onclick="displayAnswer('java')">Show Answer</a>
+      <a href="#" onclick="displayAnswer('works')">Everything works</a>
+      <a href="javascript:alert('you are welcome!');">Thank you</a>
+    </div>
+  </div>
+
+  <script>
+    function displayAnswer(elementId) {
+      if (elementId === 'java') {
+        alert('This is the answer for "Show Answer".');
+      } else if (elementId === 'works') {
+        alert('This is the answer for "Everything works".');
+      }
+    }
+  </script>
+
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function droplist() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+
+    function displayText(text) {
+      document.getElementById("myDropdown").innerHTML = text;
+    }
+  </script>
+</body>
+</html>
