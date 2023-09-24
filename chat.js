@@ -42,24 +42,24 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberali")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.`;
 		}
-	else if(inputText.toLowerCase().indexOf("cul de sac")>-1|inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
+	else if(inputText.toLowerCase().indexOf("catherine lim")>-1|inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
 			document.getElementById("answer").innerHTML=`Supposing Catherine Lim was writing about me and not the prime minister...She would not dare, right? Because my posture, my response has been such that nobody doubts that if you take me on, I will put on knuckle-dusters and catch you in a cul de sac...Anybody who decides to take me on needs to put on knuckle dusters. If you think you can hurt me more than I can hurt you, try. There is no other way you can govern a Chinese society.`;
 		}
 	else if(inputText.toLowerCase().indexOf("million")>-1
 		||inputText.toLowerCase().indexOf("pay")>-1&&inputText.toLowerCase().indexOf("minister")>-1){
 			document.getElementById("answer").innerHTML=`You know, the cure for all this talk is really a good dose of incompetent government. You get that alternative and you'll never put Singapore together again: Humpty Dumpty cannot be put together again... my asset values will disappear, my apartments will be worth a fraction of what they were, my ministers' jobs will be in peril, their security will be at risk and their women will become maids in other people's countries, foreign workers. I cannot have that!" - Justifying million-dollar pay hike for Singapore ministers`;
 		}	
-	else if(inputText.toLowerCase().indexOf("ruin")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
+	else if(inputText.toLowerCase().indexOf("ruin")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
 			document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore`;
 		}	
-	else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1){
+	else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1||inputText.toLowerCase().indexOf("bullshit")>-1){
 			document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology.`;
 		}	
 	else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1){
 			document.getElementById("answer").innerHTML=`Whoever governs Singapore must have that iron in him. Or give it up. This is not a game of cards! This is your life and mine! I've spent a whole lifetime building this and as long as I'm in charge, nobody is going to knock it down`;
 		}
 	else if(inputText.toLowerCase().indexOf("oxley")>-1||inputText.toLowerCase().indexOf("house")>-1){
-			document.getElementById("answer").innerHTML=`With the Japanese out of the way, many houses became vacant,..we came across two identical houses - Numbers 38 and 40 - built by a Jewish merchant, who named them Castor and Pollux. They were empty except for some heavy furniture, and we decided to make a bid for the tenancy of Number 38.<br>The house will “be demolished immediately after my death or if my daughter, Wei Ling, would prefer to continue living in the original house, immediately after she moves out of the House”.
+			document.getElementById("answer").innerHTML=`With the Japanese out of the way, many houses became vacant,..we came across two identical houses - Numbers 38 and 40 - built by a Jewish merchant, who named them Castor and Pollux. They were empty except for some heavy furniture, and we decided to make a bid for the tenancy of Number 38. During the 1940s<br>The house will “be demolished immediately after my death or if my daughter, Wei Ling, would prefer to continue living in the original house, immediately after she moves out of the House”.
 
 			“I would ask each of my children to ensure our wishes with respect to the demolition of the House be carried out...My view on this has been made public before and remains unchanged.” The Straits Times, April 12, 2015`;
 		}	
@@ -81,7 +81,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("afraid")>-1||inputText.toLowerCase().indexOf("fear")>-1||inputText.toLowerCase().indexOf("weak")>-1){
 			document.getElementById("answer").innerHTML=`What I fear is complacency. When things always become better, people tend to want more for less work." Speech at the 10th Anniversary Celebrations of the Jalan Tenteram Community Centre, 27th June 1970 Lee Kuan Yew in his own words, 1959-1970<br>I have never been over concerned or obsessed with opinion polls or popularity polls. I think a leader who is, is a weak leader. Between being loved and being feared, I have always believed Machiavelli was right. If nobody is afraid of me, I’m meaningless. The Singapore story: memoirs of Lee Kuan Yew`;
 		}	
-	else if(inputText.toLowerCase().indexOf(" no ")>-1||inputText.toLowerCase().indexOf("polite")>-1){
+	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("say")>-1||inputText.toLowerCase().indexOf("fool")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
 	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("ns")>-1){
@@ -92,7 +92,7 @@ function lky() {
 
 			“So when the graduate man does not want to marry a graduate woman, I tell him he’s a fool, stupid. You marry a non-graduate, you’re going to have problems, some children bright, some not bright. You’ll be tearing your hair out. you can’t miss. It’s like two dice. One is Jack, Queen, King, Ace, other also Jack, Queen, King, Ace. You throw a Jack, Queen, King, Ace against dice two, three, four, five, six, what do you get? You can’t get high pairs, let alone a full flush.” Hard Truths to Keep Singapore Going.<br>The Israelis are very smart... the rabbi in any Jewish society was often the most intelligent and well-read, most learned of all...the rabbi's children are much sought-after by successful Jews to bring good genes into the family. That's how they multiply, the bright ones multiply. That sums it up." Tom Plate's Conversations with Lee Kuan Yew `;
 		}			
-	else if(inputText.toLowerCase().indexOf("muslim")>-1||inputText.toLowerCase().indexOf("malay")>-1){
+	else if(inputText.toLowerCase().indexOf("muslim")>-1||inputText.toLowerCase().indexOf("malays")>-1){
 			document.getElementById("answer").innerHTML=`No, I’m not saying that. I think the Muslims socially do not cause any trouble, but they are distinct and separate.The generation that worked with me – Othman Wok, Rahim Ishak – that was before the wave came sweeping back, sweeping them; that generation integrated well. We drank beer, we went canvassing, we went electioneering, we ate together. Now they say, “Are the plates clean?” I said, “You know, same washing machine.” Halal, non-halal and so on, I mean, they are all divisive. They are distinguishing me from you: “I’m a believer, you are not.” That’s that. Nobody doubts the hygiene. It’s got nothing to do with hygiene, it’s got to do with the religious conviction that this is not something you do.”
 
 			“In those days, you didn’t have a school tuckshop, so you bought two cents of nasi lemak and you ate it. And there was a kway teow man and so on. But now, you go to schools with Malay and Chinese, there’s a halal and non-halal segment and so too, the universities. And they tend to sit separately, not to be contaminated. All that becomes a social divide. Now I’m not saying right or wrong, I’m saying that’s the demands of the religion but the consequences are a veil across and I think it was designed to be so. Islam is exclusive.” Hard Truths to Keep Singapore Going.<br>We could not have held the society together if we had not made adjustments to the system that gives the Malays, although they are not as hardworking and capable as the other races, a fair share of the cake". Tom Plate's Conversations with Lee Kuan Yew `;
@@ -234,22 +234,22 @@ function lky() {
 			document.getElementById("answer").innerHTML=`mother: Chua Jim Neo. father: Lee Chin Koon. His parents had arranged the marriage a year previously. His father was a rich man's son. Used to boast to him that, when he was young, his father allowed him a limitless account at Robinsons and John Little, the two top department stores in Raffles Place, where he could charge to this account any suit or other items he fancied. Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("SJI")>-1||inputText.toLowerCase().indexOf("father's education")>-1){
-			document.getElementById("answer").innerHTML=`Dad was educated in English at St Joseph's Institution, a Catholic mission school founded by the De La Salle Brothers in 1852. After completed his Junior School Certificate, ended his formal education - to him and his mother's eternal regret. Without a profession, he could only get a job as a storekeeper with the Shell Oil Company as the fortunes of both families were destroyed in the Great Depression. Memoirs of LKY,1998`;
+			document.getElementById("answer").innerHTML=`He was educated in English at St Joseph's Institution, a Catholic mission school founded by the De La Salle Brothers in 1852. After completed his Junior School Certificate, ended his formal education - to him and his mother's eternal regret. Without a profession, he could only get a job as a storekeeper with the Shell Oil Company as the fortunes of both families were destroyed in the Great Depression. Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("lee bok boon")>-1){
+		else if(inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("lee hoon leong")>-1){
 			document.getElementById("answer").innerHTML=`According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon (great grandfather) was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong. He had migrated to Singapore on a Chinese junk. Little is known of him after that until 1870, when he married a Chinese girl, Seow Huan Neo, born in Singapore to a Hakka shopkeeper. In 1882 he decided ...... to return to his ancestral village in China, ... His wife, however, did not want to leave her family in Singapore and go to some place she had never seen. According to my grandfather (Lee Hoon Leong), who was then about ten, the children and their mother went into hiding with her family in Ah Hood Road. Lee Bok Boon went back to China alone. There he married again, .... My grandfather, Lee Hoon Leong - whom I addressed as Kung or "grandfather" in Chinese - was born in Singapore in 1871.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1||inputText.toLowerCase().indexOf("sph")>-1){
 			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
 		}
 		
-		else if(inputText.toLowerCase().indexOf("after the war")>-1||inputText.toLowerCase().indexOf("british")>-1){
-			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had ta.ken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese`;
+		else if(inputText.toLowerCase().indexOf("after the war")>-1||inputText.toLowerCase().indexOf("british soldiers")>-1){
+			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had taken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese`;
 		}	
 		else if(inputText.toLowerCase().indexOf("car")>-1){
 			document.getElementById("answer").innerHTML=`But in November 1945, I could afford to buy a second-hand car, a prewar Morris refurbished with spares now available from the British army. As my business improved, I sold it at a profit after a few months and bought a pre-war Ford V8, restored to good condition. It must have been used by a Japanese general during the occupation.`;
 		}
-		else if(inputText.toLowerCase().indexOf("kwa geok choo")>-1||inputText.toLowerCase().indexOf("Choo")>-1){
+		else if(inputText.toLowerCase().indexOf("kwa geok choo")>-1){
 			document.getElementById("answer").innerHTML=`Choo asked if I knew she was two and a half years older than I was. I said I knew, and had considered this carefully. I was mature for my age.  After the Liberation
 			and most of my friends were older than me anyway. Moreover, I wanted someone my equal, not someone who was not really grown up and needed looking after, and I was not likely to find another girl who was my equal and who shared my interests.`;
 		}	
@@ -274,20 +274,30 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("exploit")>-1||inputText.toLowerCase().indexOf("communist")>-1){
 			document.getElementById("answer").innerHTML=`I agreed with the Marxists that man did exploit his fellow men through his possession of greater capital or power, and that because a man's output was more than he needed to consume to stay alive, there was a surplus for the employer or landlord to cream off. <br>I was revolted by the way Jan Masaryk, the foreign minister of Czechoslovakia, was killed, found dead after having conveniently "fallen" from a window so that the communists could take over; by the harassment of Cardinal Mindszenty of Hungary, who had to take refuge in the American embassy in Budapest after standing up to them for his Catholic beliefs. Jack Hamson, a Cambridge Law School lecturer and himself a Catholic, was so outraged and sickened by what had happened that he spent a whole hour's lecture on the morning the news broke not on the law of contract, but on the evils of Soviet commu­ nism. It made a deep impression on me and increased my antipathy.`;
 		}
-		else if(inputText.toLowerCase().indexOf("fair society")>-1||inputText.toLowerCase().indexOf("no flaw")>-1){
+		else if(inputText.toLowerCase().indexOf("fair society")>-1||inputText.toLowerCase().indexOf("no flaw")>-1||inputText.toLowerCase().indexOf("flawless")>-1){
 			document.getElementById("answer").innerHTML=`But the idea of an equal, just and fair society appealed to all colonial students, and the British Fabians recommended a step-by-step approach to this ideal state that would make it unnecessary to behead the rich and expropriate their riches. By stages, and without disrupting the economy or creating a social upheaval, the rich would be deprived of their wealth through taxation in their lifetime, and through heavy estate duties when they died. Their children would then have to start out in the world on the same basis as those of poorer parents. I could see no flaw in that. I was too young to know how ingenious British lawyers were in con­structing trust deeds that made it difficult for the government to get too much out of estate duty.`;
 		}
+		else if(inputText.toLowerCase().indexOf("sad")>-1||inputText.toLowerCase().indexOf("independence")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
+			document.getElementById("answer").innerHTML=`He uttered no recriminations, but simply expressed his regret that I had not informed him or his government of what was happening. On my part, I was filled with sadness for having had to conceal from him the final developments of the past three weeks that had ended in separation. I thought he looked sad too. But if I had told Head that the Tunku wanted us out of Malaysia, although what I wanted was a looser federation, he would have found a way to stop the Tunku as it was against British interests to have Singapore separated and independent.`;
+		}
+		else if(inputText.toLowerCase().indexOf("separated")>-1||inputText.toLowerCase().indexOf("merger")>-1){
+			document.getElementById("answer").innerHTML=`For Singapore, 9 August 1965 was no ceremonial occasion. We had never sought independence. In a referendum less than three years ago, we had persuaded 70 per cent of the electorate to vote in favour of merger with Malaya. Since then, Singapore's need to be part and parcel of the Federation in one political, economic, and social polity had not changed. Nothing had changed - except that we were out. We had said that an independent Singapore was simply not viable. Now it was our unenviable task to make it work. How were we to create a nation out of a polyglot collection of migrants from China, India, Malaysia, Indonesia and several other parts of Asia?`;
+		}
+	
+	else if(inputText.toLowerCase().indexOf("singapore economy")>-1||inputText.toLowerCase().indexOf("colonial")>-1){
+		document.getElementById("answer").innerHTML=`For our strategic value to Britain in holding the empire together was vanishing as the empire dissolved. Singapore's economy would be hard hit by any sudden scaling down of the British presence. British defence spending in Singapore accounted for about 20 per cent of our GDP; their military gave employment, directly to 30,000 workers, and indirectly to another 10,000 domestic help, besides those who catered to their other needs. They created employment for more than 10 per cent of the work force at a time when a high population growth of 2.5 per cent per annum was putting enormous pressure on the government for jobs as well as education, health services and housing.`;
+	}
 		//Sample codes*	
-	else if(inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1){
-			document.getElementById("answer").innerHTML=``;
-		}	
-	else if(inputText.toLowerCase().indexOf("xx")>-1&&inputText.toLowerCase().indexOf("xx")>-1){
-			document.getElementById("answer").innerHTML=`<a href="">mt</a>`;
-									}	
-	else if(inputText.toLowerCase().indexOf("xxx")>-1){
-			document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
-	//sample codes***
-	} else {document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+//else if(inputText.toLowerCase().indexOf("")>-1||inputText.//toLowerCase().indexOf("")>-1){
+//		document.getElementById("answer").innerHTML=``;
+//	}	
+//else if(inputText.toLowerCase().indexOf("xx")>-1&&inputText.//toLowerCase().indexOf("xx")>-1){
+//		document.getElementById("answer").innerHTML=`<a href="">mt</a>`;
+//								}	
+//else if(inputText.toLowerCase().indexOf("xxx")>-1){
+//		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
+////sample codes***
+	 else {document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 
 	

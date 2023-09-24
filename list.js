@@ -1,9 +1,9 @@
 function displayAnswer(elementId) {
-    if (elementId === 'tussaud') {
-      alert(`When I visited Madame Tussaud's as a student in the 1940s...there were two groups of figures: the famous and the notorious, either British kings and famous leaders, or notorious murderers. I hope Madame Tussaud's will not put my likeness too close to the notorious." 1998 The Wit & Wisdom of Lee Kuan Yew`);
-    } else if (elementId === 'works') {
-      alert(`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`);
-    }
+    if (elementId === 'lky') {
+    alert(`When I was born, the family consulted a friend knowledgeable in these matters for an auspicious name for me. He suggested "Kuan Yew", the dialect rendering of the Mandarin gu.ang yao, meaning "light and brightness". But my grandfather's admiration for the British made him add "Harry" to my name, so I was Harry Lee Kuan Yew.`);
+} else if (elementId === 'works') {
+    alert(`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`);
+}
  else if (elementId === 'equal') {
     alert(`I started off believing all men were equal. I now know that's the most unlikely thing ever to have been, because millions of years have passed over evolution, people have scattered across the face of this earth, been isolated from each other, developed independently, had different intermixtures between races, peoples, climates, soils... I didn't start off with that knowledge. But by observation, reading, watching, arguing, asking, and then bullying my way to the top, that is the conclusion I've come to.`);
 }
@@ -18,5 +18,8 @@ else if (elementId === 'managing Sg') {
 }
 else if (elementId === 'life to you') {
     alert(`I believe that life is a process of continuous change and a constant struggle to make that change one for the better. Every person, genius or moron, has a right to reproduce himself." Speech on the Abortion Bill, 29 December 1969, Lee Kuan Yew in his own words, 1959-1970. Life is not just eating, drinking, television and cinema...The human mind must be creative, must be self-generating; it cannot depend on just gadgets to amuse itself." Speech at Chinese New Year and Hari Raya Haji Celebrations held at Joo Seng Community Centre, 28th Feb 1970, Lee Kuan Yew in his own words, 1959-1970`);
+}
+else if (elementId === 'tussaud') {
+    alert(`When I visited Madame Tussaud's as a student in the 1940s...there were two groups of figures: the famous and the notorious, either British kings and famous leaders, or notorious murderers. I hope Madame Tussaud's will not put my likeness too close to the notorious." 1998 The Wit & Wisdom of Lee Kuan Yew`);
 }    
 }
