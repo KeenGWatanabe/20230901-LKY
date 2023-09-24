@@ -131,7 +131,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("the press")>-1){
 			document.getElementById("answer").innerHTML=`Freedom of the press, freedom of the news media, must be subordinated to the overriding needs of the integrity of Singapore, and to the primacy of purpose of an elected government", Address To The General Assembly Of The International Press Institute At Helsinki, 9th June, 1971`;
 		}	
-	else if(inputText.toLowerCase().indexOf("mp")>-1||inputText.toLowerCase().indexOf("estate")>-1){
+	else if(/\bmp\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`An MP must now not only be good at speaking but also at getting things done. When an estate is dirty, out of order, and rubbish not regularly and properly collected, that is when residents realise that without regular maintenance, the value of their flats will drop." 1992, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
 	else if(inputText.toLowerCase().indexOf("american")>-1){
@@ -191,8 +191,8 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("nanny")>-1&&inputText.toLowerCase().indexOf("state")>-1){
 			document.getElementById("answer").innerHTML=`If Singapore is a nanny state, then I am proud to have fostered one. (From Third World to First, The Singapore Story: 1965-2000)`;
 		}
-	else if(inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
-			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom`;
+	else if(inputText.toLowerCase().indexOf("state")>-1&&inputText.toLowerCase().indexOf("democratic")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
+			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom of LKY`;
 		}	
 		else if(inputText.toLowerCase().indexOf("the poor")>-1){
 			document.getElementById("answer").innerHTML=`The poor know that you don't get manna falling from heaven, not in Singapore anyway", 1976, The Wit & Wisdom `;
@@ -305,8 +305,19 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("met")>-1&&inputText.toLowerCase().indexOf("wife")>-1||inputText.toLowerCase().indexOf("choo")>-1){
 		document.getElementById("answer").innerHTML=`The gum turned a decent profit, and we made it in two centres. One was my home, with my mother and sister helping; the other was Nyuk Lin's home, where he was helped by his wife and his wife's younger sister, Kwa Geok Choo, the girl who had done better than me at Raffles College. I had seen her again when I first looked for Nyuk Lin in his flat in Tiong Bahru, riding my bicycle with its solid tyres. She was sitting on a veranda when I arrived, and when I asked where I could find him, she smiled and pointed out a staircase around the corner.||She was at home, at a loose end, doing domestic chores as there were no maids. Making gum was one chore that gave her pin money, and my visits to check on production led to a friendship that developed over the months. By September 1944, we knew each other well enough for me to invite Nyuk Lin, his wife and Geok Choo to my 21st birth­day. Memoirs of LKY,1998`;
 	} 
+	else if(inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("written")>-1||inputText.toLowerCase().indexOf("remember")>-1||inputText.toLowerCase().indexOf("recall")>-1){
+		document.getElementById("answer").innerHTML=`I was fortunate in 1995 to gather a team of young researchers. Andrew Tan Kok Kiong, seconded to SPH from the Singapore Administrative Service, was helped by Pang Gek Choo, who worked for the Straits Times, and Alan Chong. They made a thorough search of government archives and ferreted out my correspondence, minutes of important meetings and other relevant documents.||The British Public Record Office in Kew, Richmond yielded Colonial Office and Commonwealth Office documents which gave interesting insights from a British perspective on events from 1955 to 1965. Dennis Bloodworth, an old friend, once foreign correspondent for the London Observer newspaper, went through my drafts. He was thorough in deleting repetitions and suggesting alternatives to my overworked favourite expressions. However, Bloodworth left me to decide what went into my book.Memoirs of LKY,1998.
+		`;
+	}
+	else if(inputText.toLowerCase().indexOf("declare")>-1&&inputText.toLowerCase().indexOf("independence")>-1){
+		document.getElementById("answer").innerHTML=`It was like any other Monday morning in Singapore until the music stopped. At 10 am, the pop tunes on the radio were cut off abruptly. Stunned listeners heard the announcer solemnly read out a proclamation - 90 words that changed the lives of the people of Singapore and Malaysia: "Whereas it is the inalienable right of a people to be free and independent, I, Lee Kuan Yew, prime minister of Singapore, do hereby proclaim and declare on behalf of the people and the government of Singapore that as from today, the ninth day of August in the year one thousand nine hundred and sixty-five, Singapore shall be forever a sovereign, democratic and indepen­dent nation, founded upon the principles of liberty and justice and ever seeking the welfare and happiness of her people in a more just and equal society." Memoirs of LKY,1998`;
+	}
+
+else if(inputText.toLowerCase().indexOf("talak")>-1||inputText.toLowerCase().indexOf("divorce")>-1){
+	document.getElementById("answer").innerHTML=`Singapore was cast out. Under Malay-Muslim custom, a husband, but not the wife, can declare "Talak" (divorce thee) and the woman is divorced. They can reconcile and he can remarry her, but not after he has said "Talak" three times. The three readings in the two chambers of parliament were the three talaks with which Malaysia divorced Singapore.||Singapore went for the substance of the divorce, not its legal formalities. If there was to be separation, I wanted to ensure that the terms were practical, workable and final. To make certain there could be no doubt as to their finality, the Singapore government published the two proclamations in a special government gazette that morning.Memoirs of LKY,1998`;
+}
 		//Sample codes*	
-//		/\bword\b/.
+//		/\bmp\b/.test(inputText.toLowerCase())
 //else if(inputText.toLowerCase().indexOf("")>-1||inputText.//toLowerCase().indexOf("")>-1){
 //		document.getElementById("answer").innerHTML=``;
 //	}	
