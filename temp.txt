@@ -1,8 +1,0 @@
-    var pElement = document.createElement("p");
-    pElement.id = "java"; // Assigning ID to the <p> element
-
-    if (pElement.id === "java") {
-      pElement.textContent = 'This is the answer for "Show Answer".';
-    } else if (pElement.id === "works") {
-      pElement.textContent = 'This is the answer for "everything works".';
-    }
