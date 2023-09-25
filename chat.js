@@ -9,10 +9,10 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 		}
-    else if(inputText.toLowerCase().indexOf("everything work")>-1||inputText.toLowerCase().indexOf("broken")>-1){
+    else if(inputText.toLowerCase().indexOf("run")>-1&&inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||/\bservice\b/.test(inputText.toLowerCase())){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
         }
-    else if(inputText.toLowerCase().indexOf("interfering")>-1||inputText.toLowerCase().indexOf("private lives")>-1){
+    else if(inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("lives")>-1||inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("citizens")>-1){
         	document.getElementById("answer").innerHTML=`“I am often accused of interfering in the private lives of citizens. Yes, if I did not, had I not done that, we wouldn't be here today. And I say without the slightest remorse, that we wouldn't be here, we would not have made economic progress, if we had not intervened on very personal matters - who your neighbour is, how you live, the noise you make, how you spit, or what language you use. We decide what is right. Never mind what the people think.”The Straits Times, 20 April 1987`;
         }
 	else if(inputText.toLowerCase().indexOf("men")>-1&&inputText.toLowerCase().indexOf("equal")>-1||inputText.toLowerCase().indexOf("most unlikely")>-1){
@@ -50,13 +50,13 @@ function lky() {
 			document.getElementById("answer").innerHTML=`You know, the cure for all this talk is really a good dose of incompetent government. You get that alternative and you'll never put Singapore together again: Humpty Dumpty cannot be put together again... my asset values will disappear, my apartments will be worth a fraction of what they were, my ministers' jobs will be in peril, their security will be at risk and their women will become maids in other people's countries, foreign workers. I cannot have that!" - Justifying million-dollar pay hike for Singapore ministers. Hard Truths, LKY`;
 		}	
 	else if(inputText.toLowerCase().indexOf("ruin")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
-			document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore`;
+			document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore. LKY`;
 		}	
 	else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1||inputText.toLowerCase().indexOf("bullshit")>-1){
-			document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology.`;
+			document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology. LKY`;
 		}	
 	else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1){
-			document.getElementById("answer").innerHTML=`Whoever governs Singapore must have that iron in him. Or give it up. This is not a game of cards! This is your life and mine! I've spent a whole lifetime building this and as long as I'm in charge, nobody is going to knock it down`;
+			document.getElementById("answer").innerHTML=`Whoever governs Singapore must have that iron in him. Or give it up. This is not a game of cards! This is your life and mine! I've spent a whole lifetime building this and as long as I'm in charge, nobody is going to knock it down. LKY<br>If I were in authority in Singapore indefinitely, without having to ask those who are governing whether they like what is being done, then I have not the slightest doubt that I could govern much more effectively in their own interests." May, 1962, at the Royal Society of International Affairs, London, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("oxley")>-1||inputText.toLowerCase().indexOf("house")>-1){
 			document.getElementById("answer").innerHTML=`With the Japanese out of the way, many houses became vacant,..we came across two identical houses - Numbers 38 and 40 - built by a Jewish merchant, who named them Castor and Pollux. They were empty except for some heavy furniture, and we decided to make a bid for the tenancy of Number 38. During the 1940s<br>The house will “be demolished immediately after my death or if my daughter, Wei Ling, would prefer to continue living in the original house, immediately after she moves out of the House”.
@@ -84,7 +84,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("say")>-1||inputText.toLowerCase().indexOf("fool")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("ns")>-1){
+	else if(/\bns\b/.test(inputText.toLowerCase())||/\bnational service\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("eugenic")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1||inputText.toLowerCase().indexOf("gene")>-1){
@@ -146,13 +146,13 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("habit")>-1||inputText.toLowerCase().indexOf("control")>-1){
 			document.getElementById("answer").innerHTML=`Repression, Sir is a habit that grows. I am told it is like making love-it is always easier the second time! The first time there may be pangs of conscience, a sense of guilt. But once embarked on this course with constant repetition you get more and more brazen in the attack. All you have to do is to dissolve organizations and societies and banish and detain the key political workers in these societies. Then miraculously everything is tranquil on the surface. Then an intimidated press and the government-controlled radio together can regularly sing your praises, and slowly and steadily the people are made to forget the evil things that have already been done, or if these things are referred to again they’re conveniently distorted and distorted with impunity, because there will be no opposition to contradict.” - as an opposition PAP member speaking to David Marshall, Singapore Legislative Assembly, Debates, 4 October, 1956`;
 		}
-	else if(inputText.toLowerCase().indexOf("authority")>-1||inputText.toLowerCase().indexOf("headline")>-1){
-			document.getElementById("answer").innerHTML=`I have no headline material to offer you tonight. In fact, I believe that the art of Government is, in part, the art of not creating headlines in the world press." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970<br>f I were in authority in Singapore indefinitely, without having to ask those who are governing whether they like what is being done, then I have not the slightest doubt that I could govern much more effectively in their own interests." May, 1962, at the Royal Society of International Affairs, London, Lee Kuan Yew in his own words, 1959-1970`;
+	else if(inputText.toLowerCase().indexOf("headline")>-1){
+			document.getElementById("answer").innerHTML=`I have no headline material to offer you tonight. In fact, I believe that the art of Government is, in part, the art of not creating headlines in the world press." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
 	else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1){
 			document.getElementById("answer").innerHTML=`Today, I was a bit late because I took some time in getting up; slept late last night; some work to be done; two functions in the evening. But that is important. I like to tell you this because I think this is what we all must do: 'sleep well of nights'. You know Shakespeare, 'Give me men that sleep well of nights'. That is what he said. I think it right. Men who worry, you know, read all this, and they start shouting all this they get worried themselves, night time comes, they can't sleep. Next morning they wake up, mind befuddled, wrong decisions, more trouble!" Tanjong Katong School, during tour of Mountbatten Constituency, 13th June, 1965 Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1&&inputText.toLowerCase().indexOf("light")>-1){
+	else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1&&inputText.toLowerCase().indexOf("light")>-1||inputText.toLowerCase().indexOf("humour")>-1){
 			document.getElementById("answer").innerHTML=`I would not call myself 'fun-loving' or 'light-hearted'. But I am not serious all the time. Everyone needs to have a good laugh now and then, to see the funny side of things, and to laugh at himself`;
 		}
 	else if(inputText.toLowerCase().indexOf("singaporean")>-1||inputText.toLowerCase().indexOf("cowpeh")>-1){
@@ -173,7 +173,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("critic")>-1||inputText.toLowerCase().indexOf("oppose")>-1){
 			document.getElementById("answer").innerHTML=`Not all who oppose the PAP are communists; some are communists, some reactionaries, some opportunists and some merely confused." 1961, The Wit & Wisdom of Lee Kuan Yew`;
 		}			
-	else if(inputText.toLowerCase().indexOf("people")>-1||inputText.toLowerCase().indexOf("vision")>-1){
+	else if(inputText.toLowerCase().indexOf("keep going")>-1||inputText.toLowerCase().indexOf("get elected")>-1){
 			document.getElementById("answer").innerHTML=`You've got to do one of two things when you've got to keep people happy: either, give them something that will satisfy them, better food, better clothes, better homes; or if you can't do that, then give them the vision of greatness to come". Luncheon held by the Australian Institue of Management at the Australia Hotel, Sydney, Australia, 22 March, 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("multiparty")>-1){
@@ -182,7 +182,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("news")>-1||inputText.toLowerCase().indexOf("good")>-1){
 			document.getElementById("answer").innerHTML=`I have always thought it strange that a country figures prominently in the world press mainly when it is in trouble...Nobody in the rest of the world heard much about Singapore until it was captured by the Japanese in 1942 or again until there were riots in 1955 and 1956 in the course of one of which two members of your fraternity were killed. I have come to believe that, so far as the foreign press is concerned, no news is good news." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970`;
 		}
-	else if(inputText.toLowerCase().indexOf("laurels")>-1&&inputText.toLowerCase().indexOf("rest")>-1){
+	else if(inputText.toLowerCase().indexOf("when")>-1&&inputText.toLowerCase().indexOf("rest")>-1||inputText.toLowerCase().indexOf("retire")>-1){
 			document.getElementById("answer").innerHTML=`Rest on laurels? I wish I could do that. No, you rest when you're dead". 1978, The Wit & Wisdom`;
 		}	
 	else if(inputText.toLowerCase().indexOf("correct")>-1){
@@ -191,13 +191,13 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("nanny")>-1&&inputText.toLowerCase().indexOf("state")>-1){
 			document.getElementById("answer").innerHTML=`If Singapore is a nanny state, then I am proud to have fostered one. (From Third World to First, The Singapore Story: 1965-2000)`;
 		}
-	else if(inputText.toLowerCase().indexOf("state")>-1&&inputText.toLowerCase().indexOf("democratic")>-1||inputText.toLowerCase().indexOf("civil service")>-1){
-			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been elected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom of LKY`;
+	else if(inputText.toLowerCase().indexOf("state")>-1&&inputText.toLowerCase().indexOf("democratic")>-1||inputText.toLowerCase().indexOf("elected by")>-1){
+			document.getElementById("answer").innerHTML=`The theory of the democratic state is that there is a good motor car in good mechanical condition, with mechanics, fitters and so on to keep it sound. And there is a driver there to take the minister where he wants to go. It is for the minister, having been yelected by the people, to decide where the driver is to go and how and by what route. It is the business of the civil service - the driver, the fitters and the rest - to keep that car in sound mechanical condition." The Wit & Wisdom of LKY`;
 		}	
 		else if(inputText.toLowerCase().indexOf("the poor")>-1){
 			document.getElementById("answer").innerHTML=`The poor know that you don't get manna falling from heaven, not in Singapore anyway", 1976, The Wit & Wisdom `;
 		}
-		else if(inputText.toLowerCase().indexOf("stooge")>-1||inputText.toLowerCase().indexOf("nobody")>-1){
+		else if(inputText.toLowerCase().indexOf("allies")>-1||inputText.toLowerCase().indexOf("friends with")>-1||inputText.toLowerCase().indexOf("pro china")>-1||inputText.toLowerCase().indexOf("pro usa")>-1){
 			document.getElementById("answer").innerHTML=`I am nobody's stooge. I am not here to play somebody else's game. I have a few million people's lives to account for. And Singapore will survive will trade with the whole world and will remain non Communist", Press Conference at City Hall, 26th August 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 		else if(inputText.toLowerCase().indexOf("survival")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
@@ -262,7 +262,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("culture shock")>-1){
 			document.getElementById("answer").innerHTML=`The most active in canvassing among the colonial students were the communists. They masqueraded under the name Socialist Club, but I soon discovered their Marxist colours and their trick of having attractive British women students on hand to lobby African, Caribbean and the few Asian undergraduates. I steered clear of them all. I was suffering from culture shock before the phrase was coined. Memoirs of LKY,1998`;
 		}		
-		else if(inputText.toLowerCase().indexOf("remorse")>-1||inputText.toLowerCase().indexOf("let him down")>-1){
+		else if(inputText.toLowerCase().indexOf("felt remorse")>-1||inputText.toLowerCase().indexOf("let him down")>-1){
 			document.getElementById("answer").innerHTML=`I wrote to Professor Hughes Parry I had decided to leave the LSE and go to Cambridge instead. I got an angry reply. "I would remind you that I went out of my way to persuade the authorities of this school to accept you when we had turned others away," he wrote. "Your conduct shows that I was wrong in my estimate of you and that I should not have been so ready to help." On getting this letter, I decided to see him personally, to face him and take my medicine...But I have always felt remorse at having let him down after the special favour he extended to me. When he became vice-chancellor of London University in the late 1970s and I was prime minister of Singapore, I thought of writing to him but decided it might be better to let it pass. Perhaps I should have, just to tell him I had not forgotten his kindness.Memoirs of LKY,1998 `;
 		}	
 		else if(inputText.toLowerCase().indexOf("socialism")>-1){
