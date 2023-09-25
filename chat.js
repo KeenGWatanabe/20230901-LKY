@@ -164,7 +164,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("baby bonus")>-1){
 			document.getElementById("answer").innerHTML=`If I were in charge of Singapore today, I would introduce a baby bonus equal to two years’ worth of the average Singaporean’s salary." One Man's View of the World.`;
 		}	
-	else if(inputText.toLowerCase().indexOf("tussaud")>-1){
+	else if(/\btussaud\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`When I visited Madame Tussaud's as a student in the 1940s...there were two groups of figures: the famous and the notorious, either British kings and famous leaders, or notorious murderers. I hope Madame Tussaud's will not put my likeness too close to the notorious." 1998 The Wit & Wisdom of Lee Kuan Yew`;
 		}
 	else if(inputText.toLowerCase().indexOf("anger")>-1||inputText.toLowerCase().indexOf("temper")>-1){
@@ -173,7 +173,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("critic")>-1||inputText.toLowerCase().indexOf("oppose")>-1){
 			document.getElementById("answer").innerHTML=`Not all who oppose the PAP are communists; some are communists, some reactionaries, some opportunists and some merely confused." 1961, The Wit & Wisdom of Lee Kuan Yew`;
 		}			
-	else if(inputText.toLowerCase().indexOf("keep going")>-1||inputText.toLowerCase().indexOf("get elected")>-1){
+	else if(inputText.toLowerCase().indexOf("elect")>-1&&inputText.toLowerCase().indexOf("get")>-1||inputText.toLowerCase().indexOf("keep going")>-1){
 			document.getElementById("answer").innerHTML=`You've got to do one of two things when you've got to keep people happy: either, give them something that will satisfy them, better food, better clothes, better homes; or if you can't do that, then give them the vision of greatness to come". Luncheon held by the Australian Institue of Management at the Australia Hotel, Sydney, Australia, 22 March, 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("multiparty")>-1){
@@ -197,29 +197,29 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("the poor")>-1){
 			document.getElementById("answer").innerHTML=`The poor know that you don't get manna falling from heaven, not in Singapore anyway", 1976, The Wit & Wisdom `;
 		}
-		else if(inputText.toLowerCase().indexOf("allies")>-1||inputText.toLowerCase().indexOf("friends with")>-1||inputText.toLowerCase().indexOf("pro china")>-1||inputText.toLowerCase().indexOf("pro usa")>-1){
+		else if(inputText.toLowerCase().indexOf("friends with")>-1||inputText.toLowerCase().indexOf("affiliat")>-1||inputText.toLowerCase().indexOf("pro-china")>-1||inputText.indexOf("pro-US")>-1){
 			document.getElementById("answer").innerHTML=`I am nobody's stooge. I am not here to play somebody else's game. I have a few million people's lives to account for. And Singapore will survive will trade with the whole world and will remain non Communist", Press Conference at City Hall, 26th August 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}
-		else if(inputText.toLowerCase().indexOf("survival")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
+		else if(inputText.toLowerCase().indexOf("focus")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
 			document.getElementById("answer").innerHTML=`What are our priorities? First, the welfare, the survival of the people. Then, democratic norms and processes which from time to time we have to suspend.”- 1986 National Day Rally`;
 		}
 		else if(inputText.toLowerCase().indexOf("pap")>-1){
 			document.getElementById("answer").innerHTML=` I make no apologies that the PAP is the Government and the Government is the PAP. Petir, 1982`;
 		}
-		else if(inputText.toLowerCase().indexOf("grave")>-1||inputText.toLowerCase().indexOf("sick bed")>-1){
+		else if(inputText.toLowerCase().indexOf("grave")>-1||inputText.toLowerCase().indexOf("sick bed")>-1||inputText.toLowerCase().indexOf("wrong")>-1&&inputText.toLowerCase().indexOf("something")>-1){
 			document.getElementById("answer").innerHTML=`Even from my sick bed, even if you are going to lower me into the grave and I feel something is going wrong, I will get up. (1988 National Day Rally)`;
 		}
 		else if(inputText.toLowerCase().indexOf("repent")>-1||inputText.toLowerCase().indexOf("aljunied")>-1){
 			document.getElementById("answer").innerHTML=` If Aljunied decides to go that way, well Aljunied has five years to live and repent, General Elections 2011<br>At the end of the day, if you are in Aljunied, ask yourself: Do you want one MP, one Non-Constituency MP, one celebrity who has been away 30 years, and two unknowns to look after you? Or would you prefer me and my hand-picked colleagues?" General Elections 2011`;
 		}
-		else if(inputText.toLowerCase().indexOf("colleague")>-1||inputText.toLowerCase().indexOf("intimidat")>-1){
+		else if(inputText.toLowerCase().indexOf("colleague")>-1||inputText.toLowerCase().indexOf("intimidat")>-1||inputText.toLowerCase().indexOf("attack")>-1){
 			document.getElementById("answer").innerHTML=`My colleagues are not intimidated by me. Far from it. They speak their minds. Nothing has happened to them. But if we allow vicious, evil attacks to pass unchallenged - then the whole system must be undermined." 1988 The Wit & Wisdom`;
 		}
 		else if(inputText.toLowerCase().indexOf("accused")>-1||inputText.toLowerCase().indexOf("speak")>-1){
 			document.getElementById("answer").innerHTML=`I have been accused of many things in my life, but not even my worst enemy has ever accused me of being afraid to speak my mind." 1955, The Wit & Wisdom`;
 		}
 		else if(inputText.toLowerCase().indexOf("vote")>-1||inputText.toLowerCase().indexOf("voting")>-1){
-			document.getElementById("answer").innerHTML=`One-man-one-vote is a most difficult form of government.. Results can be erratic.” -  Dec 19 1984`;
+			document.getElementById("answer").innerHTML=`One-man-one-vote is a most difficult form of government.. Results can be erratic.” -  19 Dec 1984`;
 		}
 		else if(inputText.toLowerCase().indexOf("hard truths")>-1){
 			document.getElementById("answer").innerHTML=`Hard Truths was a book based on 32 hours of interviews over a period of two years. I made this one comment on the Muslims integrating with other communities probably two or three years ago. Ministers and MPs, both Malay and non-Malay, have since told me that Singapore Malays have indeed made special efforts to integrate with the other communities, especially since 9/11, and that my call is out of date. I stand corrected, but only just this instance! I hope that this trend will continue in the future.`;
@@ -228,16 +228,31 @@ function lky() {
 			document.getElementById("answer").innerHTML=`This is not an official history. It is the story of the Singapore I grew up in, the placid years of British colonial rule, the shock of war, the cruel years of Japanese occupation, communist insurrection and terrorism against the returning British, communal riots and intimidation during Malaysia, and the perils of independence. Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("childhood")>-1||inputText.toLowerCase().indexOf("growing up")>-1){
-			document.getElementById("answer").innerHTML=`Born in Singapore on 16 September 1923, in a two-storey bungalow at 92 Kampong Java Road. His earliest vivid recollection was of being held by his ears over a well, now Tembeling Road in Singapore. He was about 4 years old. After having messed up his father's 4711 pale green scented brilliantine(an expensive jar). His father's rage went through the roof. "How could my ears have been so tough that they were not ripped off, dropping me into that well?" he thought. Fifty years later, in the 70s, he read in a Scientific journal explaining how pain and shock released neuropeptides in the brain, stamping the new experience into the brain cells and thus ensuring that the experience would be remembered for a long time afterwards. Memoirs of LKY,1998`;
+			document.getElementById("answer").innerHTML=`Born in Singapore on 16 September 1923, in a two-storey bungalow at 92 Kampong Java Road. My earliest and most vivid recollection was of being held by my ears over a well, now Tembeling Road in Singapore. I was about 4 years old.||After having messed up an expensive jar of my father's pale green scented brilliantine. My father's rage went through the roof. "How could my ears have been so tough that they were not ripped off, dropping me into that well?" he thought. Fifty years later, in the 1970s, I read in the Scientific American an article explaining how pain and shock released neuropeptides in the brain, stamping the new experience into the brain cells and thus ensuring that the experience would be remembered for a long time afterwards. Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("parents")>-1||inputText.toLowerCase().indexOf("rich man")>-1){
-			document.getElementById("answer").innerHTML=`mother: Chua Jim Neo. father: Lee Chin Koon. His parents had arranged the marriage a year previously. His father was a rich man's son. Used to boast to him that, when he was young, his father allowed him a limitless account at Robinsons and John Little, the two top department stores in Raffles Place, where he could charge to this account any suit or other items he fancied. Memoirs of LKY,1998`;
+		else if(/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("your")>-1){
+			document.getElementById("answer").innerHTML=`My father had been brought up a rich man's son. He used to boast to us that, when he was young, his father allowed him a limitless account at Robinsons and John Little, the two top department stores in Raffles Place, where he could charge to this account any suit or other items he fancied. He was educated in English at St Joseph's Institution, a Catholic mission school founded by the De La Salle Brothers in 1852. He said he completed his Junior School Certificate, after which he ended his formal education - to his and my mother's eternal regret.. Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("SJI")>-1||inputText.toLowerCase().indexOf("father's education")>-1){
-			document.getElementById("answer").innerHTML=`He was educated in English at St Joseph's Institution, a Catholic mission school founded by the De La Salle Brothers in 1852. After completed his Junior School Certificate, ended his formal education - to him and his mother's eternal regret. Without a profession, he could only get a job as a storekeeper with the Shell Oil Company as the fortunes of both families were destroyed in the Great Depression. Memoirs of LKY,1998`;
+		else if(inputText.toLowerCase().indexOf("parents")>-1&&inputText.toLowerCase().indexOf("your")>-1){
+			document.getElementById("answer").innerHTML=`My mother, Chua Jim Neo, was then 16 years old. My father, Lee Chin Koon, was 20. Their parents had arranged the marriage a year previously. Both families must have thought it an excellent match, for they later married my father's younger sister to my mother's younger brother. Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("lee hoon leong")>-1){
-			document.getElementById("answer").innerHTML=`According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon (great grandfather) was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong. He had migrated to Singapore on a Chinese junk. Little is known of him after that until 1870, when he married a Chinese girl, Seow Huan Neo, born in Singapore to a Hakka shopkeeper. In 1882 he decided ...... to return to his ancestral village in China, ... His wife, however, did not want to leave her family in Singapore and go to some place she had never seen. According to my grandfather (Lee Hoon Leong), who was then about ten, the children and their mother went into hiding with her family in Ah Hood Road. Lee Bok Boon went back to China alone. There he married again, .... My grandfather, Lee Hoon Leong - whom I addressed as Kung or "grandfather" in Chinese - was born in Singapore in 1871.Memoirs of LKY,1998`;
+		else if(/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("job")>-1){
+			document.getElementById("answer").innerHTML=`Being without a profession, he could only get a job as a storekeeper with the Shell Oil Company when the fortunes of both families were destroyed in the Great Depression. Memoirs of LKY,1998`;
+		}
+		else if(/\borigin\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("china")>-1||inputText.toLowerCase().indexOf("chinese")>-1){
+			document.getElementById("answer").innerHTML=`My family history in Singapore began with my paternal great­ grandfather, Lee Bok Boon, a Hakka. The Hakkas are Han Chinese from the northern and central plains of China who migrated to Fujian, Guangdong and other provinces in the south some 700 to 1,000 years ago, and as latecomers were only able to squeeze themselves into the less fertile and more hilly areas unoccupied by the local inhabitants. According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong. He had migrated to Singapore on a Chinese junk. Little is known of him after that until 1870, when he married a Chinese girl, Seow Huan Neo, born in Singapore to a Hakka shopkeeper. Memoirs of LKY,1998`;
+		}
+		else if(inputText.toLowerCase().indexOf("grandfather")>-1&&inputText.toLowerCase().indexOf("your")>-1){
+			document.getElementById("answer").innerHTML=`My grandfather, Lee Hoon Leong - whom I addressed as Kung or "grandfather" in Chinese - was born in Singapore in 1871, and according to my father was educated at Raffles Institution up to standard V, which would be today's lower secondary school. He himself told me he worked as a dispenser (an unqualified pharmacist) when he left school, but after a few years became a purser on board a steamer plying between Singapore and the Dutch East lndies. The ship was part of a fleet belonging to the Heap Eng Moh Shipping Line, which was owned by the Chinese millionaire sugar king of Java, Oei Tiong Ham. ln between his travels he married my grandmother, Ko Liem Nia, in Semarang, a city in central Java. .Memoirs of LKY,1998`;
+		}
+		else if(/\bgrandfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("fortune")>-1){
+			document.getElementById("answer").innerHTML=`His fortunes rose as he gained the confidence of Oei Tiong Ham, who appointed him his attorney to manage his affairs in Singapore. Kung told me how he was so trusted that in 1926, on his own authority, he donated $150,000, then a princely sum, from Oei's funds towards the foundation of Raffles College. Between my father and my grandfather, there was no question as to whom I admired more. My grandfather loved and pampered me. My father, the disciplinarian in the family, was tough with me. My grandfather had acquired great wealth. My father was just a rich man's son, with little to show for himself. Memoirs of LKY,1998`;
+		}
+		else if(inputText.toLowerCase().indexOf("great depression")>-1){
+			document.getElementById("answer").innerHTML=`When the family fortunes declined during the Great Depression, which caused rubber prices to fall from a high of 80 cents per pound to some 20 cents between 1927 and 1930, Kung was badly hit. He must have had less business sense than my mother's father, Chua Kim Teng. The Chua fortunes also suffered because Chua had invested in rubber estates and had speculated on the rubber market. But he had gone into property as well. He owned markets and shophouses and he was not wiped out, as Kung was. So it was that by 1929 my parents had moved from Kung's home to Chua's large rambling house in Telok Kurau. Memoirs of LKY,1998`;
+		}
+		else if(inputText.toLowerCase().indexOf("impression")>-1&&inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("colonial")>-1||inputText.toLowerCase().indexOf("british")>-1){
+			document.getElementById("answer").innerHTML=`Kung was very Westernised, the result of his years as a purser on board ships with British captains, first officers and chief engineers. He used to recount to me his experiences, stories of how rigidly discipline was maintained on board a ship. For example, despite the heat and humidity of the tropics, the captain, the other officers and he, as purser, dressed in buttoned-up white cotton drill suits for dinner, which was served with plates, forks, knives and napkins, all properly laid out. From his accounts of his journeys in the region, the British officers left him with a lasting impression of order, strength and efficiency.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1||inputText.toLowerCase().indexOf("sph")>-1){
 			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
@@ -327,7 +342,7 @@ else if(inputText.toLowerCase().indexOf("talak")>-1||inputText.toLowerCase().ind
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
-	 else {document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+	 else {document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 
 	
