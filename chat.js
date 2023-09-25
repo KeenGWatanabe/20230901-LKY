@@ -15,35 +15,35 @@ function lky() {
     else if(inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("lives")>-1||inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("citizens")>-1){
         	document.getElementById("answer").innerHTML=`“I am often accused of interfering in the private lives of citizens. Yes, if I did not, had I not done that, we wouldn't be here today. And I say without the slightest remorse, that we wouldn't be here, we would not have made economic progress, if we had not intervened on very personal matters - who your neighbour is, how you live, the noise you make, how you spit, or what language you use. We decide what is right. Never mind what the people think.”The Straits Times, 20 April 1987`;
         }
-	else if(inputText.toLowerCase().indexOf("men")>-1&&inputText.toLowerCase().indexOf("equal")>-1||inputText.toLowerCase().indexOf("most unlikely")>-1){
+	else if(inputText.toLowerCase().indexOf("men")>-1&&inputText.toLowerCase().indexOf("equal")>-1||inputText.toLowerCase().indexOf("equality")>-1){
 			document.getElementById("answer").innerHTML=`I started off believing all men were equal. I now know that's the most unlikely thing ever to have been, because millions of years have passed over evolution, people have scattered across the face of this earth, been isolated from each other, developed independently, had different intermixtures between races, peoples, climates, soils... I didn't start off with that knowledge. But by observation, reading, watching, arguing, asking, and then bullying my way to the top, that is the conclusion I've come to.Memoirs of LKY,1998`;
 		}
-	else if(inputText.toLowerCase().indexOf("polling")>-1||inputText.toLowerCase().indexOf("weakness")>-1||inputText.toLowerCase().indexOf("opinion")>-1){
+	else if(inputText.toLowerCase().indexOf("polling")>-1||inputText.toLowerCase().indexOf("polls")>-1||inputText.toLowerCase().indexOf("opinion")>-1){
 			document.getElementById("answer").innerHTML=`I ignore polling as a method of government. I think that shows a certain weakness of mind - an inability to chart a course whichever way the wind blows, whichever way the media encourages the people to go, you follow. If you can't force or are unwilling to force your people to follow you, with or without threats, you are not a leader.Memoirs of LKY,1998`;
 		}	
 	else if(inputText.toLowerCase().indexOf("great")>-1&&inputText.toLowerCase().indexOf("nation")>-1){
 			document.getElementById("answer").innerHTML=`A nation is great not by its size alone. It is the will, the cohesion, the stamina, the discipline of its people and the quality of their leaders which ensure it an honourable place in history.Memoirs of LKY,1998`;
 		}
-	else if(inputText.toLowerCase().indexOf("dogs")>-1||inputText.toLowerCase().indexOf("train adult")>-1){
+	else if(inputText.toLowerCase().indexOf("dealing")>-1||inputText.toLowerCase().indexOf("kind of society")>-1||inputText.toLowerCase().indexOf("gracious")>-1&&inputText.toLowerCase().indexOf("society")>-1){
 			document.getElementById("answer").innerHTML=`Mine is a very matter-of-fact approach to the problem. If you can select a population and they're educated and they're properly brought up, then you don't have to use too much of the stick because they would already have been trained. It's like with dogs. You train it in a proper way from small. It will know that it's got to leave, go outside to pee and to defecate. No, we are not that kind of society. We had to train adult dogs who even today deliberately urinate in the lifts.Memoirs of LKY,1998`;
 		}
-	else if(inputText.toLowerCase().indexOf("life")>-1||inputText.toLowerCase().indexOf("continuous")>-1){
+	else if(inputText.toLowerCase().indexOf("life")>-1||inputText.toLowerCase().indexOf("abortion")>-1){
 			document.getElementById("answer").innerHTML=`I believe that life is a process of continuous change and a constant struggle to make that change one for the better.<br>Every person, genius or moron, has a right to reproduce himself." Speech on the Abortion Bill, 29 December 1969, Lee Kuan Yew in his own words, 1959-1970<br>Life is not just eating, drinking, television and cinema...The human mind must be creative, must be self-generating; it cannot depend on just gadgets to amuse itself." Speech at Chinese New Year and Hari Raya Haji Celebrations held at Joo Seng Community Centre, 28th Feb 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("task")>-1||inputText.toLowerCase().indexOf("job")>-1&&inputText.toLowerCase().indexOf("leader")>-1){
 			document.getElementById("answer").innerHTML=`The task of the leaders must be to provide or create for them a strong framework within which they can learn, work hard, be productive and be rewarded accordingly. And this is not easy to achieve.<br>No, your job as a leader is to inspire and to galvanize, not to share your distraught thoughts. You make your people dispirited.<br>I do not yet know of a man who became a leader as a result of having undergone a leadership course." 1957, The Wit & Wisdom of Lee Kuan Yew<br>Amazingly, throughout most of the contemporary Western world leaders in government require no special training or qualification. Many get elected because they sound and look good on television. The results have been unhappy for their voters." 1996, The Wit & Wisdom of Lee Kuan Yew`;
 		}
-	else if(inputText.toLowerCase().indexOf("successful")>-1&&inputText.toLowerCase().indexOf("society")>-1){
+	else if(inputText.toLowerCase().indexOf("success")>-1&&inputText.toLowerCase().indexOf("society")>-1){
 			document.getElementById("answer").innerHTML=`A society to be successful must maintain a balance between nurturing excellence and encouraging the average to improve.Memoirs of LKY,1998`;
 		}					
-	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("tianan")>-1){
+	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("tianan")>-1||inputText.toLowerCase().indexOf("deng xiaopin")>-1){
 			document.getElementById("answer").innerHTML=`He took over, and he said: 'If I have to shoot 200,000 students to save China from another 100 years of disorder, so be it.'" - Recalling how former Chinese leader Deng Xiaoping dealt with the 1989 Tiananmen Square protests.Memoirs of LKY,1998`;
 		}
 	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberali")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.Memoirs of LKY,1998`;
 		}
-	else if(inputText.toLowerCase().indexOf("catherine lim")>-1|inputText.toLowerCase().indexOf("chinese")>-1||inputText.toLowerCase().indexOf("knuckle")>-1){
-			document.getElementById("answer").innerHTML=`Supposing Catherine Lim was writing about me and not the prime minister...She would not dare, right? Because my posture, my response has been such that nobody doubts that if you take me on, I will put on knuckle-dusters and catch you in a cul de sac...Anybody who decides to take me on needs to put on knuckle dusters. If you think you can hurt me more than I can hurt you, try. There is no other way you can govern a Chinese society.Memoirs of LKY,1998`;
+	else if(inputText.toLowerCase().indexOf("catherine lim")>-1|inputText.toLowerCase().indexOf("chinese")>-1&&inputText.toLowerCase().indexOf("govern")>-1){
+			document.getElementById("answer").innerHTML=`Supposing Catherine Lim was writing about me and not the prime minister...She would not dare, right? Because my posture, my response has been such that nobody doubts that if you take me on, I will put on knuckle-dusters and catch you in a cul de sac...Anybody who decides to take me on needs to put on knuckle dusters. If you think you can hurt me more than I can hurt you, try. There is no other way you can govern a Chinese society. Memoirs of LKY,1998`;
 		}
 	else if(inputText.toLowerCase().indexOf("million")>-1
 		||inputText.toLowerCase().indexOf("pay")>-1&&inputText.toLowerCase().indexOf("minister")>-1){
