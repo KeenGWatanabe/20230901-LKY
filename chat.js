@@ -9,9 +9,9 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 		}
-    else if(inputText.toLowerCase().indexOf("run")>-1&&inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||/\bservice\b/.test(inputText.toLowerCase())){
+    else if(inputText.toLowerCase().indexOf("civil service")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
-        }
+		}
     else if(inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("lives")>-1||inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("citizens")>-1){
         	document.getElementById("answer").innerHTML=`“I am often accused of interfering in the private lives of citizens. Yes, if I did not, had I not done that, we wouldn't be here today. And I say without the slightest remorse, that we wouldn't be here, we would not have made economic progress, if we had not intervened on very personal matters - who your neighbour is, how you live, the noise you make, how you spit, or what language you use. We decide what is right. Never mind what the people think.”The Straits Times, 20 April 1987`;
         }
@@ -84,7 +84,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("say")>-1||inputText.toLowerCase().indexOf("fool")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("conscript")>-1||inputText.toLowerCase().indexOf("enlistment")>-1){
+	else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("enlistment")>-1){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, on NS, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("eugenic")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1||inputText.toLowerCase().indexOf("gene")>-1){
@@ -286,7 +286,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("marxist")>-1||inputText.toLowerCase().indexOf("communist")>-1){
 			document.getElementById("answer").innerHTML=`I agreed with the Marxists that man did exploit his fellow men through his possession of greater capital/power, and that because a man's output was more than he needed to consume to stay alive, there was a surplus for the employer or landlord to cream off. <br>I was revolted by the way Jan Masaryk, the foreign minister of Czechoslovakia, was killed, found dead after having conveniently "fallen" from a window so that the communists could take over; by the harassment of Cardinal Mindszenty of Hungary, who had to take refuge in the American embassy in Budapest after standing up to them for his Catholic beliefs. Jack Hamson, a Cambridge Law School lecturer and himself a Catholic, was so outraged and sickened by what had happened that he spent a whole hour's lecture on the morning the news broke not on the law of contract, but on the evils of Soviet commu­nism. It made a deep impression on me and increased my antipathy.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("ideal")>-1&&inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("flawless")>-1||inputText.toLowerCase().indexOf("society")>-1){
+		else if(inputText.toLowerCase().indexOf("ideal")>-1&&inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("flawless")>-1){
 			document.getElementById("answer").innerHTML=`But the idea of an equal, just and fair society appealed to all colonial students, and the British Fabians recommended a step-by-step approach to this ideal state that would make it unnecessary to behead the rich and expropriate their riches. By stages, and without disrupting the economy or creating a social upheaval, the rich would be deprived of their wealth through taxation in their lifetime, and through heavy estate duties when they died. Their children would then have to start out in the world on the same basis as those of poorer parents. I could see no flaw in that. I was too young to know how ingenious British lawyers were in con­structing trust deeds that made it difficult for the government to get too much out of estate duty.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("sad")>-1||inputText.toLowerCase().indexOf("independence")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
