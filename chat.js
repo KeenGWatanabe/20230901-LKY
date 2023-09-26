@@ -258,7 +258,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("after the war")>-1&&inputText.toLowerCase().indexOf("soldiers")>-1||inputText.toLowerCase().indexOf("british")>-1){
 			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had taken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese. Memoirs of LKY,1998`;
 		}	
-		else if(inputText.toLowerCase().indexOf("car")>-1){
+		else if(/\bcar\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`But in November 1945, I could afford to buy a second-hand car, a prewar Morris refurbished with spares now available from the British army. As my business improved, I sold it at a profit after a few months and bought a pre-war Ford V8, restored to good condition. It must have been used by a Japanese general during the occupation.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("kwa geok choo")>-1){
@@ -324,12 +324,15 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("declar")>-1&&inputText.toLowerCase().indexOf("independence")>-1){
 		document.getElementById("answer").innerHTML=`It was like any other Monday morning in Singapore until the music stopped. At 10 am, the pop tunes on the radio were cut off abruptly. Stunned listeners heard the announcer solemnly read out a proclamation - 90 words that changed the lives of the people of Singapore and Malaysia: "Whereas it is the inalienable right of a people to be free and independent, I, Lee Kuan Yew, prime minister of Singapore, do hereby proclaim and declare on behalf of the people and the government of Singapore that as from today, the ninth day of August in the year one thousand nine hundred and sixty-five, Singapore shall be forever a sovereign, democratic and indepen­dent nation, founded upon the principles of liberty and justice and ever seeking the welfare and happiness of her people in a more just and equal society." Memoirs of LKY,1998`;
 	}
-
 else if(inputText.toLowerCase().indexOf("talak")>-1||inputText.toLowerCase().indexOf("divorce")>-1){
 	document.getElementById("answer").innerHTML=`Singapore was cast out. Under Malay-Muslim custom, a husband, but not the wife, can declare "Talak" (divorce thee) and the woman is divorced. They can reconcile and he can remarry her, but not after he has said "Talak" three times. The three readings in the two chambers of parliament were the three talaks with which Malaysia divorced Singapore.||Singapore went for the substance of the divorce, not its legal formalities. If there was to be separation, I wanted to ensure that the terms were practical, workable and final. To make certain there could be no doubt as to their finality, the Singapore government published the two proclamations in a special government gazette that morning.Memoirs of LKY,1998`;
 }
+else if(inputText.toLowerCase().indexOf("holidays")>-1||inputText.toLowerCase().indexOf("bullock")>-1){
+	document.getElementById("answer").innerHTML=`For holidays, the family would spend up to a week at a wooden house in my grandfather Chua's rubber estate in Chai Chee. To get to the estate from Changi Road, we rode down a track in a bullock cart, its two bullocks driven by my grandmother's gardener. The cart had wooden wheels with metal rims and no shock absorbers, so that half mile ride on the rutted clay track was hilariously bumpy. Fifty years later, in 1977, as I travelled in a Concorde from London to New York and crossed the Atlantic in three hours, I wondered if any of my fellow passengers had ever experienced the joy of a bullock-cart ride.Memoirs of LKY,1998`;
+}
 		//Sample codes*	
-//		/\bmp\b/.test(inputText.toLowerCase())
+//else if(/\bgrandfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("")>-1){
+//	document.getElementById("answer").innerHTML=``;}
 //else if(inputText.toLowerCase().indexOf("")>-1||inputText.//toLowerCase().indexOf("")>-1){
 //		document.getElementById("answer").innerHTML=``;
 //	}	
