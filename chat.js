@@ -122,8 +122,8 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("meditat")>-1||inputText.toLowerCase().indexOf("stress")>-1){
 			document.getElementById("answer").innerHTML=` I used to meditate. I started meditation about 1992 when my friend, who was speaker of Parliament, retired, and was dying of lung cancer...I found my breathing slows down and I think my heartbeat goes down and my blood pressure goes down. So, I use that as a kind of escape from stress.`;
 		}	
-	else if(inputText.toLowerCase().indexOf("write")>-1||inputText.toLowerCase().indexOf("book")>-1){
-			document.getElementById("answer").innerHTML=`Well, my purpose in writing my books is to get the average 'O' level graduates, which is Grade 10 graduates, to read it and understand it.`;
+	else if(inputText.toLowerCase().indexOf("write")>-1&&inputText.toLowerCase().indexOf("book")>-1){
+			document.getElementById("answer").innerHTML=`Well, my purpose in writing my books is to get the average 'O' level graduates, which is Grade 10 graduates, to read it and understand it.<br>Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published. LKY`;
 		}	
 	else if(inputText.toLowerCase().indexOf("homo")>-1||inputText.toLowerCase().indexOf("gay")>-1){
 			document.getElementById("answer").innerHTML=`No it’s not a lifestyle. You can read the books you want, all the articles. You know that there’s a genetic difference. They are born that way and that’s that. So if two men or two women are that way, just leave them alone." Hard Truths to Keep Singapore Going<br>If in fact it is true, and I have asked doctors this, that you are genetically born a homosexual - because that's the nature of the genetic random transmission of genes - you can't help it. So why should we criminalise it?" 2007, The Wit & Wisdom of Lee Kuan Yew`;
@@ -251,14 +251,11 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("great depression")>-1){
 			document.getElementById("answer").innerHTML=`When the family fortunes declined during the Great Depression, which caused rubber prices to fall from a high of 80 cents per pound to some 20 cents between 1927 and 1930, Kung was badly hit. He must have had less business sense than my mother's father, Chua Kim Teng. The Chua fortunes also suffered because Chua had invested in rubber estates and had speculated on the rubber market. But he had gone into property as well. He owned markets and shophouses and he was not wiped out, as Kung was. So it was that by 1929 my parents had moved from Kung's home to Chua's large rambling house in Telok Kurau. Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("impression")>-1&&inputText.toLowerCase().indexOf("grandfather")>-1||inputText.toLowerCase().indexOf("colonial")>-1||inputText.toLowerCase().indexOf("british")>-1){
+		else if(inputText.toLowerCase().indexOf("grandfather")>-1&&/\bbritish\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`Kung was very Westernised, the result of his years as a purser on board ships with British captains, first officers and chief engineers. He used to recount to me his experiences, stories of how rigidly discipline was maintained on board a ship. For example, despite the heat and humidity of the tropics, the captain, the other officers and he, as purser, dressed in buttoned-up white cotton drill suits for dinner, which was served with plates, forks, knives and napkins, all properly laid out. From his accounts of his journeys in the region, the British officers left him with a lasting impression of order, strength and efficiency.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("lim kim san")>-1||inputText.toLowerCase().indexOf("to write")>-1||inputText.toLowerCase().indexOf("sph")>-1){
-			document.getElementById("answer").innerHTML=`Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published.`;
-		}
-		
-		else if(inputText.toLowerCase().indexOf("after the war")>-1||inputText.toLowerCase().indexOf("british soldiers")>-1){
+				
+		else if(inputText.toLowerCase().indexOf("after the war")>-1&&inputText.toLowerCase().indexOf("soldiers")>-1||inputText.toLowerCase().indexOf("british")>-1){
 			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had taken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese. Memoirs of LKY,1998`;
 		}	
 		else if(inputText.toLowerCase().indexOf("car")>-1){
@@ -271,7 +268,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("wife")>-1&&inputText.toLowerCase().indexOf("background")>-1||inputText.toLowerCase().indexOf("family")>-1){
 			document.getElementById("answer").innerHTML=`Choo's father, Kwa Siew Tee, a banker at the Oversea-Chinese Banking Corporation, was a Java-born Chinese like my father. Choo had been educated at Methodist Girls' School, and having passed her Senior Cambridge examinations, was only 16 when she went to the special class at Raffles Institution for students competing for the Queen's scholarship, but she did not get it.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("promiscuity")>-1||inputText.toLowerCase().indexOf("shocked")>-1){
+		else if(inputText.toLowerCase().indexOf("obscen")>-1||inputText.toLowerCase().indexOf("making love")>-1){
 			document.getElementById("answer").innerHTML=` I was shocked to see the unabashed promiscuity of some 40 or 50 servicewomen, non-commissioned officers and other ranks, who flirted with the officers. One night, a Hong Kong student, his eyes popping out of his head, told me they were unashamedly making love on the lifeboat deck. I was curious and went up to see for myself. What a sight it was! The deck was a hive of activity, with couples locked in passionate embraces scattered all over it. Some were a little less indelicate.<br>I received another shock when the ship passed through the Suez Canal. It proceeded slowly so that the waves would not wash down the loose sand on the banks. As we passed, a group of Arab workers on the shore started shouting obscenities and lifted their gallabiya - long gar­ ments like nightshirts - to flaunt their genitals at the British servicewomen. Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("culture shock")>-1){
@@ -295,11 +292,11 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("sad")>-1||inputText.toLowerCase().indexOf("independence")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
 			document.getElementById("answer").innerHTML=`He uttered no recriminations, but simply expressed his regret that I had not informed him or his government of what was happening. On my part, I was filled with sadness for having had to conceal from him the final developments of the past three weeks that had ended in separation. I thought he looked sad too. But if I had told Head that the Tunku wanted us out of Malaysia, although what I wanted was a looser federation, he would have found a way to stop the Tunku as it was against British interests to have Singapore separated and independent.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("separated")>-1||inputText.toLowerCase().indexOf("merger")>-1){
+		else if(inputText.toLowerCase().indexOf("separated")>-1||inputText.toLowerCase().indexOf("merger")>-1&&/\bmalaysia\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`For Singapore, 9 August 1965 was no ceremonial occasion. We had never sought independence. In a referendum less than three years ago, we had persuaded 70 per cent of the electorate to vote in favour of merger with Malaya. Since then, Singapore's need to be part and parcel of the Federation in one political, economic, and social polity had not changed. Nothing had changed - except that we were out. We had said that an independent Singapore was simply not viable. Now it was our unenviable task to make it work. How were we to create a nation out of a polyglot collection of migrants from China, India, Malaysia, Indonesia and several other parts of Asia? Memoirs of LKY,1998`;
 		}
 	
-	else if(inputText.toLowerCase().indexOf("singapore economy")>-1||inputText.toLowerCase().indexOf("colonial")>-1){
+	else if(inputText.toLowerCase().indexOf("economy")>-1&&/\bcolonial\b/.test(inputText.toLowerCase())||/\bbritish\b/.test(inputText.toLowerCase())){
 		document.getElementById("answer").innerHTML=`For our strategic value to Britain in holding the empire together was vanishing as the empire dissolved. Singapore's economy would be hard hit by any sudden scaling down of the British presence. British defence spending in Singapore accounted for about 20 per cent of our GDP; their military gave employment, directly to 30,000 workers, and indirectly to another 10,000 domestic help, besides those who catered to their other needs. They created employment for more than 10 per cent of the work force at a time when a high population growth of 2.5 per cent per annum was putting enormous pressure on the government for jobs as well as education, health services and housing.Memoirs of LKY,1998`;
 	}
 	else if(inputText.toLowerCase().indexOf("kempeitai")>-1||inputText.toLowerCase().indexOf("massacre")>-1||inputText.toLowerCase().indexOf("sook ching")>-1){
