@@ -333,7 +333,7 @@ else if(inputText.toLowerCase().indexOf("holidays")>-1||inputText.toLowerCase().
 else if(/\bchild\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("play")>-1){
 		document.getElementById("answer").innerHTML=`The fishermen worked along Siglap beach, then about 200 yards away. It was a simpler world altogether. We played with fighting kites, tops, marbles and even fighting fish. These games nurtured a fighting spirit and the will to win.||We were not soft, nor were we spoilt. We were not poor, but we had no great abundance of toys, and there was no television. So we had to be resourceful, to use our imagination. We read, and this was good for our literacy, but there were few illustrated books for young children then, and these were expensive. I bought the usual penny dreadfuls,||. I waited eagerly for the mail boat from Britain, which arrived at Tanjong Pagar wharf every Friday, bringing British magazines and pictorials. When I was a little older, I used the Raffles Library, where books could be borrowed for two weeks at a time. I read eclectically but preferred westerns to detective thrillers.`;
 	}
-		//Sample codes*	
+		//page 33 Sample codes*	
 //else if(/\bgrandfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("")>-1){
 //	document.getElementById("answer").innerHTML=``;}
 //else if(inputText.toLowerCase().indexOf("")>-1||inputText.//toLowerCase().indexOf("")>-1){
