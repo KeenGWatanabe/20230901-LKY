@@ -203,7 +203,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("focus")>-1||inputText.toLowerCase().indexOf("priorit")>-1){
 			document.getElementById("answer").innerHTML=`What are our priorities? First, the welfare, the survival of the people. Then, democratic norms and processes which from time to time we have to suspend.”- 1986 National Day Rally`;
 		}
-		else if(inputText.toLowerCase().indexOf("pap")>-1){
+		else if(/\bpap\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=` I make no apologies that the PAP is the Government and the Government is the PAP. Petir, 1982`;
 		}
 		else if(inputText.toLowerCase().indexOf("grave")>-1||inputText.toLowerCase().indexOf("sick bed")>-1||inputText.toLowerCase().indexOf("wrong")>-1&&inputText.toLowerCase().indexOf("something")>-1){
@@ -224,7 +224,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("hard truths")>-1){
 			document.getElementById("answer").innerHTML=`Hard Truths was a book based on 32 hours of interviews over a period of two years. I made this one comment on the Muslims integrating with other communities probably two or three years ago. Ministers and MPs, both Malay and non-Malay, have since told me that Singapore Malays have indeed made special efforts to integrate with the other communities, especially since 9/11, and that my call is out of date. I stand corrected, but only just this instance! I hope that this trend will continue in the future.`;
 		}			
-		else if(inputText.toLowerCase().indexOf("grew up")>-1){
+		else if(inputText.toLowerCase().indexOf("grew up")>-1||/\bstory\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("name")>-1){
 			document.getElementById("answer").innerHTML=`This is not an official history. It is the story of the Singapore I grew up in, the placid years of British colonial rule, the shock of war, the cruel years of Japanese occupation, communist insurrection and terrorism against the returning British, communal riots and intimidation during Malaysia, and the perils of independence. Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("earliest")>-1&&inputText.toLowerCase().indexOf("memor")>-1||inputText.toLowerCase().indexOf("recollection")>-1){
@@ -236,7 +236,7 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("parents")>-1&&inputText.toLowerCase().indexOf("your")>-1){
 			document.getElementById("answer").innerHTML=`My mother, Chua Jim Neo, was then 16 years old. My father, Lee Chin Koon, was 20. Their parents had arranged the marriage a year previously. Both families must have thought it an excellent match, for they later married my father's younger sister to my mother's younger brother. Memoirs of LKY,1998`;
 		}
-		else if(/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("job")>-1){
+		else if(/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("job")>-1||/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("career")>-1||/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("work")>-1){
 			document.getElementById("answer").innerHTML=`Being without a profession, he could only get a job as a storekeeper with the Shell Oil Company when the fortunes of both families were destroyed in the Great Depression. Memoirs of LKY,1998`;
 		}
 		else if(/\borigin\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("china")>-1||inputText.toLowerCase().indexOf("chinese")>-1){
@@ -255,20 +255,20 @@ function lky() {
 			document.getElementById("answer").innerHTML=`Kung was very Westernised, the result of his years as a purser on board ships with British captains, first officers and chief engineers. He used to recount to me his experiences, stories of how rigidly discipline was maintained on board a ship. For example, despite the heat and humidity of the tropics, the captain, the other officers and he, as purser, dressed in buttoned-up white cotton drill suits for dinner, which was served with plates, forks, knives and napkins, all properly laid out. From his accounts of his journeys in the region, the British officers left him with a lasting impression of order, strength and efficiency.Memoirs of LKY,1998`;
 		}
 				
-		else if(inputText.toLowerCase().indexOf("after the war")>-1&&inputText.toLowerCase().indexOf("soldiers")>-1||inputText.toLowerCase().indexOf("british")>-1){
+		else if(inputText.toLowerCase().indexOf("after the war")>-1&&inputText.toLowerCase().indexOf("soldiers")>-1||inputText.toLowerCase().indexOf("after the war")>-1&&inputText.toLowerCase().indexOf("british")>-1){
 			document.getElementById("answer").innerHTML=`they were out of touch with the changes that had taken place. The men now in charge - majors, colonels, brigadiers - knew they would be in power only until they were demobilised, when their wartime commissions would vanish like Cinderella's coach. The pumpkin of civilian Life to which they would then be reduced was at the back of their minds, and many made the most of their temporary authority. Their needs, alas, were similar to those of Japanese officers - something small, valuable and easy to secrete on the person to take home to England when their time was up. So the same items were in demand. ln return, they granted permits and supplies of scarce materials to the locals, and therefore opportunities to make money. But they were not bullies and oppressors like the Japanese. Memoirs of LKY,1998`;
 		}	
-		else if(/\bcar\b/.test(inputText.toLowerCase())){
+		else if(/\bcar\b/.test(inputText.toLowerCase())||/\bcars\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`But in November 1945, I could afford to buy a second-hand car, a prewar Morris refurbished with spares now available from the British army. As my business improved, I sold it at a profit after a few months and bought a pre-war Ford V8, restored to good condition. It must have been used by a Japanese general during the occupation.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("kwa geok choo")>-1){
 			document.getElementById("answer").innerHTML=`Choo asked if I knew she was two and a half years older than I was. I said I knew, and had considered this carefully. I was mature for my age.  After the Liberation
 			and most of my friends were older than me anyway. Moreover, I wanted someone my equal, not someone who was not really grown up and needed looking after, and I was not likely to find another girl who was my equal and who shared my interests.Memoirs of LKY,1998`;
 		}	
-		else if(inputText.toLowerCase().indexOf("wife")>-1&&inputText.toLowerCase().indexOf("background")>-1||inputText.toLowerCase().indexOf("family")>-1){
+		else if(inputText.toLowerCase().indexOf("wife")>-1&&inputText.toLowerCase().indexOf("background")>-1||inputText.toLowerCase().indexOf("wife")>-1&&inputText.toLowerCase().indexOf("family")>-1){
 			document.getElementById("answer").innerHTML=`Choo's father, Kwa Siew Tee, a banker at the Oversea-Chinese Banking Corporation, was a Java-born Chinese like my father. Choo had been educated at Methodist Girls' School, and having passed her Senior Cambridge examinations, was only 16 when she went to the special class at Raffles Institution for students competing for the Queen's scholarship, but she did not get it.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("obscen")>-1||inputText.toLowerCase().indexOf("making love")>-1){
+		else if(inputText.toLowerCase().indexOf("obscen")>-1||inputText.toLowerCase().indexOf("make love")>-1){
 			document.getElementById("answer").innerHTML=` I was shocked to see the unabashed promiscuity of some 40 or 50 servicewomen, non-commissioned officers and other ranks, who flirted with the officers. One night, a Hong Kong student, his eyes popping out of his head, told me they were unashamedly making love on the lifeboat deck. I was curious and went up to see for myself. What a sight it was! The deck was a hive of activity, with couples locked in passionate embraces scattered all over it. Some were a little less indelicate.<br>I received another shock when the ship passed through the Suez Canal. It proceeded slowly so that the waves would not wash down the loose sand on the banks. As we passed, a group of Arab workers on the shore started shouting obscenities and lifted their gallabiya - long gar­ ments like nightshirts - to flaunt their genitals at the British servicewomen. Memoirs of LKY,1998`;
 		}
 		else if(/\bshocked\b/.test(inputText.toLowerCase())){
@@ -280,13 +280,13 @@ function lky() {
 		else if(inputText.toLowerCase().indexOf("socialism")>-1){
 			document.getElementById("answer").innerHTML=`Laski's lectures that I attended were my first introduction to the general theory of socialism, and I was immediately attracted to it. It struck me as manifestly fair that everybody in this world should be given an equal chance in life, that in a just and well-ordered society there should not be a great disparity of wealth between persons because of their position or status, or that of their parents. I made no distinction between different races and peoples. We were part of the British Empire, and I believed the British lived well at the expense of all their subjects.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("wealth")>-1||inputText.toLowerCase().indexOf("races")>-1){
+		else if(inputText.toLowerCase().indexOf("wealth")>-1&&inputText.toLowerCase().indexOf("independence")>-1||inputText.toLowerCase().indexOf("wealth")>-1&&inputText.toLowerCase().indexOf("people")>-1||inputText.toLowerCase().indexOf("wealth")>-1&&inputText.toLowerCase().indexOf("ability")>-1){
 			document.getElementById("answer").innerHTML=`We all wanted our independence so that we could keep our wealth for ourselves. I thought then that wealth depended mainly on the possession of territory and natural resources, whether fertile land with abundant rainfall for agriculture or forestry, or valuable minerals, or oil and gas. It was only after I had been in office for some years that I recognised that performance varied substantially between the different races in Singapore, and among different categories within the same race. After trying out a number of ways to reduce inequalities and failing, I was gradually forced to conclude that the decisive factors were the people, their natural abilities, education and training. Knowledge and the possession of technology were vital for the creation of wealth.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("marxist")>-1||inputText.toLowerCase().indexOf("communist")>-1){
+		else if(inputText.toLowerCase().indexOf("marxis")>-1&&inputText.toLowerCase().indexOf("view")>-1||inputText.toLowerCase().indexOf("communis")>-1&&inputText.toLowerCase().indexOf("view")>-1){
 			document.getElementById("answer").innerHTML=`I agreed with the Marxists that man did exploit his fellow men through his possession of greater capital/power, and that because a man's output was more than he needed to consume to stay alive, there was a surplus for the employer or landlord to cream off. <br>I was revolted by the way Jan Masaryk, the foreign minister of Czechoslovakia, was killed, found dead after having conveniently "fallen" from a window so that the communists could take over; by the harassment of Cardinal Mindszenty of Hungary, who had to take refuge in the American embassy in Budapest after standing up to them for his Catholic beliefs. Jack Hamson, a Cambridge Law School lecturer and himself a Catholic, was so outraged and sickened by what had happened that he spent a whole hour's lecture on the morning the news broke not on the law of contract, but on the evils of Soviet commu­nism. It made a deep impression on me and increased my antipathy.Memoirs of LKY,1998`;
 		}
-		else if(inputText.toLowerCase().indexOf("ideal")>-1&&inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("flawless")>-1){
+		else if(inputText.toLowerCase().indexOf("ideal")>-1&&inputText.toLowerCase().indexOf("state")>-1||inputText.toLowerCase().indexOf("flawless")>-1&&inputText.toLowerCase().indexOf("state")>-1){
 			document.getElementById("answer").innerHTML=`But the idea of an equal, just and fair society appealed to all colonial students, and the British Fabians recommended a step-by-step approach to this ideal state that would make it unnecessary to behead the rich and expropriate their riches. By stages, and without disrupting the economy or creating a social upheaval, the rich would be deprived of their wealth through taxation in their lifetime, and through heavy estate duties when they died. Their children would then have to start out in the world on the same basis as those of poorer parents. I could see no flaw in that. I was too young to know how ingenious British lawyers were in con­structing trust deeds that made it difficult for the government to get too much out of estate duty.Memoirs of LKY,1998`;
 		}
 		else if(inputText.toLowerCase().indexOf("sad")>-1||inputText.toLowerCase().indexOf("independence")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
