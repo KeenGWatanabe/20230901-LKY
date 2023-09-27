@@ -1,5 +1,5 @@
 //const Fuse = require('fuse.js');
-// >-1 means any character after accepted, "i " must be only I in a sentence
+// >-1 means any character after accepted, "i " must be only I in a sentence, "small caps", big caps undetectable
 function lky() {
 	var inputText = document.getElementById("text_a").value.trim();
 
@@ -342,9 +342,17 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("economy")>-1||/\beconomy\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("war")>-1){
 			document.getElementById("answer").innerHTML=`People must eat; they need medicines and other things like toothbrushes, toothpaste, clothes, shoes, pens, ink, paper. Even razor blades became precious and difficult to get, so that used blades were sharpened and re-sharpened by being pressed and rubbed back and forth against the inside walls of a glass. Tobacco was worth more than Japanese currency. Some professions were reduced in value and earning power. There was little demand for lawyers trained in English law, because there was little commerce, and military law dealt summarily with crimes. Accountancy stagnated because there was little business. On the other hand, doctors and dentists were as essential as ever since people still got sick and had toothache, so they prospered despite shortages of medicines and anaesthetics.Memoirs of LKY,1998`;
 		}
-	else if(/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("prisoners of war")>-1){
+	else if(/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("prisoners of war")>-1||/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("prisoner-of-war")>-1||/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("pow")>-1){
 				document.getElementById("answer").innerHTML=`British and Australian prisoner-of-war working parties coming to town, with a light escort of Japanese soldiers. Usually they performed tasks like moving goods from a godown to a lorry. They would sneak into the coffee shops looking for food, and the owners and ordinary housewives would pass them bread, canned food and other foodstuffs and money. The Chinese had great sympathy for them. They had grown thin and looked the worse for their confinement. Their uniforms, usually shorts and shirts, were tattered. Towards the end of 1942, they gradually became less visible, and a year later they were seldom seen. People believed they had been sent to work elsewhere, in Thailand, Indonesia and Japan. When they reappeared in Singapore in late 1944 and early 1945, they were just skin and bones, Memoirs of LKY,1998`;
 			}
+	else if(/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("cabinet")>-1||/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("friends")>-1||/\bpositions in government\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("fill")>-1){
+					document.getElementById("answer").innerHTML=`it was also a time for forming lasting friendships. Many of those I first met in Raffles College were to become close political co!Jeagues, among them Toh Chjn Chye, a science student one year my senior, hardworking, systematic, quiet and consistent, and Goh Keng Swee, a tutor in economics with a first-class mind, a poor speaker but a crisp writer. When I started my career as a lawyer in the 1950s, therefore, I already had a network of friends and acquintances in important positions in government and the professions in Singapore and Malaya. Even if one did not know someone personally, just sharing the same background made for easy acceptance, and the old school tie worked well in Singapore and Malaya, even between Chinese, Indians and Malays.Memoirs of LKY,1998`;
+			}
+	else if(inputText.toLowerCase().indexOf("colonial education")>-1||inputText.toLowerCase().indexOf("english education")>-1||/\belite\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("how did")>-1){
+			document.getElementById("answer").innerHTML=`It was the easy old-boy network of an elite at the very top of the English -educated group nurtured by the British colonial education system. We went through simiJar schools, read the same textbooks and shared certrun common attitudes and characteristics. The British public school was not the only system that encouraged networking through manner of speech, style and dress and a way of doing things.
+			Memoirs of LKY,1998`;
+		}
+				
 		//page 33 Sample codes*	
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){
 //	document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
