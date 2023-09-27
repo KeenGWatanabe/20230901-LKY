@@ -419,6 +419,10 @@ else if(/\banti-colonial\b/.test(inputText.toLowerCase())||inputText.toLowerCase
 else if(inputText.toLowerCase().indexOf("end")>-1&&inputText.toLowerCase().indexOf("british empire")>-1||inputText.toLowerCase().indexOf("retreat")>-1&&inputText.toLowerCase().indexOf("british empire")>-1){
 	document.getElementById("answer").innerHTML=`India and Pakistan had already gained their independence in August 1947, Burma and Ceylon in 1948. The imperial dam had been breached, the British Empire was in retreat, and most of us were confident that we, too, could get our independence. We sensed that the British people and their leaders had lost the will to keep their subject peoples down.Memoirs of LKY,1998`;
 }
+else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("object")>-1||inputText.toLowerCase().indexOf("why people give up")>-1){
+	document.getElementById("answer").innerHTML=` Soused with beer, we talked of the great things we would do on our return. Later, I was to discover that very few would stay the course. Many wives would object to their husbands jeopardising their careers by opposing British colonial authority, and quite a number of the men themselves, faced with cold reality and hard choices, lost their stomach for the fight. Meanwhile, there were others already in the field. At one extreme were the politically effete time-servers, the English-educated intelligentsia. At the other were the communists and their united front, well organised and apparently enjoying support in every key sector of society from schools to trade unions, the press and the Chinese Chamber of Commerce.Memoirs of LKY,1998`;
+}
+
 		//page 33 Sample codes*	
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
 //	document.getElementById("answer").innerHTML=`<a href="">mt</a>`;}
