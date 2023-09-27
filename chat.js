@@ -27,7 +27,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("dealing")>-1||inputText.toLowerCase().indexOf("kind of society")>-1||inputText.toLowerCase().indexOf("gracious")>-1&&inputText.toLowerCase().indexOf("society")>-1){
 			document.getElementById("answer").innerHTML=`Mine is a very matter-of-fact approach to the problem. If you can select a population and they're educated and they're properly brought up, then you don't have to use too much of the stick because they would already have been trained. It's like with dogs. You train it in a proper way from small. It will know that it's got to leave, go outside to pee and to defecate. No, we are not that kind of society. We had to train adult dogs who even today deliberately urinate in the lifts.Memoirs of LKY,1998`;
 		}
-	else if(inputText.toLowerCase().indexOf("life")>-1||inputText.toLowerCase().indexOf("abortion")>-1){
+	else if(/\blife\b/.test(inputText.toLowerCase())&&/\bbelieve\b/.test(inputText.toLowerCase())||/\blife\b/.test(inputText.toLowerCase())&&/\bthink\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`I believe that life is a process of continuous change and a constant struggle to make that change one for the better.<br>Every person, genius or moron, has a right to reproduce himself." Speech on the Abortion Bill, 29 December 1969, Lee Kuan Yew in his own words, 1959-1970<br>Life is not just eating, drinking, television and cinema...The human mind must be creative, must be self-generating; it cannot depend on just gadgets to amuse itself." Speech at Chinese New Year and Hari Raya Haji Celebrations held at Joo Seng Community Centre, 28th Feb 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("task")>-1||inputText.toLowerCase().indexOf("job")>-1&&inputText.toLowerCase().indexOf("leader")>-1){
@@ -333,7 +333,7 @@ else if(inputText.toLowerCase().indexOf("holidays")>-1||inputText.toLowerCase().
 else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("play")>-1){
 		document.getElementById("answer").innerHTML=`The fishermen worked along Siglap beach, then about 200 yards away. It was a simpler world altogether. We played with fighting kites, tops, marbles and even fighting fish. These games nurtured a fighting spirit and the will to win.||We were not soft, nor were we spoilt. We were not poor, but we had no great abundance of toys, and there was no television. So we had to be resourceful, to use our imagination. We read, and this was good for our literacy, but there were few illustrated books for young children then, and these were expensive. I bought the usual penny dreadfuls,||. I waited eagerly for the mail boat from Britain, which arrived at Tanjong Pagar wharf every Friday, bringing British magazines and pictorials. When I was a little older, I used the Raffles Library, where books could be borrowed for two weeks at a time. I read eclectically but preferred westerns to detective thrillers.`;
 	}
-	else if(/\bmost important\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("life")>-1||inputText.toLowerCase().indexOf("years")>-1){
+	else if(/\bmost important\b/.test(inputText.toLowerCase())&&/\blife\b/.test(inputText.toLowerCase())||/\bmost important\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("years")>-1){
 		document.getElementById("answer").innerHTML=`The three and a half years of Japanese occupation were the most important of my life. They gave me vivid insights into the behaviour of human beings and human societies, their motivations and impulses. My appreciation of governments, my understanding of power as the vehicle for revolutionary change, would not have been gained without this experience. I saw a whole social system crumble suddenly before an occupying army that was absolutely merciless. The Japanese demanded total obedience and got it from nearly all.Memoirs of LKY,1998`;
 	}
 	else if(/\bcrime\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("low")>-1){
@@ -352,7 +352,10 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 			document.getElementById("answer").innerHTML=`It was the easy old-boy network of an elite at the very top of the English -educated group nurtured by the British colonial education system. We went through simiJar schools, read the same textbooks and shared certrun common attitudes and characteristics. The British public school was not the only system that encouraged networking through manner of speech, style and dress and a way of doing things.
 			Memoirs of LKY,1998`;
 		}
-				
+	else if(/\bimpression of british\b/.test(inputText.toLowerCase())){
+			document.getElementById("answer").innerHTML=`At about 8am on 31 January, Maurice Balcer, a fellow student from Pahang, and I were sitting on the parapet of the Administrative Block at Raffles College, on standby MAS duty, when suddenly there was an earthshalcing explosion. We were both stunned, and I said spontaneously, "That's the end of the British Empire!" Professor Dyer, the principal of Raffles College who was just passing by on his way to his office, heard me, looked away, and walked on. That same morning all British forces withdrew to the island from Johor. Memoirs of LKY,1998`;
+		}
+		
 		//page 33 Sample codes*	
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){
 //	document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
