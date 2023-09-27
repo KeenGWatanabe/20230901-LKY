@@ -358,7 +358,13 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 	else if(/\bjapanese soldiers\b/.test(inputText.toLowerCase())&&/\bencounter\b/.test(inputText.toLowerCase())){
 			document.getElementById("answer").innerHTML=`I saw two figures in dun -coloured uniforms, different from the greens and browns of the British forces. They wore punees and rubber-soled canvas boots, split -toed, with the big toe in a separate section from the other toes. Later I learnt that it gave them a better grip on soggy or slippery ground. Above all, what made them look strange were their soft, peaked caps, with cloth flaps at the back hanging over their necks. They were outlandish figures, small, squat men carrying long rifles with long bayonets. They exuded an awful stink, a smell I will never forget. It was the odour from the great unwashed after two months of fighting along jungle tracks and estate roads from Kota Bharu to Singapore. A few seconds passed before I realised who they were. Japanese! An immense fear crept over me. But they were looking for enemy soldiers. Clearly I was not one, so they ignored me and pressed on.Memoirs of LKY,1998`;
 		}
-					
+	else if(/\blawless\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("loot")>-1){
+				document.getElementById("answer").innerHTML=`The news soon spread that the British had surrendered. The next day, some friends returning from the city reported that looting had broken our. British and other European houses were being stripped by their Malay drivers and gardeners.The Chinese looters went for the goods in warehouses, less bulky and more valuable.||In the two hours that I walked from Telok Kurau to Norfolk Road, I saw a Singapore with law and order in suspended animation. The British army had surrendered. The local police - Chinese and Indian junior officers and Malay rank and file-had disappeared, fearing that the Japanese would treat them as part of the British military set-up. The Japanese soldiers had not yet imposed their presence on the city.Memoirs of LKY,1998`;
+			}					
+	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&/\bloot\b/.test(inputText.toLowerCase())){
+			document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;
+		}
+
 		//page 33 Sample codes*	
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){
 //	document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
