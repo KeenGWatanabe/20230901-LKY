@@ -12,7 +12,7 @@ function lky() {
     else if(inputText.toLowerCase().indexOf("civil service")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
 		}
-    else if(inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("lives")>-1||inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("citizens")>-1){
+    else if(inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("lives")>-1||inputText.toLowerCase().indexOf("interfering")>-1&&inputText.toLowerCase().indexOf("citizens")>-1||inputText.toLowerCase().indexOf("interfering in Singaporeans' private lives")>-1){
         	document.getElementById("answer").innerHTML=`“I am often accused of interfering in the private lives of citizens. Yes, if I did not, had I not done that, we wouldn't be here today. And I say without the slightest remorse, that we wouldn't be here, we would not have made economic progress, if we had not intervened on very personal matters - who your neighbour is, how you live, the noise you make, how you spit, or what language you use. We decide what is right. Never mind what the people think.”The Straits Times, 20 April 1987`;
         }
 	else if(inputText.toLowerCase().indexOf("men")>-1&&inputText.toLowerCase().indexOf("equal")>-1||inputText.toLowerCase().indexOf("equality")>-1){
@@ -39,6 +39,9 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("shoot")>-1||inputText.toLowerCase().indexOf("tianan")>-1||inputText.toLowerCase().indexOf("deng xiaopin")>-1){
 			document.getElementById("answer").innerHTML=`He took over, and he said: 'If I have to shoot 200,000 students to save China from another 100 years of disorder, so be it.'" - Recalling how former Chinese leader Deng Xiaoping dealt with the 1989 Tiananmen Square protests.Memoirs of LKY,1998`;
 		}
+	else if(inputText.toLowerCase().indexOf("on the great men he met")>-1){
+			document.getElementById("answer").innerHTML=`I would say the greatest was Deng Xiaoping. At his age, to admit that he was wrong, that all these ideas, Marxism, Leninism, Maoism, they are just not working and have to be abandoned, you need a great man to do that..." Tom Plate's Conversations with Lee Kuan Yew.Deng Xiao Ping is a great man because he changed China from a broken-backed state, which would have imploded like the Soviet Union, into what it is today, on the way to becoming the world’s largest economy." Hard Truths to Keep Singapore Going;`}
+			 
 	else if(inputText.toLowerCase().indexOf("reform")>-1||inputText.toLowerCase().indexOf("liberali")>-1){
 			document.getElementById("answer").innerHTML=`Political reform need not go hand in hand with economic liberalisation. I do not believe that if you are libertarian, full of diverse opinions, full of competing ideas in the market place, full of sound and fury, therefore you will succeed.Memoirs of LKY,1998`;
 		}
@@ -55,7 +58,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1||inputText.toLowerCase().indexOf("bullshit")>-1){
 			document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology. LKY`;
 		}	
-	else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1){
+	else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1||inputText.toLowerCase().indexOf("what does it takes to govern Singapore")>-1){
 			document.getElementById("answer").innerHTML=`Whoever governs Singapore must have that iron in him. Or give it up. This is not a game of cards! This is your life and mine! I've spent a whole lifetime building this and as long as I'm in charge, nobody is going to knock it down. LKY<br>If I were in authority in Singapore indefinitely, without having to ask those who are governing whether they like what is being done, then I have not the slightest doubt that I could govern much more effectively in their own interests." May, 1962, at the Royal Society of International Affairs, London, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("oxley")>-1||inputText.toLowerCase().indexOf("house")>-1){
@@ -84,7 +87,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("say")>-1||inputText.toLowerCase().indexOf("fool")>-1){
 			document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 		}	
-	else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("enlistment")>-1){
+	else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("enlistment")>-1||inputText.toLowerCase().indexOf("men in NS")>-1){
 			document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, on NS, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 		}
 	else if(inputText.toLowerCase().indexOf("eugenic")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1||inputText.toLowerCase().indexOf("gene")>-1){
@@ -100,7 +103,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("youth")>-1&&inputText.toLowerCase().indexOf("singapore")>-1){
 			document.getElementById("answer").innerHTML=`No (it is not possible to influence young people), you can influence the basic attitudes from the day they are born to about 16 or 17. [..] They have a mind of their own and they are influenced by what they see around them and by their peers." One Man's View of the World.`;
 		}
-	else if(inputText.toLowerCase().indexOf("heaven")>-1||inputText.toLowerCase().indexOf("afterlife")>-1){
+	else if(inputText.toLowerCase().indexOf("heaven")>-1||inputText.toLowerCase().indexOf("afterlife")>-1||inputText.toLowerCase().indexOf("population white paper")>-1){
 			document.getElementById("answer").innerHTML=`I wish I can meet my wife in the hereafter, but I don’t think I will. I just cease to exist just as she has ceased to exist – otherwise the other world would be overpopulated." One Man's View of the World.
 			<br>john-lennon-imagine - Because there is no Heaven. So John Lennon.`;
 		}	
@@ -116,7 +119,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("love")>-1&&inputText.toLowerCase().indexOf("believe")>-1){
 			document.getElementById("answer").innerHTML=`I don’t believe in love at first sight. I think it’s a grave mistake. You’re attracted by physical characteristics and you will regret it. Hard Truths to Keep Singapore Going`;
 		}
-	else if(inputText.toLowerCase().indexOf("corporal")>-1||inputText.toLowerCase().indexOf("harsh")>-1&&inputText.toLowerCase().indexOf("punishment")>-1){
+	else if(inputText.toLowerCase().indexOf("corporal punishment")>-1||inputText.toLowerCase().indexOf("harsh")>-1&&inputText.toLowerCase().indexOf("punishment")>-1){
 			document.getElementById("answer").innerHTML=`I have never understood why Western educationists are so much against corporal punishment. It did my fellow students and me no harm." 1998, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
 	else if(inputText.toLowerCase().indexOf("meditat")>-1||inputText.toLowerCase().indexOf("stress")>-1){
@@ -339,13 +342,13 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 	else if(/\bcrime\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("low")>-1){
 			document.getElementById("answer").innerHTML=`The Japanese Military Administration governed by spreading fear. It put up no pretence of civilised behaviour. Punishment was so severe that crime was very rare.||As a result I have never believed those who advocate a soft approach to crime and punishment, claiming that punishment does not reduce crime. That was not my experience in Singapore before the war, during the Japanese occupation or subsequently. Memoirs of LKY,1998`;
 	}
-	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("economy")>-1||/\beconomy\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("war")>-1){
+	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("economy")>-1||/\beconomy\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("war")>-1||inputText.toLowerCase().indexOf("japanese occupation")>-1){
 			document.getElementById("answer").innerHTML=`People must eat; they need medicines and other things like toothbrushes, toothpaste, clothes, shoes, pens, ink, paper. Even razor blades became precious and difficult to get, so that used blades were sharpened and re-sharpened by being pressed and rubbed back and forth against the inside walls of a glass. Tobacco was worth more than Japanese currency. Some professions were reduced in value and earning power. There was little demand for lawyers trained in English law, because there was little commerce, and military law dealt summarily with crimes. Accountancy stagnated because there was little business. On the other hand, doctors and dentists were as essential as ever since people still got sick and had toothache, so they prospered despite shortages of medicines and anaesthetics.Memoirs of LKY,1998`;
 		}
 	else if(/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("prisoners of war")>-1||/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("prisoner-of-war")>-1||/\bbritish\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("pow")>-1){
 				document.getElementById("answer").innerHTML=`British and Australian prisoner-of-war working parties coming to town, with a light escort of Japanese soldiers. Usually they performed tasks like moving goods from a godown to a lorry. They would sneak into the coffee shops looking for food, and the owners and ordinary housewives would pass them bread, canned food and other foodstuffs and money. The Chinese had great sympathy for them. They had grown thin and looked the worse for their confinement. Their uniforms, usually shorts and shirts, were tattered. Towards the end of 1942, they gradually became less visible, and a year later they were seldom seen. People believed they had been sent to work elsewhere, in Thailand, Indonesia and Japan. When they reappeared in Singapore in late 1944 and early 1945, they were just skin and bones, Memoirs of LKY,1998`;
 			}
-	else if(/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("cabinet")>-1||/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("friends")>-1||/\bpositions in government\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("fill")>-1){
+	else if(/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("cabinet")>-1||/\bnetwork\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("friends")>-1||/\bpositions in government\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("fill up your cabinet")>-1){
 					document.getElementById("answer").innerHTML=`it was also a time for forming lasting friendships. Many of those I first met in Raffles College were to become close political co!Jeagues, among them Toh Chjn Chye, a science student one year my senior, hardworking, systematic, quiet and consistent, and Goh Keng Swee, a tutor in economics with a first-class mind, a poor speaker but a crisp writer. When I started my career as a lawyer in the 1950s, therefore, I already had a network of friends and acquintances in important positions in government and the professions in Singapore and Malaya. Even if one did not know someone personally, just sharing the same background made for easy acceptance, and the old school tie worked well in Singapore and Malaya, even between Chinese, Indians and Malays.Memoirs of LKY,1998`;
 			}
 	else if(inputText.toLowerCase().indexOf("colonial education")>-1||inputText.toLowerCase().indexOf("english education")>-1||/\belite\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("how did")>-1||/\belite\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("what")>-1){
@@ -371,7 +374,11 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 		document.getElementById("answer").innerHTML=`Many of the Chinese and Indians had been brought in as indentured labour and were tolerated because the Malays did not take to the jobs a commercial and a plantation economy required, Like tapping rubber, building roads and bridges, working as clerks, accountants and storekeepers. A small number of prominent Asiatics were allowed to mix socially with the white bosses, and some were appointed unofficial members of the governor's Executive Council or the Legislative Council.Memoirs of LKY,1998`;
 	}
 else if(/\bsingapore\b/.test(inputText.toLowerCase())&&/\bchinese\b/.test(inputText.toLowerCase())){
-		document.getElementById("answer").innerHTML=`I did not then know that there were many Chinese, educated in Chinese­ language schools, who were not integrated into the colonial system. Their teachers had come from China, and they did not recognise the supremacy of the whites, for they had not been educated or indoctrinated into accepting the virtues and the mission of the British Empire. After the war I was to learn more about them.Memoirs of LKY,1998`;}
+		document.getElementById("answer").innerHTML=`I did not then know that there were many Chinese, educated in Chinese­ language schools, who were not integrated into the colonial system. Their teachers had come from China, and they did not recognise the supremacy of the whites, for they had not been educated or indoctrinated into accepting the virtues and the mission of the British Empire. After the war I was to learn more about them.Memoirs of LKY,1998`;
+	}
+	else if(inputText.toLowerCase().indexOf("had to listen to")>-1||inputText.toLowerCase().indexOf("don't give a fuck")>-1){
+		document.getElementById("answer").innerHTML=`A few Harvard professors, I can't remember".  Tom Plate's Conversations with Lee Kuan Yew`;
+	}
 		//page 33 Sample codes*	
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){
 //	document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
