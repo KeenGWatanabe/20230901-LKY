@@ -361,8 +361,8 @@ else if(/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().i
 	else if(/\blawless\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("loot")>-1){
 				document.getElementById("answer").innerHTML=`The news soon spread that the British had surrendered. The next day, some friends returning from the city reported that looting had broken our. British and other European houses were being stripped by their Malay drivers and gardeners.The Chinese looters went for the goods in warehouses, less bulky and more valuable.||In the two hours that I walked from Telok Kurau to Norfolk Road, I saw a Singapore with law and order in suspended animation. The British army had surrendered. The local police - Chinese and Indian junior officers and Malay rank and file-had disappeared, fearing that the Japanese would treat them as part of the British military set-up. The Japanese soldiers had not yet imposed their presence on the city.Memoirs of LKY,1998`;
 			}					
-	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&/\bloot\b/.test(inputText.toLowerCase())){
-			document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;
+	else if(/\bjapanese\b/.test(inputText.toLowerCase())&&/\blaw\b/.test(inputText.toLowerCase())||/\bjapanese\b/.test(inputText.toLowerCase())&&/\bbehead\b/.test(inputText.toLowerCase())){
+			document.getElementById("answer").innerHTML=`the Japanese restored order; they put the fear of God into people by shooting or beheading a few looters at random and exhibiting their heads on key bridge and at main road junctions. The Japanese conquerors also went for loot. In the first few days, anyone in the street with a fountain pen or a wristwatch would soon be relieved of it. Soldiers would go into houses either officially to search, or pretending to do so, but in fact to appropriate any small items that they could keep on their person. Memoirs of LKY,1998`;
 		}
 
 		//page 33 Sample codes*	
