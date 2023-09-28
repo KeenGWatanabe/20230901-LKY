@@ -1,9 +1,12 @@
-//const Fuse = require('fuse.js');
+//const Fuse = require('fuse.js');\
+const inputElement = document.getElementById("text_a");
+  const answerElement = document.getElementById("answer");
+
 // >-1 means any character after accepted, "i " must be only I in a sentence, "small caps", big caps undetectable
 function lky() {
-	var inputText = document.getElementById("text_a").value.trim();
-
-	if(inputText === "") {
+	//const inputText = document.getElementById("text_a").value.trim();
+	const inputText = inputElement.value;
+  	if(inputText === "") {
 	document.getElementById("answer").innerHTML="Your input is blank";      
 		} 
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
@@ -435,8 +438,13 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
-	 else {document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+	 else {
+		answerElement.innerHTML = `I do not understand " ${inputText} ", perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
+		//document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
-
-	
 }
+document.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    lky(); // Call the function to handle form submission
+  });
