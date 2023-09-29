@@ -137,7 +137,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("media")>-1||inputText.toLowerCase().indexOf("the press")>-1){
 			document.getElementById("answer").innerHTML=`Freedom of the press, freedom of the news media, must be subordinated to the overriding needs of the integrity of Singapore, and to the primacy of purpose of an elected government", Address To The General Assembly Of The International Press Institute At Helsinki, 9th June, 1971`;
 		}	
-	else if(/\bmp\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("estate")>-1){
+	else if(/\bmp\b/.test(inputText.toLowerCase())||/\bmp\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("estate")>-1){
 			document.getElementById("answer").innerHTML=`An MP must now not only be good at speaking but also at getting things done. When an estate is dirty, out of order, and rubbish not regularly and properly collected, that is when residents realise that without regular maintenance, the value of their flats will drop." 1992, The Wit & Wisdom of Lee Kuan Yew`;
 		}	
 	else if(inputText.toLowerCase().indexOf("americans")>-1){
@@ -146,7 +146,7 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("fashion")>-1||inputText.toLowerCase().indexOf("judge")>-1){
 			document.getElementById("answer").innerHTML=`I'm not interested in changing either my suit or my car or whatver with every change in fashion. That's irrelevant. I don't judge myself or my friends by their fashions. Of course, I don't approve of people who are sloppy and unnecessarily shabby or dishevelled... But I'm not impressed by a $5,000 or $10,000 Armani suit." 1995,  The Wit & Wisdom of Lee Kuan Yew`;
 		}	
-	else if(inputText.toLowerCase().indexOf("democracy")>-1||inputText.toLowerCase().indexOf("free")>-1){
+	else if(inputText.toLowerCase().indexOf("democracy")>-1&&inputText.toLowerCase().indexOf("free")>-1){
 			document.getElementById("answer").innerHTML=`But we either believe in democracy or we not. If we do, then, we must say categorically, without qualification, that no restraint from the any democratic processes, other than by the ordinary law of the land, should be allowed… If you believe in democracy, you must believe in it unconditionally. If you believe that men should be free, then, they should have the right of free association, of free speech, of free publication. Then, no law should permit those democratic processes to be set at nought.” - as an opposition leader, April 27, 1955`;
 		}
 	else if(inputText.toLowerCase().indexOf("habit")>-1||inputText.toLowerCase().indexOf("control")>-1||/\brepression\b/.test(inputText.toLowerCase())){
