@@ -11,7 +11,7 @@ function lky() {
 		} 
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
-		}
+		}//school*		
 	else if(/\bschool\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("result")>-1||/\bschool\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("secondary")>-1){
 			document.getElementById("answer").innerHTML=`I did well, coming in first in school in the Junior Cambridge examinations, my first major examination with papers set and marked in Cambridge. I also won two awards that year, the Raffles Institution and the Tan Jialc Kim scholarships. Together, they yielded the huge sum of 350 Straits dollars.|| I had set my heart on distinguishing myself in the Senior Cambridge examinations, and I was happy when the results in early 1940 showed I had come first in school, and first among all the students in Singapore and Malaya. I enjoyed my years in Raffles Institution. I coped with the work comfortably, was active in the Scout movement, played cricket and some tennis, swam and took part in many debates. But I never became a prefect, let alone head prefect. Memoirs of LKY,1998`;
 		}
@@ -23,12 +23,8 @@ function lky() {
 		}
 	else if(/\bschool\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("canning")>-1||/\bschool\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("punish")>-1||/\bschool\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("disciplin")>-1){
 			document.getElementById("answer").innerHTML=`Once I was caned by the principal. D.W. McLeod was a fair but strict disciplinarian who enforced rules impartially, and one rule was that a boy who was late for school three times during one term would get three strokes of the cane. I was always a late riser, an owl more than a lark, and when I was late for school the third time in a term in 1938, the form master sent me to see McLeod. The principal knew me from the number of prizes I had been collecting on prize-giving days and the cholarships I had won. But I was not let off with an admonition. I bent over a chair and was given three of the best with my trousers on. I did not think he lightened his strokes. Memoirs of LKY,1998`;
-		}
-	//"school' keyword prompt*
-	else if(inputText.toLowerCase().indexOf("schoo")>-1){
-		document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, raffles institution ";
-	}
-	//"school" keyword prompt*** 
+		}//school***
+	
     else if(inputText.toLowerCase().indexOf("civil service")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||/\beverything\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("work")>-1){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
 		}
@@ -455,6 +451,11 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
+//"school' keyword prompt*
+else if(inputText.toLowerCase().indexOf("schoo")>-1){
+	document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, result, raffles institution ";
+}
+//"school" keyword prompt*** 
 	 else {
 		answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
 		//document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
