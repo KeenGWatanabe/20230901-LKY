@@ -12,6 +12,11 @@ function lky() {
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 		}
+	//keyword prompt*
+	else if(inputText.toLowerCase().indexOf("school")>-1){
+		document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, raffles institution ";
+	}
+	//keyword prompt*** 
     else if(inputText.toLowerCase().indexOf("civil service")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||/\beverything\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("work")>-1){
         	document.getElementById("answer").innerHTML=`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`;
 		}
