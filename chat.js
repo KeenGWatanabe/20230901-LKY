@@ -455,7 +455,10 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 else if(inputText.toLowerCase().indexOf("schoo")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, result, raffles institution ";
 }
-//"school" keyword prompt*** 
+//"colonial" keyword prompt* 
+else if(inputText.toLowerCase().indexOf("colonial")>-1){
+	document.getElementById("answer").innerHTML=" try keyword 'colonial' with: education, school, economy, master";
+}
 	 else {
 		answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
 		//document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
