@@ -453,7 +453,7 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 ////sample codes***
 //"chinese' keyword prompt*
 else if(inputText.toLowerCase().indexOf("chinese")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'chinese' with: learn, origin, govern ";
+	document.getElementById("answer").innerHTML=" try keyword 'chinese' with: learn, origin, govern, singapore ";
 }
 //"british' keyword prompt*
 else if(inputText.toLowerCase().indexOf("british")>-1){
