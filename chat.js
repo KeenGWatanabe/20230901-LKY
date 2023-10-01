@@ -451,6 +451,10 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
+//"british' keyword prompt*
+else if(inputText.toLowerCase().indexOf("british")>-1){
+	document.getElementById("answer").innerHTML=" try keyword 'british' with: economy, elite, grandfather, working class, upper class, pow, parliament, impression";
+}
 //"school' keyword prompt*
 else if(inputText.toLowerCase().indexOf("schoo")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, result, raffles institution ";
