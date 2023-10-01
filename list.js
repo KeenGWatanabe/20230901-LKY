@@ -21,5 +21,8 @@ else if (elementId === 'life to you') {
 }
 else if (elementId === 'tussaud') {
     alert(`When I visited Madame Tussaud's as a student in the 1940s...there were two groups of figures: the famous and the notorious, either British kings and famous leaders, or notorious murderers. I hope Madame Tussaud's will not put my likeness too close to the notorious." 1998 The Wit & Wisdom of Lee Kuan Yew`);
+}
+else if (elementId === 'attribute') {
+    alert(`Lee Kuan Yew attribute what he has become as being born in a British colony, perils of Japanese occupation, thrown into the responsibility of independence, being a learned man plus these 3 major events, without with, he probably won't be the man he is to be. Freemindson.org`);
 }    
 }
