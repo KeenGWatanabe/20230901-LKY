@@ -451,9 +451,13 @@ else if(/\bwives\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().index
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
+//"chinese' keyword prompt*
+else if(inputText.toLowerCase().indexOf("chinese")>-1){
+	document.getElementById("answer").innerHTML=" try keyword 'chinese' with: learn, origin, govern ";
+}
 //"british' keyword prompt*
 else if(inputText.toLowerCase().indexOf("british")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'british' with: economy, elite, grandfather, working class, upper class, pow, parliament, impression";
+	document.getElementById("answer").innerHTML=" try keyword 'british' with: economy, elite, grandfather, working class, upper class, pow, parliament, impression, empire";
 }
 //"school' keyword prompt*
 else if(inputText.toLowerCase().indexOf("schoo")>-1){
