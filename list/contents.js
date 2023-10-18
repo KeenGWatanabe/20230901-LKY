@@ -1,6 +1,6 @@
 function displayAnswer(elementId) {
     if (elementId === 'contents') {
-        window.open(href="",'chat AI','resizable,height=300,width=500');}
+        window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');}
 
 else if (elementId === '1') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A322%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}    
 else if (elementId === '2') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A382%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable, height=700,width=1000');}
@@ -32,21 +32,19 @@ else if (elementId === '27') {window.open(href="https://d-pdf.com/themes/default
 else if (elementId === '28') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3341%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
 else if (elementId === '29') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3378%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
 else if (elementId === '30') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3435%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === '') {window.open(href="",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '31') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3536%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '32') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3651%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '33') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3766%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '34') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3866%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '35') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A3971%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '36') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4054%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '37') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4232%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '38') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4292%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '39') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4353%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '40') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4433%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '41') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4547%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '42') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4646%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === '43') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4729%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+else if (elementId === 'chrono') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4915%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
+
 }
