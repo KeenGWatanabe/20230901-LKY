@@ -9,10 +9,40 @@
 </head>
 <body  class="body">
     <h3 style="padding: 0px; font-family: arial;">Chat with LKY<br/></h3>
-        <div>from LKY books, speeches, media content</div><br/>
+        <div>from LKY books, speeches, media content&nbsp;&nbsp;</a>
+          <div class="dropdown">  
+        <button style="border-color:aliceblue;"onclick="dropdown1()">topics</button>
+          <div class="dropdown-content" id="myDropdown1">
+            <input id="myInput1" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+            <a href="#" onclick="displayAnswer('contents')">contents</a>
+            <a href="#" onclick="displayAnswer('1')">1. Independence</a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            <a href="#" onclick="displayAnswer('')"></a>
+            
+
+          </div></div>
+        <br/><br/>
 
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
+
+              
     <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="lky()">Chat</button>
     <div class="dropdown">
         <button class="dropbtn" style="border-color:aliceblue;"onclick="dropdown()">about</button>
@@ -36,7 +66,8 @@
     
     <script src="chat.js"></script>
     <script src="dropdown/dropdown.js"></script>
+    <script src="dropdown/dropdown1.js"></script>
     <script src="list/list.js"></script>
-    
+    <script src="list/contents.js"></script>
 </body>
 </html>

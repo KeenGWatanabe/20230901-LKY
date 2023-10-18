@@ -24,5 +24,9 @@ else if (elementId === 'tussaud') {
 }
 else if (elementId === 'attribute') {
     alert(`Lee Kuan Yew attribute what he has become as being born in a British colony, experienced the perils of Japanese occupation, thrown into the responsibility of independence, being a learned man plus these 3 major events, without with, he probably won't be the man he is to be. Freemindson.org`);
+}
+else if (elementId === 'contents') {
+    window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');
+
 }    
 }
