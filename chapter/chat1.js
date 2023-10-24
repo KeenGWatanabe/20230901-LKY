@@ -325,8 +325,23 @@ else if(inputText.toLowerCase().indexOf("oxley")>-1&&/\bhouse\b/.test(inputText.
 		document.getElementById("answer").innerHTML=`  I had no doubt that my four clients did kill Ryan, that they were highly keyed-up that night and would have murdered any white or partly white person who came their way, anyone associated with the Christian religion and thus, to them, against Islam. I had no faith in a system that allowed the superstition, ignorance, biases,prejudices and fears of seven jurymen to determine guilt or innocence. They were by definition the ordinary man in the street with no special qualifications other than an ability to understand English and follow the proceedings. I had seen juries in British courts. I did not think they deserved the reverence that lawyers and jurists ritually accorded to their collective wisdom. Memoirs of LKY,1998`;}
 	//chapter 6*WorkWeddingPolitics**
 	//chapter 7 MyFirstClashes with the Government*
+	else if(inputText.toLowerCase().indexOf("nicoll")>-1&&inputText.toLowerCase().indexOf("highway")>-1){
+		document.getElementById("answer").innerHTML=`“For the first time in the history of the trade union movement in this country, the foremost official in the colony has publicly questioned the validity of the strike weapon. Put more bluntly, Mr Nicoll (the governor) says that the government considers pressure through strikes, whether justified or not, whether illegal or not, as something which the government cannot tolerate.” Memoirs of LKY,1998`;}
+	
+	//chapter 7 MyFirstClashes with the Government***
+	//chapter 8 Widening the Oxley Road Circle*
+	//chapter 8 Widening the Oxley Road Circle***
+	//chapter 9 The World of the Chinese-educated*
+	else if(inputText.toLowerCase().indexOf("chinese")>-1&&inputText.toLowerCase().indexOf("educated")>-1||inputText.toLowerCase().indexOf("chinese")>-1&&inputText.toLowerCase().indexOf("communities")>-1){document.getElementById("answer").innerHTML=`But immigrant communities were  left to fend for themselves. The Chinese collected donations and built their own schools. Completely self-supporting, they used textbooks published in China and employed teachers recruited in China who  taught in Mandarin just as if they were in Guangdong or Fujian province. Culturally, they lived in a world apart. Graduates could either continue their studies by switching over to an English school and so make their way up the English-educated ladder, or look for jobs in firms that used the Chinese language–Chinese shops,restaurants and business houses, and the few Chinese-owned banks .Memoirs of LKY,1998`;}
+	
+	else if(inputText.toLowerCase().indexOf("513")>-1||inputText.toLowerCase().indexOf("chung cheng")>-1){
+		document.getElementById("answer").innerHTML=`The communists immediately commemorated the clash on 13 May withthe numbers “5-1-3”, 5 for May and 13, a Chinese shorthand for famous orinfamous incidents – the Tiananmen episode on 4 June 1989 is “6-4”, 6 forJune. The students mounted camp-ins and protests, and formed a 55-manexemption delegation, which organised different sections to  collectinformation on injured students, provide them with medical treatment anddrum up public sympathy.They fanned out across Singapore to enlist the support of other students,parents, shopkeepers, local Chinese leaders – indeed the entire Chinese-speaking community.  Theirs were  tried  and  tested methods  of  massagitation that the communists had worked out in China. At the first sign oftrouble from the police, they shut themselves up in schools or factories toform a critical mass, attract attention, win sympathy, defy authority andprovoke the government into “victimising” them. Memoirs of LKY,1998`;}
 
-	//chapter 7 MyFirstClashes with the Government*
+	else if(inputText.toLowerCase().indexOf("stupid")>-1&&inputText.toLowerCase().indexOf("ever")>-1||inputText.toLowerCase().indexOf("stupid")>-1&&inputText.toLowerCase().indexOf("were")>-1){
+		document.getElementById("answer").innerHTML=`Until now the authorities have no evidence ofany communist activity in the Chinese schools; but they regard oppositionto the government’s refusal to allow the students postponement of service ascommunist activity,  and under this pretext, they seek to exercise better control over the Chinese schools.” I was ignorant, gullible and stupid. I did not know  just how efficient the communists were, how their tentacles reached out and controlled every single organisation that was bubbling up against the government. Memoirs of LKY,1998`;}	
+	//chapter 9-World of Chinese-educated***
+	//chapter 10-Enter the PAP*
+
 	//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=` Memoirs of LKY,1998`;}
 	
 //chapter 6***WorkWeddingPolitics
@@ -600,7 +615,7 @@ else if(inputText.toLowerCase().indexOf("separat")>-1){
 //"chinese' keyword prompt*
 
 else if(inputText.toLowerCase().indexOf("chinese")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'chinese' with: learn, origin, govern, singapore ";
+	document.getElementById("answer").innerHTML=" try keyword 'chinese' with: learn, origin, govern, singapore, communities, educate ";
 }
 //"british' keyword prompt*
 else if(inputText.toLowerCase().indexOf("british")>-1){
