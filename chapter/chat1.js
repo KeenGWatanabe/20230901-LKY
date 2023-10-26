@@ -34,7 +34,7 @@ function lky() {
 
 //chapter 1***Suddenly Independence
 //chapter 2* Growing Up
-	else if(inputText.toLowerCase().indexOf("earliest")>-1&&inputText.toLowerCase().indexOf("memor")>-1||inputText.toLowerCase().indexOf("recollection")>-1||/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("memor")>-1){
+	else if(inputText.toLowerCase().indexOf("earliest")>-1&&inputText.toLowerCase().indexOf("memor")>-1||/\bchildhood\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("memor")>-1){
 	document.getElementById("answer").innerHTML=`Born in Singapore on 16 September 1923, in a two-storey bungalow at 92 Kampong Java Road. My earliest and most vivid recollection was of being held by my ears over a well, now Tembeling Road in Singapore. I was about 4 years old.||After having messed up an expensive jar of my father's pale green scented brilliantine. My father's rage went through the roof. "How could my ears have been so tough that they were not ripped off, dropping me into that well?" he thought. Fifty years later, in the 1970s, I read in the Scientific American an article explaining how pain and shock released neuropeptides in the brain, stamping the new experience into the brain cells and thus ensuring that the experience would be remembered for a long time afterwards. Memoirs of LKY,1998`;}
 
 	else if(/\bfather\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("your")>-1){

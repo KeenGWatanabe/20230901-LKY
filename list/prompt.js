@@ -16,8 +16,11 @@ else if (elementId === 'how did people react') {document.getElementById("text_a"
 
 else if (elementId === 'sad') {document.getElementById("text_a").value = "sad";}
 
+else if (elementId === 'childhood') {document.getElementById("text_a").value = "childhood memory";}
 
+else if (elementId === 'father') {document.getElementById("text_a").value = "your father";}
 
+else if (elementId === 'parents') {document.getElementById("text_a").value = "your parents";}
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
 }
