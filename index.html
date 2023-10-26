@@ -60,8 +60,14 @@
             <a href="#" onclick="displayAnswer('43')">43. "Talak, Talak, Talak"</a>
             <a href="#" onclick="displayAnswer('chrono')">Chronology of Events"</a>
           </div></div>
-        <br/><br/>
 
+        <div class="dropdown">  
+          <button style="border-color:aliceblue;"onclick="dropdown2()">prompt</button>
+            <div class="dropdown-content" id="myDropdown2">
+              <input id="myInput2" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+              <a href="#" onclick="displayAnswer('contents')">contents</a>     </div></div>
+              <br/><br/>
+      
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
 
@@ -86,6 +92,7 @@
     
     <script src="dropdown/dropdown.js"></script>
     <script src="dropdown/dropdown1.js"></script> 
+    <script src="dropdown/dropdown2.js"></script>
     <script src="list/about.js">//displayAlert</script>
     <script src="list/contents.js">//displayAnswe</script>
     <!--script src="chat.js"></script-->
