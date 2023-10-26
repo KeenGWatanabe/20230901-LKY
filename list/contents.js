@@ -46,9 +46,8 @@ else if (elementId === '41') {window.open(href="https://d-pdf.com/themes/default
 else if (elementId === '42') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4646%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
 else if (elementId === '43') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4729%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
 else if (elementId === 'chrono') {window.open(href="https://d-pdf.com/themes/default/resources/js/pdfjs/web/viewer.html?file=/eBooks/2023/September/650447744869d/9780130208033.pdf#%5B%7B%22num%22%3A4915%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C76.5%2C669.75%2C0%5D",'chat AI','resizable,height=700,width=1000');}
-else if (elementId === 'announce independence') {
-    document.getElementById("text_a").value = "announce independence";
-}
+
+else if (elementId === 'announce independence') {document.getElementById("text_a").value = "announce independence";}
 else if (elementId === 'reason separate from malaysia') {document.getElementById("text_a").value = "reason separate from malaysia";}
 else if (elementId === 'breakdown on tv') {document.getElementById("text_a").value = "breakdown on television";}
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
