@@ -50,6 +50,7 @@ else if (elementId === 'chrono') {window.open(href="https://d-pdf.com/themes/def
 else if (elementId === 'announce independence') {document.getElementById("text_a").value = "announce independence";}
 else if (elementId === 'reason separate from malaysia') {document.getElementById("text_a").value = "reason separate from malaysia";}
 else if (elementId === 'breakdown on tv') {document.getElementById("text_a").value = "breakdown on television";}
+else if (elementId === 'was separate plan') {document.getElementById("text_a").value = "was separate plan";}
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
 }
