@@ -21,6 +21,21 @@ else if (elementId === 'childhood') {document.getElementById("text_a").value = "
 else if (elementId === 'father') {document.getElementById("text_a").value = "your father";}
 
 else if (elementId === 'parents') {document.getElementById("text_a").value = "your parents";}
+
+else if (elementId === 'father job') {document.getElementById("text_a").value = "father's job";}
+
+else if (elementId === 'chinese origin') {document.getElementById("text_a").value = "chinese origin";}
+
+else if (elementId === 'grandfather') {document.getElementById("text_a").value = "your grandfather";}
+
+else if (elementId === 'grandfather fortune') {document.getElementById("text_a").value = "grandfather's fortune";}
+
+else if (elementId === 'childhood play') {document.getElementById("text_a").value = "childhood playing";}
+
+else if (elementId === 'family head') {document.getElementById("text_a").value = "family head";}
+
+else if (elementId === 'pri sch') {document.getElementById("text_a").value = "primary school";}
+
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
 }

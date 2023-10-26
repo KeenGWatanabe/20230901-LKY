@@ -2,7 +2,7 @@ function dropdown2() {
     document.getElementById("myDropdown2").classList.toggle("show");
   }
   
-  function filterFunction() {
+  function filterFunction2() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput2");
     filter = input.value.toUpperCase();
