@@ -61,17 +61,26 @@
             <a href="#" onclick="displayAnswer('chrono')">Chronology of Events"</a>
           </div></div>
 
-        <div class="dropdown">  
-          <button style="border-color:aliceblue;"onclick="dropdown2()">prompt</button>
-            <div class="dropdown-content" id="myDropdown2">
-              <input id="myInput2" onkeyup="filterFunction()" placeholder="Search.." type="text" />
-              <a href="#" onclick="displayAnswer('contents')">contents</a>     </div></div>
               <br/><br/>
       
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
 
-    <!--CHAT BUTTON-->     
+    <!--CHAT BUTTON-->
+    <div class="dropdown">  
+      <button style="border-color:aliceblue;"onclick="dropdown2()">prompt</button>
+        <div class="dropdown-content" id="myDropdown2">
+          <input id="myInput2" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+          <a href="#" onclick="displayAnswer('announce independence')">announce independence</a>
+          <a href="#" onclick="displayAnswer('reason separate from malaysia')">reason separate from malaysia</a>
+         <a href="#" onclick="displayAnswer('breakdown on tv')">breakdown on tv</a>
+         <a href="#" onclick="displayAnswer('')"></a>
+         <a href="#" onclick="displayAnswer('')"></a>
+         <a href="#" onclick="displayAnswer('')"></a>
+         <a href="#" onclick="displayAnswer('')"></a>
+         <a href="#" onclick="displayAnswer('')"></a>
+        </div></div>
+         
     <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="lky()">Chat</button>
     &nbsp;&nbsp;
     <div class="dropdown">
@@ -94,7 +103,7 @@
     <script src="dropdown/dropdown1.js"></script> 
     <script src="dropdown/dropdown2.js"></script>
     <script src="list/about.js">//displayAlert</script>
-    <script src="list/contents.js">//displayAnswe</script>
+    <script src="list/contents.js">//displayAnswer</script>
     <!--script src="chat.js"></script-->
     <script src="chapter/chat1.js"></script>
     
