@@ -74,6 +74,15 @@ else if (elementId === 'p35') {document.getElementById("text_a").value = "kempei
 
 else if (elementId === 'p36') {document.getElementById("text_a").value = "comfort women";}
 
+else if (elementId === 'p37') {document.getElementById("text_a").value = "japanese prison";}
+
+else if (elementId === 'p38') {document.getElementById("text_a").value = "japanese punishment";}
+
+else if (elementId === 'p39') {document.getElementById("text_a").value = "japanese torture";}
+
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+
+
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
 }
