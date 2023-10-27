@@ -36,6 +36,18 @@ else if (elementId === 'family head') {document.getElementById("text_a").value =
 
 else if (elementId === 'pri sch') {document.getElementById("text_a").value = "primary school";}
 
+else if (elementId === 'sec sch') {document.getElementById("text_a").value = "secondary school";}
+
+else if (elementId === 'colonial sch') {document.getElementById("text_a").value = "colonial school";}
+
+else if (elementId === 'sch canning') {document.getElementById("text_a").value = "school canning";}
+
+else if (elementId === 'politics calling') {document.getElementById("text_a").value = "politics calling";}
+
+else if (elementId === 'cabinet network') {document.getElementById("text_a").value = "cabinet network";}
+
+else if (elementId === 'british coolness') {document.getElementById("text_a").value = "british coolness";}
+
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
 }
