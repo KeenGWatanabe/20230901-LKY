@@ -72,7 +72,15 @@ else if (elementId === 'p67') {document.getElementById("text_a").value = "englis
 else if (elementId === 'p68') {document.getElementById("text_a").value = "japanese soldiers";}
 else if (elementId === 'p69') {document.getElementById("text_a").value = "looting";}
 else if (elementId === 'p70') {document.getElementById("text_a").value = "japanese behead";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p71') {document.getElementById("text_a").value = "oxley house";}
+else if (elementId === 'p72') {document.getElementById("text_a").value = "economy after liberation";}
+else if (elementId === 'p73') {document.getElementById("text_a").value = "infrastructure after liberation";}
+else if (elementId === 'p74') {document.getElementById("text_a").value = "british came back";}
+else if (elementId === 'p75') {document.getElementById("text_a").value = "peranakan";}
+else if (elementId === 'p76') {document.getElementById("text_a").value = "king's chinese";}
+else if (elementId === 'p77') {document.getElementById("text_a").value = "chinese immigrants";}
+else if (elementId === 'p78') {document.getElementById("text_a").value = "mpaja";}
+else if (elementId === 'p79') {document.getElementById("text_a").value = "communist turmoil";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
