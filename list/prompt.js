@@ -80,9 +80,25 @@ else if (elementId === 'p38') {document.getElementById("text_a").value = "japane
 
 else if (elementId === 'p39') {document.getElementById("text_a").value = "japanese torture";}
 
+else if (elementId === 'p40') {document.getElementById("text_a").value = "atom bomb";}
+
+else if (elementId === 'p41') {document.getElementById("text_a").value = "learn japanese";}
+
+else if (elementId === 'p42') {document.getElementById("text_a").value = "banana notes";}
+
+
+else if (elementId === 'p43') {document.getElementById("text_a").value = "met your wife";}
+
+else if (elementId === 'p44') {document.getElementById("text_a").value = "most important years";}
+
+else if (elementId === 'p45') {document.getElementById("text_a").value = "colour prejudice";}
+
+else if (elementId === 'p46') {document.getElementById("text_a").value = "anti-british";}
+else if (elementId === 'p47') {document.getElementById("text_a").value = "british working class";}
+else if (elementId === 'p48') {document.getElementById("text_a").value = "british upper class";}
+else if (elementId === 'p49') {document.getElementById("text_a").value = "british elite";}
+else if (elementId === 'p50') {document.getElementById("text_a").value = "you got married";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-
-
-//else if (elementId === '') {document.getElementById("text_a").value = "";}
+//else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 }
