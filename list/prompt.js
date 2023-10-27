@@ -98,9 +98,9 @@ else if (elementId === 'p47') {document.getElementById("text_a").value = "britis
 else if (elementId === 'p48') {document.getElementById("text_a").value = "british upper class";}
 else if (elementId === 'p49') {document.getElementById("text_a").value = "british elite";}
 else if (elementId === 'p50') {document.getElementById("text_a").value = "you got married";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p51') {document.getElementById("text_a").value = "chiang kai shek";}
+else if (elementId === 'p52') {document.getElementById("text_a").value = "study law";}
+else if (elementId === 'p53') {document.getElementById("text_a").value = "house of common";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
