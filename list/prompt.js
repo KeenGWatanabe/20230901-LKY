@@ -62,6 +62,18 @@ else if (elementId === 'p57') {document.getElementById("text_a").value = "anti-c
 else if (elementId === 'p58') {document.getElementById("text_a").value = "end of british empire";}
 else if (elementId === 'p59') {document.getElementById("text_a").value = "why give up";}
 else if (elementId === 'p60') {document.getElementById("text_a").value = "arrange for independence";}
+else if (elementId === 'p61') {document.getElementById("text_a").value = "japanese surrender";}
+else if (elementId === 'p62') {document.getElementById("text_a").value = "mountbatten road";}
+else if (elementId === 'p63') {document.getElementById("text_a").value = "concorde";}
+else if (elementId === 'p64') {document.getElementById("text_a").value = "punish crime";}
+else if (elementId === 'p65') {document.getElementById("text_a").value = "japanese economy";}
+else if (elementId === 'p66') {document.getElementById("text_a").value = "british pow";}
+else if (elementId === 'p67') {document.getElementById("text_a").value = "english education";}
+else if (elementId === 'p68') {document.getElementById("text_a").value = "japanese soldiers";}
+else if (elementId === 'p69') {document.getElementById("text_a").value = "looting";}
+else if (elementId === 'p70') {document.getElementById("text_a").value = "japanese behead";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 
