@@ -101,13 +101,13 @@ else if (elementId === 'p50') {document.getElementById("text_a").value = "you go
 else if (elementId === 'p51') {document.getElementById("text_a").value = "chiang kai shek";}
 else if (elementId === 'p52') {document.getElementById("text_a").value = "study law";}
 else if (elementId === 'p53') {document.getElementById("text_a").value = "house of common";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p54') {document.getElementById("text_a").value = "cambridge result";}
+else if (elementId === 'p55') {document.getElementById("text_a").value = "help you write";}
+else if (elementId === 'p56') {document.getElementById("text_a").value = "deep impression";}
+else if (elementId === 'p57') {document.getElementById("text_a").value = "anti-colonial";}
+else if (elementId === 'p58') {document.getElementById("text_a").value = "end of british empire";}
+else if (elementId === 'p59') {document.getElementById("text_a").value = "why give up";}
+else if (elementId === 'p60') {document.getElementById("text_a").value = "arrange for independence";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 
