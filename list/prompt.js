@@ -52,27 +52,27 @@ else if (elementId === 'p24') {document.getElementById("text_a").value = "trader
 
 else if (elementId === 'p25') {document.getElementById("text_a").value = "enterprise japanese occupation";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p26') {document.getElementById("text_a").value = "partnership japanese occupation";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p27') {document.getElementById("text_a").value = "scarcity";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p28') {document.getElementById("text_a").value = "why gukha";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p29') {document.getElementById("text_a").value = "japanese bully";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p30') {document.getElementById("text_a").value = "colonial economy";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p31') {document.getElementById("text_a").value = "describe japanese torture";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p32') {document.getElementById("text_a").value = "japanese business";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p33') {document.getElementById("text_a").value = "japanese assets";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p34') {document.getElementById("text_a").value = "how the war affect you";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p35') {document.getElementById("text_a").value = "kempeitai";}
 
-else if (elementId === '') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p36') {document.getElementById("text_a").value = "comfort women";}
 
 //else if (elementId === '') {document.getElementById("text_a").value = "";}
 
