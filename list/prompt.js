@@ -99,6 +99,18 @@ else if (elementId === 'p48') {document.getElementById("text_a").value = "britis
 else if (elementId === 'p49') {document.getElementById("text_a").value = "british elite";}
 else if (elementId === 'p50') {document.getElementById("text_a").value = "you got married";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+
+
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 }
