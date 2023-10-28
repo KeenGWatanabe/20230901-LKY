@@ -136,7 +136,7 @@ else if (elementId === 'p131') {document.getElementById("text_a").value = "how t
 else if (elementId === 'p132') {document.getElementById("text_a").value = "substance of separation";}
 else if (elementId === 'p133') {document.getElementById("text_a").value = "singapore chinese";}
 else if (elementId === 'p134') {document.getElementById("text_a").value = "view tunku abdul rahman";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p135') {document.getElementById("text_a").value = "malaysia fight communists";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
