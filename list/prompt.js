@@ -126,8 +126,17 @@ else if (elementId === 'p121') {document.getElementById("text_a").value = "ever 
 else if (elementId === 'p122') {document.getElementById("text_a").value = "why emergency regulations";}
 else if (elementId === 'p123') {document.getElementById("text_a").value = "hock lee bus marshall";}
 else if (elementId === 'p124') {document.getElementById("text_a").value = "communist goals";}
-else if (elementId === 'p125') {document.getElementById("text_a").value = "hock lee violence";}
-else if (elementId === 'p126') {document.getElementById("text_a").value = "effec hock lee bus riot";}
+else if (elementId === 'p125') {document.getElementById("text_a").value = "hock lee casualties count";}
+else if (elementId === 'p126') {document.getElementById("text_a").value = "effects bus riot";}
+else if (elementId === 'p127') {document.getElementById("text_a").value = "chinese stance";}
+else if (elementId === 'p128') {document.getElementById("text_a").value = "language alliance";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
