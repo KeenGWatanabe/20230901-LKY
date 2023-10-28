@@ -94,6 +94,16 @@ else if (elementId === 'p89') {document.getElementById("text_a").value = "remors
 else if (elementId === 'p90') {document.getElementById("text_a").value = "socialism";}
 else if (elementId === 'p91') {document.getElementById("text_a").value = "wealth and ability";}
 else if (elementId === 'p92') {document.getElementById("text_a").value = "marxis views";}
+else if (elementId === 'p93') {document.getElementById("text_a").value = "ideal state";}
+else if (elementId === 'p94') {document.getElementById("text_a").value = "when shaken";}
+else if (elementId === 'p95') {document.getElementById("text_a").value = "what first job";}
+else if (elementId === 'p96') {document.getElementById("text_a").value = "describe mentor";}
+else if (elementId === 'p97') {document.getElementById("text_a").value = "describe kwa siew tee";}
+else if (elementId === 'p98') {document.getElementById("text_a").value = "secret marriage";}
+else if (elementId === 'p99') {document.getElementById("text_a").value = "furious about late";}
+else if (elementId === 'p100') {document.getElementById("text_a").value = "colonial government";}
+else if (elementId === 'p101') {document.getElementById("text_a").value = "fight freedom";}
+else if (elementId === 'p102') {document.getElementById("text_a").value = "jury system";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 
