@@ -104,8 +104,20 @@ else if (elementId === 'p99') {document.getElementById("text_a").value = "furiou
 else if (elementId === 'p100') {document.getElementById("text_a").value = "colonial government";}
 else if (elementId === 'p101') {document.getElementById("text_a").value = "fight freedom";}
 else if (elementId === 'p102') {document.getElementById("text_a").value = "jury system";}
+else if (elementId === 'p103') {document.getElementById("text_a").value = "chinese communities";}
+else if (elementId === 'p104') {document.getElementById("text_a").value = "513 incident";}
+else if (elementId === 'p105') {document.getElementById("text_a").value = "ever stupid";}
+else if (elementId === 'p106') {document.getElementById("text_a").value = "marshall road";}
+else if (elementId === 'p107') {document.getElementById("text_a").value = "lim chin siong";}
+else if (elementId === 'p108') {document.getElementById("text_a").value = "recruit union";}
+else if (elementId === 'p109') {document.getElementById("text_a").value = "form pap";}
+else if (elementId === 'p110') {document.getElementById("text_a").value = "pap support";}
+else if (elementId === 'p111') {document.getElementById("text_a").value = "how pap run";}
+else if (elementId === 'p112') {document.getElementById("text_a").value = "rendel constitution";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
