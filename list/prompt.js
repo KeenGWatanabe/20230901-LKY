@@ -114,6 +114,17 @@ else if (elementId === 'p109') {document.getElementById("text_a").value = "form 
 else if (elementId === 'p110') {document.getElementById("text_a").value = "pap support";}
 else if (elementId === 'p111') {document.getElementById("text_a").value = "how pap run";}
 else if (elementId === 'p112') {document.getElementById("text_a").value = "rendel constitution";}
+else if (elementId === 'p113') {document.getElementById("text_a").value = "docklands conditions";}
+else if (elementId === 'p114') {document.getElementById("text_a").value = "lim chin siong speaker";}
+else if (elementId === 'p115') {document.getElementById("text_a").value = "dialects rally";}
+else if (elementId === 'p116') {document.getElementById("text_a").value = "clan support";}
+else if (elementId === 'p117') {document.getElementById("text_a").value = "polling result 1955";}
+else if (elementId === 'p118') {document.getElementById("text_a").value = "crowds at rally";}
+else if (elementId === 'p119') {document.getElementById("text_a").value = "left laycock";}
+else if (elementId === 'p120') {document.getElementById("text_a").value = "lee & lee";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
