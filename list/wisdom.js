@@ -64,10 +64,14 @@ else if (elementId === 'w60') {document.getElementById("text_a").value = "democr
 else if (elementId === 'w61') {document.getElementById("text_a").value = "the poor";}
 else if (elementId === 'w62') {document.getElementById("text_a").value = "affiliation with countries";}
 else if (elementId === 'w63') {document.getElementById("text_a").value = "your priorities";}
+else if (elementId === 'w64') {document.getElementById("text_a").value = "pap";}
+else if (elementId === 'w65') {document.getElementById("text_a").value = "sick bed";}
+else if (elementId === 'w66') {document.getElementById("text_a").value = "repent";}
+else if (elementId === 'w67') {document.getElementById("text_a").value = "intimidated by you";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
-
+else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 
 //else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 
