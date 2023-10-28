@@ -567,7 +567,7 @@ else if(inputText.toLowerCase().indexOf("habit")>-1||inputText.toLowerCase().ind
 else if(inputText.toLowerCase().indexOf("headline")>-1){
 	document.getElementById("answer").innerHTML=`I have no headline material to offer you tonight. In fact, I believe that the art of Government is, in part, the art of not creating headlines in the world press." Speech at Foreign Correspondents Association, 16th Sep, 1959, Lee Kuan Yew in his own words, 1959-1970`;
 }	
-else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1){
+else if(inputText.toLowerCase().indexOf("sleep")>-1||inputText.toLowerCase().indexOf("late")>-1||inputText.toLowerCase().indexOf("sleep")>-1&&inputText.toLowerCase().indexOf("importan")>-1){
 	document.getElementById("answer").innerHTML=`Today, I was a bit late because I took some time in getting up; slept late last night; some work to be done; two functions in the evening. But that is important. I like to tell you this because I think this is what we all must do: 'sleep well of nights'. You know Shakespeare, 'Give me men that sleep well of nights'. That is what he said. I think it right. Men who worry, you know, read all this, and they start shouting all this they get worried themselves, night time comes, they can't sleep. Next morning they wake up, mind befuddled, wrong decisions, more trouble!" Tanjong Katong School, during tour of Mountbatten Constituency, 13th June, 1965 Lee Kuan Yew in his own words, 1959-1970`;
 }
 else if(inputText.toLowerCase().indexOf("funny")>-1||inputText.toLowerCase().indexOf("hearted")>-1&&inputText.toLowerCase().indexOf("light")>-1||inputText.toLowerCase().indexOf("humour")>-1){
@@ -615,7 +615,7 @@ else if(inputText.toLowerCase().indexOf("state")>-1&&inputText.toLowerCase().ind
 else if(inputText.toLowerCase().indexOf("the poor")>-1){
 	document.getElementById("answer").innerHTML=`The poor know that you don't get manna falling from heaven, not in Singapore anyway", 1976, The Wit & Wisdom `;
 }
-else if(inputText.toLowerCase().indexOf("friends with")>-1||inputText.toLowerCase().indexOf("affiliat")>-1||inputText.toLowerCase().indexOf("pro-china")>-1||inputText.indexOf("pro-US")>-1){
+else if(inputText.toLowerCase().indexOf("friends with")>-1||inputText.toLowerCase().indexOf("affiliat")>-1||inputText.toLowerCase().indexOf("pro-china")>-1||inputText.indexOf("pro-us")>-1){
 	document.getElementById("answer").innerHTML=`I am nobody's stooge. I am not here to play somebody else's game. I have a few million people's lives to account for. And Singapore will survive will trade with the whole world and will remain non Communist", Press Conference at City Hall, 26th August 1965, Lee Kuan Yew in his own words, 1959-1970`;
 }
 else if(inputText.toLowerCase().indexOf("focus")>-1||inputText.toLowerCase().indexOf("priorit")>-1){

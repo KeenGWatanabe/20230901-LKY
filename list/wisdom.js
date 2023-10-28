@@ -45,11 +45,30 @@ else if (elementId === 'w41') {document.getElementById("text_a").value = "americ
 else if (elementId === 'w42') {document.getElementById("text_a").value = "on fashion";}
 else if (elementId === 'w43') {document.getElementById("text_a").value = "free democracy";}
 else if (elementId === 'w44') {document.getElementById("text_a").value = "repression";}
+else if (elementId === 'w45') {document.getElementById("text_a").value = "headline news";}
+else if (elementId === 'w46') {document.getElementById("text_a").value = "sleep is important";}
+else if (elementId === 'w47') {document.getElementById("text_a").value = "humour";}
+else if (elementId === 'w48') {document.getElementById("text_a").value = "cowpeh";}
+else if (elementId === 'w49') {document.getElementById("text_a").value = "local talent";}
+else if (elementId === 'w50') {document.getElementById("text_a").value = "baby bonus";}
+else if (elementId === 'w51') {document.getElementById("text_a").value = "tussaud";}
+else if (elementId === 'w52') {document.getElementById("text_a").value = "anger";}
+else if (elementId === 'w53') {document.getElementById("text_a").value = "critics";}
+else if (elementId === 'w54') {document.getElementById("text_a").value = "get elected";}
+else if (elementId === 'w55') {document.getElementById("text_a").value = "multiparty";}
+else if (elementId === 'w56') {document.getElementById("text_a").value = "no news";}
+else if (elementId === 'w57') {document.getElementById("text_a").value = "when retire";}
+else if (elementId === 'w58') {document.getElementById("text_a").value = "being correct";}
+else if (elementId === 'w59') {document.getElementById("text_a").value = "nanny state";}
+else if (elementId === 'w60') {document.getElementById("text_a").value = "democratic state";}
+else if (elementId === 'w61') {document.getElementById("text_a").value = "the poor";}
+else if (elementId === 'w62') {document.getElementById("text_a").value = "affiliation with countries";}
+else if (elementId === 'w63') {document.getElementById("text_a").value = "your priorities";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
-else if (elementId === 'w') {document.getElementById("text_a").value = "";}
-else if (elementId === 'w') {document.getElementById("text_a").value = "";}
+
+
 //else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 
 }
