@@ -713,7 +713,7 @@ else if(inputText.toLowerCase().indexOf("japanese")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'japanese' with: economy, learn, business, assets, comfort women, torture, prison, work, soldiers, kill";
 }
 	 else {
-		answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
+		answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could search via [memoirs] or [wisdom] button below or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
 		//document.getElementById("answer").innerHTML='Please rephrase your question/<br>not in our database yet/<br> out-of-scope for FreeMindson/<br>email us what was your question for us to update<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 }
