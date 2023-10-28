@@ -130,10 +130,10 @@ else if (elementId === 'p125') {document.getElementById("text_a").value = "hock 
 else if (elementId === 'p126') {document.getElementById("text_a").value = "effects bus riot";}
 else if (elementId === 'p127') {document.getElementById("text_a").value = "chinese stance";}
 else if (elementId === 'p128') {document.getElementById("text_a").value = "language alliance";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p129') {document.getElementById("text_a").value = "colonial mindset";}
+else if (elementId === 'p130') {document.getElementById("text_a").value = "colonial migrants";}
+else if (elementId === 'p131') {document.getElementById("text_a").value = "how this book written";}
+else if (elementId === 'p132') {document.getElementById("text_a").value = "substance of separation";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
