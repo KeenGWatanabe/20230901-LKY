@@ -122,12 +122,12 @@ else if (elementId === 'p117') {document.getElementById("text_a").value = "polli
 else if (elementId === 'p118') {document.getElementById("text_a").value = "crowds at rally";}
 else if (elementId === 'p119') {document.getElementById("text_a").value = "left laycock";}
 else if (elementId === 'p120') {document.getElementById("text_a").value = "lee & lee";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p121') {document.getElementById("text_a").value = "ever messed up";}
+else if (elementId === 'p122') {document.getElementById("text_a").value = "why emergency regulations";}
+else if (elementId === 'p123') {document.getElementById("text_a").value = "hock lee bus marshall";}
+else if (elementId === 'p124') {document.getElementById("text_a").value = "communist goals";}
+else if (elementId === 'p125') {document.getElementById("text_a").value = "hock lee violence";}
+else if (elementId === 'p126') {document.getElementById("text_a").value = "effec hock lee bus riot";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
