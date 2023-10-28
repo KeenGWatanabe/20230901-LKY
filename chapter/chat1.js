@@ -94,6 +94,9 @@ else if(inputText.toLowerCase().indexOf("separat")>-1&&/\bmalaysia\b/.test(input
 	else if(inputText.toLowerCase().indexOf("colonial")>-1&&inputText.toLowerCase().indexOf("migrant")>-1||inputText.toLowerCase().indexOf("migrant")>-1&&inputText.toLowerCase().indexOf("cause")>-1){
 		document.getElementById("answer").innerHTML=`Many of the Chinese and Indians had been brought in as indentured labour and were tolerated because the Malays did not take to the jobs a commercial and a plantation economy required, Like tapping rubber, building roads and bridges, working as clerks, accountants and storekeepers. A small number of prominent Asiatics were allowed to mix socially with the white bosses, and some were appointed unofficial members of the governor's Executive Council or the Legislative Council.Memoirs of LKY,1998`;
 	}	
+	else if(/\bsingapore\b/.test(inputText.toLowerCase())&&/\bchinese\b/.test(inputText.toLowerCase())){
+		document.getElementById("answer").innerHTML=`I did not then know that there were many Chinese, educated in Chinese­ language schools, who were not integrated into the colonial system. Their teachers had come from China, and they did not recognise the supremacy of the whites, for they had not been educated or indoctrinated into accepting the virtues and the mission of the British Empire. After the war I was to learn more about them.Memoirs of LKY,1998`;
+	}
 //chapter 2***Growing Up
 //chapter 3* The Japanese Invaders
 //japanese occupation*
@@ -430,7 +433,7 @@ Initially I did not understand this, and was duly impressed because it all appea
 //12.Marshall accentuates the crisis*
 
 
-	else if(inputText.toLowerCase().indexOf("communist")>-1&&inputText.toLowerCase().indexOf("colonial")>-1||inputText.toLowerCase().indexOf("chinese")>-1&&inputText.toLowerCase().indexOf("stance")>-1){document.getElementById("answer").innerHTML=`I was in a most difficult position. While I could not and would notdefend them, I could not condemn them without breaking up our unitedfront. As I had explained to a correspondent of the Sydney Daily Mirror inan interview reported in the Straits Times, “Any man in Singapore who wants to carry the Chinese-speaking people with him cannot afford to be
+	else if(inputText.toLowerCase().indexOf("communist")>-1&&inputText.toLowerCase().indexOf("colonial")>-1||inputText.toLowerCase().indexOf("chinese")>-1&&inputText.toLowerCase().indexOf("stance")>-1){document.getElementById("answer").innerHTML=`I was in a most difficult position. While I could not and would not defend them, I could not condemn them without breaking up our united front. As I had explained to a correspondent of the Sydney Daily Mirror inan interview reported in the Straits Times, “Any man in Singapore who wants to carry the Chinese-speaking people with him cannot afford to be
 	anti-communist. The Chinese are very proud of China. If I had to choosebetween colonialism and communism, I would vote for communism and sowould the great majority.” I was hoping that I could get enough Chinese tovote with us against the communists and for independence and democracy.But I was not at all sanguine that this could be easily achieved if a successful communist China continued to be their source of inspiration. Memoirs of LKY,1998`;}
 	
 	else if(inputText.toLowerCase().indexOf("language")>-1&&inputText.toLowerCase().indexOf("importance")>-1||inputText.toLowerCase().indexOf("language")>-1&&inputText.toLowerCase().indexOf("alliance")>-1){document.getElementById("answer").innerHTML=`My determination that my three children should be educated in the language and culture of their ancestors gave me credentials that  thecommunists could never impugn. My two younger children, Wei Ling andHsien Yang, followed Loong to Nanyang Kindergarten and on to NanyangPrimary School. Later, Loong and Yang went to the Catholic High School,while Ling  continued in  Nanyang Girls’ High  School. They  werecompletely Chinese-educated, but because they spoke English at home withtheir mother, they became equally fluent in English. And with tuition inMalay, from the age of six, they mastered a third language. Memoirs of LKY,1998`;}
@@ -459,9 +462,7 @@ Initially I did not understand this, and was duly impressed because it all appea
 
 
 
-else if(/\bsingapore\b/.test(inputText.toLowerCase())&&/\bchinese\b/.test(inputText.toLowerCase())){
-	document.getElementById("answer").innerHTML=`I did not then know that there were many Chinese, educated in Chinese­ language schools, who were not integrated into the colonial system. Their teachers had come from China, and they did not recognise the supremacy of the whites, for they had not been educated or indoctrinated into accepting the virtues and the mission of the British Empire. After the war I was to learn more about them.Memoirs of LKY,1998`;
-}
+
 else if(inputText.toLowerCase().indexOf("had to listen to")>-1||inputText.toLowerCase().indexOf("don't give a fuck")>-1||/\bfuck\b/.test(inputText.toLowerCase())){
 	document.getElementById("answer").innerHTML=`A few Harvard professors, I can't remember".  Tom Plate's Conversations with Lee Kuan Yew`;
 }
