@@ -474,7 +474,7 @@ else if(inputText.toLowerCase().indexOf("million")>-1
 else if(inputText.toLowerCase().indexOf("ruin")>-1&&inputText.toLowerCase().indexOf("singapore")>-1||inputText.toLowerCase().indexOf("freak election")>-1){
 	document.getElementById("answer").innerHTML=`When you're Singapore's leader and your existence depends on performance - extraordinary performance, better than your competitors - when that performance disappears because the system on which it's been based becomes eroded, then you've lost everything... I try to tell the younger generation that and they say the old man is playing the same record, we've heard it all before. I happen to know how we got here and I know how we can unscramble it." - On one freak election result ruining Singapore. LKY`;
 }	
-else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1||inputText.toLowerCase().indexOf("bull")>-1&&inputText.toLowerCase().indexOf("shit")>-1){
+else if(inputText.toLowerCase().indexOf("pragmati")>-1||inputText.toLowerCase().indexOf("ideology")>-1||inputText.toLowerCase().indexOf("bullshit")>-1){
 	document.getElementById("answer").innerHTML=`We are pragmatists. We don't stick to any ideology. Does it work? Let's try it, and if it does work, fine, let's continue it. If it doesn't work, toss it out, try another one. We are not enamored with any ideology. LKY`;
 }	
 else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase().indexOf("govern")>-1||inputText.toLowerCase().indexOf("what does it takes to govern Singapore")>-1){
@@ -484,10 +484,10 @@ else if(inputText.toLowerCase().indexOf("singapore")>-1&&inputText.toLowerCase()
 else if(inputText.toLowerCase().indexOf("duds")>-1||inputText.toLowerCase().indexOf("opposition")>-1){
 	document.getElementById("answer").innerHTML=`What we are preventing is duds getting into Parliament and government. Any person of quality, we welcome him but we don't want duds. We don't want Chee Soon Juan, or J.B. Jeyaretnam. They're not going to build the country." Hard Truths to Keep Singapore Going<br>If we had considered them serious political figures, we would not have kept them politically alive for so long. We could have bankrupt them earlier.” - Straits Times, Sept 14 2003<br>And I don't think it's the numbers in the opposition which counts. It's the quality of the alternative which you put before the people". Transcript of ABC "Four Corners" Segment No.855, For Assembly in Sydney, recorded in Melbourne, Australia. Lee Kuan Yew in his own words, 1959-1970`;
 }
-else if(inputText.toLowerCase().indexOf("US presi")>-1&&inputText.toLowerCase().indexOf("great")>-1||inputText.toLowerCase().indexOf("worst")>-1){
+else if(inputText.toLowerCase().indexOf("us presi")>-1&&inputText.toLowerCase().indexOf("great")>-1||inputText.toLowerCase().indexOf("worst")>-1){
 	document.getElementById("answer").innerHTML=`Great:But for the misfortune of Watergate, I would say Richard Nixon. He had a realistic view of the world. He was a great analyst, realistic, but also a tactician to get things done. But this need with wanting to know everything and to make sure he got re-elected became obsessive.<br>worst: My name is Jimmy Carter, I'm a peanut farmer, I'm running for president. The next thing you know, he was the president!`;
 }	
-else if(inputText.toLowerCase().indexOf("deng xiao")>-1){
+else if(inputText.toLowerCase().indexOf("deng xiao")>-1||inputText.toLowerCase().indexOf("china presi")>-1){
 	document.getElementById("answer").innerHTML=`I would say the greatest was Deng Xiaoping. At his age, to admit that he was wrong, that all these ideas, Marxism, Leninism, Maoism, they are just not working and have to be abandoned, you need a great man to do that...`;
 }
 else if(inputText.toLowerCase().indexOf("xi jinpin")>-1||inputText.toLowerCase().indexOf("xi jingpin")>-1){
@@ -502,7 +502,7 @@ else if(inputText.toLowerCase().indexOf("afraid")>-1||inputText.toLowerCase().in
 else if(inputText.toLowerCase().indexOf("no")>-1&&inputText.toLowerCase().indexOf("say")>-1||inputText.toLowerCase().indexOf("fool")>-1){
 	document.getElementById("answer").innerHTML=`You lose nothing by being polite. The answer is 'No', but please say it politely and give the reasons... Explain to me why 'No'. Don't change 'No' to 'Yes'. Don't be a fool. If there was a good reason why it is 'No', it must remain 'No', but the man must be told politely." to Civil Servants at the Victoria Theatre, 30 Sep 1965, Lee Kuan Yew in his own words, 1959-1970`;
 }	
-else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("enlistment")>-1||inputText.toLowerCase().indexOf("men in NS")>-1){
+else if(/\bns\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("national service")>-1||inputText.toLowerCase().indexOf("enlistment")>-1||inputText.toLowerCase().indexOf("men in ns")>-1){
 	document.getElementById("answer").innerHTML=`I have read several books written by generals about wars fought by other generals. The thing I am constantly reminded of is that from the moment the commander has pressed the button, control of the events goes over to the local commanders until the battle was over. During the heat of battle it is the captain, the lieutenant, the sergeant, the corporal, who makes the decisions." Speech at the Opening Ceremony of Outram Park Complex, on NS, 8th May 1970, Lee Kuan Yew in his own words, 1959-1970`;
 }
 else if(inputText.toLowerCase().indexOf("eugenic")>-1||inputText.toLowerCase().indexOf("israel")>-1||inputText.toLowerCase().indexOf("doctor")>-1||inputText.toLowerCase().indexOf("gene")>-1){
@@ -540,7 +540,7 @@ else if(inputText.toLowerCase().indexOf("corporal punishment")>-1||inputText.toL
 else if(inputText.toLowerCase().indexOf("meditat")>-1||inputText.toLowerCase().indexOf("stress")>-1){
 	document.getElementById("answer").innerHTML=` I used to meditate. I started meditation about 1992 when my friend, who was speaker of Parliament, retired, and was dying of lung cancer...I found my breathing slows down and I think my heartbeat goes down and my blood pressure goes down. So, I use that as a kind of escape from stress.`;
 }	
-else if(inputText.toLowerCase().indexOf("purpose")>-1&&inputText.toLowerCase().indexOf("write")>-1&&inputText.toLowerCase().indexOf("book")>-1){
+else if(inputText.toLowerCase().indexOf("purpose")>-1&&inputText.toLowerCase().indexOf("writ")>-1&&inputText.toLowerCase().indexOf("book")>-1){
 	document.getElementById("answer").innerHTML=`Well, my purpose in writing my books is to get the average 'O' level graduates, which is Grade 10 graduates, to read it and understand it.<br>Five years after stepping down as prime minister, his old friend, Lim Kim San, chairman of Singapore Press Holdings (SPH), convinced him that the young would read his memoirs since they were interested in his book of old speeches that SPH had published. LKY`;
 }	
 else if(inputText.toLowerCase().indexOf("homo")>-1||inputText.toLowerCase().indexOf("gay")>-1){
