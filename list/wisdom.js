@@ -68,6 +68,13 @@ else if (elementId === 'w64') {document.getElementById("text_a").value = "pap";}
 else if (elementId === 'w65') {document.getElementById("text_a").value = "sick bed";}
 else if (elementId === 'w66') {document.getElementById("text_a").value = "repent";}
 else if (elementId === 'w67') {document.getElementById("text_a").value = "intimidated by you";}
+else if (elementId === 'w68') {document.getElementById("text_a").value = "accused outspoken";}
+else if (elementId === 'w69') {document.getElementById("text_a").value = "vote";}
+else if (elementId === 'w70') {document.getElementById("text_a").value = "hard truths";}
+else if (elementId === 'w') {document.getElementById("text_a").value = "";}
+else if (elementId === 'w') {document.getElementById("text_a").value = "";}
+else if (elementId === 'w') {document.getElementById("text_a").value = "";}
+else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
 else if (elementId === 'w') {document.getElementById("text_a").value = "";}
