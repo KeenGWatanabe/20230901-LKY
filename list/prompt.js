@@ -135,7 +135,7 @@ else if (elementId === 'p130') {document.getElementById("text_a").value = "colon
 else if (elementId === 'p131') {document.getElementById("text_a").value = "how this book written";}
 else if (elementId === 'p132') {document.getElementById("text_a").value = "substance of separation";}
 else if (elementId === 'p133') {document.getElementById("text_a").value = "singapore chinese";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p134') {document.getElementById("text_a").value = "view tunku abdul rahman";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
