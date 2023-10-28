@@ -81,7 +81,19 @@ else if (elementId === 'p76') {document.getElementById("text_a").value = "king's
 else if (elementId === 'p77') {document.getElementById("text_a").value = "chinese immigrants";}
 else if (elementId === 'p78') {document.getElementById("text_a").value = "mpaja";}
 else if (elementId === 'p79') {document.getElementById("text_a").value = "communist turmoil";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p80') {document.getElementById("text_a").value = "trigger events";}
+else if (elementId === 'p81') {document.getElementById("text_a").value = "great depression";}
+else if (elementId === 'p82') {document.getElementById("text_a").value = "grandfather british";}
+else if (elementId === 'p83') {document.getElementById("text_a").value = "opportunities after the war";}
+else if (elementId === 'p84') {document.getElementById("text_a").value = "car";}
+else if (elementId === 'p85') {document.getElementById("text_a").value = "why wife";}
+else if (elementId === 'p86') {document.getElementById("text_a").value = "wife family";}
+else if (elementId === 'p87') {document.getElementById("text_a").value = "obscenity";}
+else if (elementId === 'p88') {document.getElementById("text_a").value = "shocked";}
+else if (elementId === 'p89') {document.getElementById("text_a").value = "remorse";}
+else if (elementId === 'p90') {document.getElementById("text_a").value = "socialism";}
+else if (elementId === 'p91') {document.getElementById("text_a").value = "wealth and ability";}
+else if (elementId === 'p92') {document.getElementById("text_a").value = "marxis views";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 
