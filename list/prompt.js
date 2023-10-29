@@ -142,8 +142,8 @@ else if (elementId === 'p137') {document.getElementById("text_a").value = "what 
 else if (elementId === 'p138') {document.getElementById("text_a").value = "malaysia granted independence";}
 else if (elementId === 'p139') {document.getElementById("text_a").value = "merdeka rally airport road";}
 else if (elementId === 'p140') {document.getElementById("text_a").value = "british on communist threat";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p141') {document.getElementById("text_a").value = "what lky wanted";}
+else if (elementId === 'p142') {document.getElementById("text_a").value = "pap statement merger";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
