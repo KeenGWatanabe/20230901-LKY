@@ -3,7 +3,7 @@ function displayAnswer1(elementId) {
         window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');}
 
 else if (elementId === 'p1') {document.getElementById("text_a").value = "announce independence";}
-else if (elementId === 'p2') {document.getElementById("text_a").value = "reason separate from malaysia";}
+else if (elementId === 'p2') {document.getElementById("text_a").value = "malaysia explain separation";}
 else if (elementId === 'p3') {document.getElementById("text_a").value = "breakdown on television";}
 else if (elementId === 'p4') {document.getElementById("text_a").value = "was separation planned";}
 else if (elementId === 'p5') {document.getElementById("text_a").value = "what was original intent";}
@@ -137,8 +137,25 @@ else if (elementId === 'p132') {document.getElementById("text_a").value = "subst
 else if (elementId === 'p133') {document.getElementById("text_a").value = "singapore chinese";}
 else if (elementId === 'p134') {document.getElementById("text_a").value = "view tunku abdul rahman";}
 else if (elementId === 'p135') {document.getElementById("text_a").value = "malaysia fight communists";}
+else if (elementId === 'p136') {document.getElementById("text_a").value = "british separate singapore from malaysia";}
+else if (elementId === 'p137') {document.getElementById("text_a").value = "what tunku intent";}
+else if (elementId === 'p138') {document.getElementById("text_a").value = "malaysia granted independence";}
+else if (elementId === 'p139') {document.getElementById("text_a").value = "merdeka rally airport road";}
+else if (elementId === 'p140') {document.getElementById("text_a").value = "british on communist threat";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 }
