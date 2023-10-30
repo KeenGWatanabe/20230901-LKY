@@ -151,9 +151,9 @@ else if (elementId === 'p146') {document.getElementById("text_a").value = "posit
 else if (elementId === 'p147') {document.getElementById("text_a").value = "memorable lunch with friends";}
 else if (elementId === 'p148') {document.getElementById("text_a").value = "marshall london fiasco";}
 else if (elementId === 'p149') {document.getElementById("text_a").value = "yew hock and cuf";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p150') {document.getElementById("text_a").value = "run multilingual party";}
+else if (elementId === 'p151') {document.getElementById("text_a").value = "racial tension policy";}
+else if (elementId === 'p152') {document.getElementById("text_a").value = "anti-communist policy";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
