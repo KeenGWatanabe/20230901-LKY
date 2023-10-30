@@ -150,7 +150,7 @@ else if (elementId === 'p145') {document.getElementById("text_a").value = "chin 
 else if (elementId === 'p146') {document.getElementById("text_a").value = "position with chin siong";}
 else if (elementId === 'p147') {document.getElementById("text_a").value = "memorable lunch with friends";}
 else if (elementId === 'p148') {document.getElementById("text_a").value = "marshall london fiasco";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p149') {document.getElementById("text_a").value = "yew hock and cuf";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
