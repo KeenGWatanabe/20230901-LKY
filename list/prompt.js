@@ -144,6 +144,12 @@ else if (elementId === 'p139') {document.getElementById("text_a").value = "merde
 else if (elementId === 'p140') {document.getElementById("text_a").value = "british on communist threat";}
 else if (elementId === 'p141') {document.getElementById("text_a").value = "what lky wanted";}
 else if (elementId === 'p142') {document.getElementById("text_a").value = "pap statement merger";}
+else if (elementId === 'p143') {document.getElementById("text_a").value = "asiatic";}
+else if (elementId === 'p144') {document.getElementById("text_a").value = "size up lim chin siong";}
+else if (elementId === 'p145') {document.getElementById("text_a").value = "chin siong shared his views";}
+else if (elementId === 'p146') {document.getElementById("text_a").value = "position with chin siong";}
+else if (elementId === 'p147') {document.getElementById("text_a").value = "memorable lunch with friends";}
+else if (elementId === 'p148') {document.getElementById("text_a").value = "marshall london fiasco";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
@@ -156,6 +162,7 @@ else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 }
