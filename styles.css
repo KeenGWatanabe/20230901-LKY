@@ -12,9 +12,9 @@
   .btnAbout {
     background-color: #018152;
     color: white;
-    padding-block: 5px;
+    padding-block: 3px;
     font-size: 13px;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     margin-left: 16px;
   }
