@@ -155,7 +155,7 @@ else if (elementId === 'p150') {document.getElementById("text_a").value = "run m
 else if (elementId === 'p151') {document.getElementById("text_a").value = "racial tension policy";}
 else if (elementId === 'p152') {document.getElementById("text_a").value = "anti-communist policy";}
 else if (elementId === 'p153') {document.getElementById("text_a").value = "operation liberation";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p154') {document.getElementById("text_a").value = "disastrous attack chinese";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
