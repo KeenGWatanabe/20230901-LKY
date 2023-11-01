@@ -170,12 +170,16 @@ else if (elementId === 'p165') {document.getElementById("text_a").value = "pap t
 else if (elementId === 'p166') {document.getElementById("text_a").value = "leftwing pap committee";}
 else if (elementId === 'p167') {document.getElementById("text_a").value = "ong eng guan problems";}
 else if (elementId === 'p168') {document.getElementById("text_a").value = "pap key positions";}
-else if (elementId === 'p169') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p169') {document.getElementById("text_a").value = "democratic weakness";}
+else if (elementId === 'p170') {document.getElementById("text_a").value = "election campaign against capitalist";}
+else if (elementId === 'p171') {document.getElementById("text_a").value = "ong eng guan as mayor";}
+else if (elementId === 'p172') {document.getElementById("text_a").value = "cost of chinese voters";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 //else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 
 }
