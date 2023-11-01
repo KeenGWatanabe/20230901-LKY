@@ -174,9 +174,9 @@ else if (elementId === 'p169') {document.getElementById("text_a").value = "democ
 else if (elementId === 'p170') {document.getElementById("text_a").value = "election campaign against capitalist";}
 else if (elementId === 'p171') {document.getElementById("text_a").value = "ong eng guan as mayor";}
 else if (elementId === 'p172') {document.getElementById("text_a").value = "cost of chinese voters";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p173') {document.getElementById("text_a").value = "pap symbol";}
+else if (elementId === 'p174') {document.getElementById("text_a").value = "changes to polls";}
+else if (elementId === 'p175') {document.getElementById("text_a").value = "chinese mentality";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
