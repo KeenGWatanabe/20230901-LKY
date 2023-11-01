@@ -155,7 +155,20 @@ else if (elementId === 'p150') {document.getElementById("text_a").value = "run m
 else if (elementId === 'p151') {document.getElementById("text_a").value = "racial tension policy";}
 else if (elementId === 'p152') {document.getElementById("text_a").value = "anti-communist policy";}
 else if (elementId === 'p153') {document.getElementById("text_a").value = "operation liberation";}
-else if (elementId === 'p154') {document.getElementById("text_a").value = "disastrous attack chinese";}
+else if (elementId === 'p154') {document.getElementById("text_a").value = "yew hock attack chinese education";}
+else if (elementId === 'p155') {document.getElementById("text_a").value = "dealing with communists";}
+else if (elementId === 'p156') {document.getElementById("text_a").value = "lesson from west puppetry";}
+else if (elementId === 'p157') {document.getElementById("text_a").value = "chin siong detain";}
+else if (elementId === 'p158') {document.getElementById("text_a").value = "why chinese education targeted";}
+else if (elementId === 'p159') {document.getElementById("text_a").value = "how leaders inspire followers";}
+else if (elementId === 'p160') {document.getElementById("text_a").value = "reward for selflessness";}
+else if (elementId === 'p161') {document.getElementById("text_a").value = "communism is not practical";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
