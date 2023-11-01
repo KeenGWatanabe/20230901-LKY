@@ -163,14 +163,14 @@ else if (elementId === 'p158') {document.getElementById("text_a").value = "why c
 else if (elementId === 'p159') {document.getElementById("text_a").value = "how leaders inspire followers";}
 else if (elementId === 'p160') {document.getElementById("text_a").value = "reward for selflessness";}
 else if (elementId === 'p161') {document.getElementById("text_a").value = "communism is not practical";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
-else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p162') {document.getElementById("text_a").value = "banning chin siong";}
+else if (elementId === 'p163') {document.getElementById("text_a").value = "¾ independence";}
+else if (elementId === 'p164') {document.getElementById("text_a").value = "communist pap game plan";}
+else if (elementId === 'p165') {document.getElementById("text_a").value = "pap tanjong pagar";}
+else if (elementId === 'p166') {document.getElementById("text_a").value = "leftwing pap committee";}
+else if (elementId === 'p167') {document.getElementById("text_a").value = "ong eng guan problems";}
+else if (elementId === 'p168') {document.getElementById("text_a").value = "pap key positions";}
+else if (elementId === 'p169') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
