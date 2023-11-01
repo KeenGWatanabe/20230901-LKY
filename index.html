@@ -18,9 +18,9 @@
           <a href="#" onclick="displayAlert('managing Sg')">How you manage Singapore?</a>
           <a href="#" onclick="displayAlert('life to you')">Life meaning</a>
           </div>
-        </div></h3><br>
+        </div></h3>
 
-        <div>through LKY books, speeches, media content&nbsp;&nbsp;</a>
+        <intro style="font-family: Arial Narrow; font-size: 16px;">through LKY books, speeches, media content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div class="dropdown">  
         <button style="cursor: pointer;"onclick="dropdown1()">chapters</button>
           <div class="dropdown-content" id="myDropdown1">
@@ -70,16 +70,19 @@
             <a href="#" onclick="displayAnswer('42')">42. The Tunku Wants Us Out</a>
             <a href="#" onclick="displayAnswer('43')">43. "Talak, Talak, Talak"</a>
             <a href="#" onclick="displayAnswer('chrono')">Chronology of Events"</a>
-          </div></div>
+          </div></div></intro>
 
               <br/><br/>
       
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
 
-    
+    <div>search keywords buttons below 
+      <!--CHAT BUTTON-->
+      <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="lky()">Chat</button>
+         </div>
     <div class="dropdown">  
-      <button style="border-color:aliceblue;"onclick="dropdown2()">memoirs</button>
+      <button style="border-color:aliceblue;"onclick="dropdown2()">memoirs</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div class="dropdown-content" id="myDropdown2">
         <input id="myInput2" onkeyup="filterFunction2()" placeholder="Search.." type="text" />
         <a href="#" onclick="displayAnswer1('p1')">announce independence</a>
@@ -256,7 +259,7 @@
 
       </div></div>
       <div class="dropdown">  
-        <button style="border-color:aliceblue;"onclick="dropdown3()">wisdom</button>
+        <button style="border-color:aliceblue;"onclick="dropdown3()">wisdom</button>&nbsp;&nbsp;&nbsp;
           <div class="dropdown-content" id="myDropdown3">
           <input id="myInput3" onkeyup="filterFunction3()" placeholder="Search.." type="text" />
           <a href="#" onclick="displayAnswer2('w1')">had to listen to</a>
@@ -343,8 +346,6 @@
 
         </div></div>
 
-        <!--CHAT BUTTON-->
-    <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="lky()">Chat</button>
         
     <script src="dropdown/dropdown.js"></script>
     <script src="dropdown/dropdown1.js"></script> 
