@@ -111,7 +111,7 @@ else if (elementId === 'p106') {document.getElementById("text_a").value = "marsh
 else if (elementId === 'p107') {document.getElementById("text_a").value = "lim chin siong";}
 else if (elementId === 'p108') {document.getElementById("text_a").value = "recruit union";}
 else if (elementId === 'p109') {document.getElementById("text_a").value = "form pap";}
-else if (elementId === 'p110') {document.getElementById("text_a").value = "pap support";}
+else if (elementId === 'p110') {document.getElementById("text_a").value = "pap and tunku";}
 else if (elementId === 'p111') {document.getElementById("text_a").value = "how pap run";}
 else if (elementId === 'p112') {document.getElementById("text_a").value = "rendel constitution";}
 else if (elementId === 'p113') {document.getElementById("text_a").value = "docklands conditions";}
@@ -177,6 +177,12 @@ else if (elementId === 'p172') {document.getElementById("text_a").value = "cost 
 else if (elementId === 'p173') {document.getElementById("text_a").value = "pap symbol";}
 else if (elementId === 'p174') {document.getElementById("text_a").value = "changes to polls";}
 else if (elementId === 'p175') {document.getElementById("text_a").value = "chinese mentality";}
+else if (elementId === 'p176') {document.getElementById("text_a").value = "mass rally";}
+else if (elementId === 'p177') {document.getElementById("text_a").value = "communists abandon workers' party";}
+else if (elementId === 'p178') {document.getElementById("text_a").value = "meeting the plen";}
+else if (elementId === 'p179') {document.getElementById("text_a").value = "adopting the pope election";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
+else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p') {document.getElementById("text_a").value = "";}
