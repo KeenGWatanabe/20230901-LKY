@@ -1,7 +1,7 @@
 function displayAlert(elementId) {
     if (elementId === 'lky') {alert(`When I was born, the family consulted a friend knowledgeable in these matters for an auspicious name for me. He suggested "Kuan Yew", the dialect rendering of the Mandarin gu.ang yao, meaning "light and brightness". But my grandfather's admiration for the British made him add "Harry" to my name, so I was Harry Lee Kuan Yew. Singapore Story: Memoirs of Lee Kwan Yew`);}
 
-else if (elementId === 'attribute') {alert(`I believe Lee Kuan Yew attributed what he has become as being born in a British colony, experienced the perils of Japanese occupation, thrown into the responsibility of independence, being a learned man plus these 3 major events, without with, he probably won't be the man he is to be. Freemindson.org`);}
+else if (elementId === 'why memoirs') {alert(`Kierkegaard: "Life can only be understood backwards; but it must be lived forwards". Freemindson.org`);}
 
 else if (elementId === 'works') {alert(`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`);}
 

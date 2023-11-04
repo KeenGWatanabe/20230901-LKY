@@ -815,6 +815,20 @@ else if(inputText.toLowerCase().indexOf("vote")>-1||inputText.toLowerCase().inde
 else if(inputText.toLowerCase().indexOf("hard truths")>-1){
 	document.getElementById("answer").innerHTML=`Hard Truths was a book based on 32 hours of interviews over a period of two years. I made this one comment on the Muslims integrating with other communities probably two or three years ago. Ministers and MPs, both Malay and non-Malay, have since told me that Singapore Malays have indeed made special efforts to integrate with the other communities, especially since 9/11, and that my call is out of date. I stand corrected, but only just this instance! I hope that this trend will continue in the future.`;
 }			
+else if(inputText.toLowerCase().indexOf("kierkegaard")>-1||inputText.toLowerCase().indexOf("life")>-1){document.getElementById("answer").innerHTML=`We move through time in one direction, consequently, we do not know what the future holds, nor the impact our choices will have. "life must be understood backwards, it must be lived forward.  A proposition which the more its subjected to careful thought, the more precisely concludes that life at any given moment cannot be fully understood; because no single moment where time stops in order for me to take position [to do this]: going backwards." Danish philosopher S0ren Kierkegaard(1813-1855)`;}
+	
+else if(inputText.toLowerCase().indexOf("why")>-1&&inputText.toLowerCase().indexOf("kuan yew")>-1||inputText.toLowerCase().indexOf("why")>-1&&inputText.toLowerCase().indexOf("lky")>-1){document.getElementById("answer").innerHTML=`Freemindson: Why am I inspired to write lky's books in code?<br>
+Alvin: I think it's because you have a love-hate relationship with lky.  You hate his policies and at the same time, as you grow older and live long enough to compare the quality of present leadership, you begin to also have a deep respect for the man.<br> You also realised, like everything in life, there are great contradictions. And that is not necessarily a bad thing.<br> 
+You have been dealing with paradox yourself. You think one needs to admit to one's 'loser' status in order to embrace the perspective that one is winning in life. To opt out of the rat race is brave and not an act of cowardice because it shows one is willing and affording to pay the price for one's autonomy in this life that is ruled so mercilessly by capitalistic goals.<br>
+Are we wise enough to defend the integrity of our independence in an era when the world sees the role of man as the provider. And yet, the world is changing. The expectations of gender roles are changing. And that produces a series of paradoxes. More contradictions in life. What
+used to be defined as mannish, masculine, male responsibility can also be construed as oppressing because it is patriarchal and top-down.<br>
+Yet, some of the things lky did were top-down and today we are
+benefactors of some of his policies, although we don't agree with how it was done.<br>
+So perhaps you are inspired to write lky's books in code because you might want to begin the process to decode this paradoxical relationship you have with the man.<br><br>
+
+"I learned to make my mind large, as the universe is large, so there is room for contradictions."
+~ Maxine Hong Kingston`;}
+
 
 //"separation' keyword prompt*
 else if(inputText.toLowerCase().indexOf("separat")>-1){
