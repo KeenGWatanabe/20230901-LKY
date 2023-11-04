@@ -10,8 +10,23 @@ function lky() {
 	document.getElementById("answer").innerHTML="Your input is blank";      
 	}else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";}
-//chapter 1* Suddenly Independence
 
+else if(inputText.toLowerCase().indexOf("time")>-1&&inputText.toLowerCase().indexOf("what")>-1){
+	document.getElementById("answer").innerHTML=`The current time is ${new Date().toLocaleTimeString()}.`;
+	}
+else if(inputText.toLowerCase().indexOf("date")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("date")>-1&&inputText.toLowerCase().indexOf("today")>-1){
+	document.getElementById("answer").innerHTML=`Today is ${new Date().toLocaleDateString()}.`;
+	}
+else if(inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("today")>-1){
+	document.getElementById("answer").innerHTML=`Today is ${new Date().toLocaleString('en-GB',{weekday:'long'})}.`;
+	}
+else if(inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("schedule")>-1||inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("next")>-1){
+	document.getElementById("answer").innerHTML=`Check SBS transit app here <a href="https://www.sbstransit.com.sg/service/sbs-transit-app" style="color: white;" target="_blank">SBS website</a>`;
+	}
+else if(inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("weather")>-1||inputText.toLowerCase().indexOf("today")>-1&&inputText.toLowerCase().indexOf("weather")>-1){
+	document.getElementById("answer").innerHTML=`The weather today is <a href="https://www.nea.gov.sg/" style="color: white;" target="_blank">NEA website</a>`;
+	}
+//chapter 1* Suddenly Independence
 else if(inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("written")>-1||inputText.toLowerCase().indexOf("remember")>-1||inputText.toLowerCase().indexOf("recall")>-1){
 	document.getElementById("answer").innerHTML=`I was fortunate in 1995 to gather a team of young researchers. Andrew Tan Kok Kiong, seconded to SPH from the Singapore Administrative Service, was helped by Pang Gek Choo, who worked for the Straits Times, and Alan Chong. They made a thorough search of government archives and ferreted out my correspondence, minutes of important meetings and other relevant documents.||The British Public Record Office in Kew, Richmond yielded Colonial Office and Commonwealth Office documents which gave interesting insights from a British perspective on events from 1955 to 1965. Dennis Bloodworth, an old friend, once foreign correspondent for the London Observer newspaper, went through my drafts. He was thorough in deleting repetitions and suggesting alternatives to my overworked favourite expressions. However, Bloodworth left me to decide what went into my book.Memoirs of LKY,1998.
 	`;
